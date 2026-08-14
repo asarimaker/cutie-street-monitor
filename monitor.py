@@ -1,29 +1,49 @@
-import asyncio
-from twikit.guest import GuestClient
+import json
+from pathlib import Path
+
+from xtf import Router
 
 USERNAME = "CUTIE_STREET_"
+OUTPUT_FILE = Path("data/latest.json")
 
-async def main():
-    client = GuestClient()
 
-    print("1. Activating guest client...")
-    await client.activate()
-    print("2. Guest activation succeeded")
+def main():
+    print(f"Fetching @{USERNAME} timeline...")
 
-    print(f"3. Looking up @{USERNAME}...")
-    user = await client.get_user_by_screen_name(USERNAME)
+    router = Router(
+        backend="browser",
+        browser_driver="playwright"
+    )
 
-    print("4. User lookup succeeded")
-    print("User ID:", user.id)
-    print("Name:", user.name)
-    print("Screen name:", user.screen_name)
+    tweets = router.fetch_timeline(USERNAME, limit=20)
 
-    print("5. Getting tweets...")
-    tweets = await client.get_user_tweets(user.id, count=10)
+    print(f"Retrieved {len(tweets)} tweets")
 
-    print(f"6. Retrieved {len(tweets)} tweets")
+    results = []
 
     for tweet in tweets:
-        print(tweet.id, tweet.text[:100])
+        data = tweet.to_dict()
+        results.append(data)
 
-asyncio.run(main())
+        print("---")
+        print(json.dumps(data, ensure_ascii=False, indent=2))
+
+    OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
+
+    with OUTPUT_FILE.open("w", encoding="utf-8") as f:
+        json.dump(
+            {
+                "account": USERNAME,
+                "count": len(results),
+                "tweets": results,
+            },
+            f,
+            ensure_ascii=False,
+            indent=2,
+        )
+
+    print(f"Saved {len(results)} tweets to {OUTPUT_FILE}")
+
+
+if __name__ == "__main__":
+    main()

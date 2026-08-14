@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "CUTIE_STREET_",
-  "updated_at": "2026-08-14T23:05:23.479641+09:00",
+  "updated_at": "2026-08-15T00:11:59.920873+09:00",
   "tweets": {
     "2088071287516344341": {
       "id": "2088071287516344341",
@@ -180,14 +180,15 @@
       "id": "2088256829885399153",
       "author": "CUTIE_STREET_",
       "created_at": "2026-08-14T22:30:00.837000+09:00",
-      "text": "갑작스럽겠지만 여러분은 앞머리를 믿으십니까 ? 선수권🎀\nMIYU의 대단함을 느끼신 분은 좋아요를 눌러주세요🩵\n#CUTIESTREET #きゅーすと",
+      "text": "갑작스럽겠지만 여러분은 앞머리를 믿으십니까 ? 선수권🎀\nMIYU의 대단함을 느끼신 분은 좋아요를 눌러주세요🩵\n#CUTIESTREET #きゅーすと\n00:00 / 01:33",
       "type": "quote",
       "pinned": false,
       "images": [],
       "has_video": true,
       "videos": [],
       "url": "https://x.com/CUTIE_STREET_/status/2088256829885399153",
-      "first_seen_at": "2026-08-14T23:05:23.479641+09:00"
+      "first_seen_at": "2026-08-14T23:05:23.479641+09:00",
+      "last_changed_at": "2026-08-15T00:11:59.920873+09:00"
     }
   }
 }

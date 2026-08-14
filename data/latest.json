@@ -2,7 +2,7 @@
   "schema_version": 1,
   "account": "CUTIE_STREET_",
   "status": "partial",
-  "generated_at": "2026-08-14T11:53:01.902600+09:00",
+  "generated_at": "2026-08-14T12:01:32.434022+09:00",
   "window_start": "2026-08-13T07:00:00+09:00",
   "window_end": "2026-08-14T07:00:00+09:00",
   "source": "rolling_playwright_public_profile_snapshots",
@@ -19,7 +19,7 @@
       "id": "2087885369740317100",
       "author": "CUTIE_STREET_",
       "created_at": "2026-08-13T21:53:57.837000+09:00",
-      "text": "",
+      "text": "👻#真夏の怪奇ファイル 出演👻\n8/13(木)\nテレビ東京「真夏の怪奇ファイル2026 見えてしまった…招かれざるモノたち」\nCUTIE STREETより\n💜真鍋凪咲が出演しました❕\n印象的なシーンはありましたか？💭\nご視聴ありがとうございました🎐\n▼見逃し配信中\ntver.jp/live/simul/ley…\n#CUTIESTREET",
       "type": "post",
       "pinned": false,
       "images": [
@@ -29,13 +29,14 @@
       "has_video": false,
       "videos": [],
       "url": "https://x.com/CUTIE_STREET_/status/2087885369740317100",
-      "first_seen_at": "2026-08-14T11:53:01.902600+09:00"
+      "first_seen_at": "2026-08-14T11:53:01.902600+09:00",
+      "last_changed_at": "2026-08-14T12:01:32.434022+09:00"
     },
     {
       "id": "2087887485821157494",
       "author": "CUTIE_STREET_",
       "created_at": "2026-08-13T22:02:22.350000+09:00",
-      "text": "",
+      "text": "🔍#モニタリング 出演🔍\n8/13(木)\nTBSテレビ「ニンゲン観察バラエティ モニタリング」\nCUTIE STREETより\n💛古澤里紗💙増田彩乃が出演しました❕\nUSJでサプライズありのワクワクする1日を過ごしました☀️\nご視聴ありがとうございました✨\n▼見逃し配信中\ntver.jp/episodes/ep7kk…\n#CUTIESTREET",
       "type": "post",
       "pinned": false,
       "images": [
@@ -46,7 +47,8 @@
       "has_video": false,
       "videos": [],
       "url": "https://x.com/CUTIE_STREET_/status/2087887485821157494",
-      "first_seen_at": "2026-08-14T11:53:01.902600+09:00"
+      "first_seen_at": "2026-08-14T11:53:01.902600+09:00",
+      "last_changed_at": "2026-08-14T12:01:32.434022+09:00"
     }
   ]
 }

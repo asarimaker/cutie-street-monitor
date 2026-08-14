@@ -24,9 +24,13 @@ jobs:
           python-version: "3.12"
 
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: |
+          pip install -r requirements.txt
+          playwright install --with-deps chromium
 
       - name: Fetch CUTIE STREET tweets
+        env:
+          XTF_BROWSER: playwright
         run: python monitor.py
 
       - name: Commit latest JSON

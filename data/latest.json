@@ -1,23 +1,52 @@
 {
   "schema_version": 1,
   "account": "CUTIE_STREET_",
-  "status": "error",
-  "generated_at": "2026-08-14T11:46:59.191029+09:00",
+  "status": "partial",
+  "generated_at": "2026-08-14T11:53:01.902600+09:00",
   "window_start": "2026-08-13T07:00:00+09:00",
   "window_end": "2026-08-14T07:00:00+09:00",
   "source": "rolling_playwright_public_profile_snapshots",
-  "count": 0,
+  "count": 2,
   "warnings": [
     {
-      "type": "fetch_error",
-      "detected_at": "2026-08-14T11:32:32.784119+09:00",
-      "message": "RuntimeError: No timeline posts could be parsed from the public profile"
-    },
-    {
-      "type": "fetch_error",
-      "detected_at": "2026-08-14T11:46:59.191029+09:00",
-      "message": "RuntimeError: No timeline posts could be parsed. DOM diagnostics: {\"final_url\": \"https://x.com/CUTIE_STREET_\", \"title\": \"CUTIE STREET【Official】（@CUTIE_STREET_） / X\", \"raw_article_count\": 6, \"articles\": [{\"text\": \"固定\\nCUTIE STREET【Official】\\n@CUTIE_STREET_\\n8月1日\\n🪩📣CUTIE STREET 初アリーナツアー いち早プレリザーブ先行受付開始📣🪩\\n\\n【CUTIE STREET JAPAN ARENA TOUR 2026 -AUTUMN-】\\n\\n#きゅーてすと と過ごす秋🍂\\n楽しみです⋆*˙˚°𖤐\\n\\n▼いち早プレリザーブ先行受付🎫\\nw.pia.jp/t/cutiestreet-…\\n期間：〜8/9(日)23:59\\n\\n🩷💛💜🧡💚🩵❤️💙\\n9/23(水・祝)  神奈川 さらに表示\\n25\\n237\\n2654\\n119万\", \"status_hrefs\": [\"/CUTIE_STREET_/status/2083388402469327330\", \"/CUTIE_STREET_/status/2083388402469327330/photo/1\", \"/CUTIE_STREET_/status/2083388402469327330/photo/1\"], \"times\": []}, {\"text\": \"CUTIE STREET【Official】\\n@CUTIE_STREET_\\n1h\\nKANA💚°・*:.。.☆\\n\\n#板倉可奈\\n#CUTIESTREET #きゅーすと\\n21\\n197\\n2042\\n3.3万\", \"status_hrefs\": [\"/CUTIE_STREET_/status/2088071287516344341\", \"/CUTIE_STREET_/status/2088071287516344341/photo/1\", \"/CUTIE_STREET_/status/2088071287516344341/photo/1\", \"/CUTIE_STREET_/status/2088071287516344341/photo/2\", \"/CUTIE_STREET_/status/2088071287516344341/photo/2\"], \"times\": []}, {\"text\": \"CUTIE STREET【Official】\\n@CUTIE_STREET_\\n3h\\nお姉さん化計画は順調なので不運な状況も1人でシッカリ解決します。\\n\\n【ノーカット版】#アンラッキーうめさん がﾗｯｷｰになるまで。\\n\\n🩵👶🏻 ｱﾘｶﾞﾄｯ♪\\n\\n#LuckyFes\\n#CUTIESTREET #きゅーすと\\n00:17\\nCUTIE STREET【Official】\\n@CUTIE_STREET_\\n8月6日\\nお姉さん化計画は順調なようです\\n\\n#梅田みゆ\\n#デコみゆ\\n#CUTIESTREET #きゅーすと\\n33\\n280\\n3544\\n14万\", \"status_hrefs\": [\"/CUTIE_STREET_/status/2088037885480153543\", \"/CUTIE_STREET_/status/2088037885480153543/photo/1\", \"/CUTIE_STREET_/status/2085225970911613352/photo/1\", \"/CUTIE_STREET_/status/2085225970911613352/photo/1\", \"/CUTIE_STREET_/status/2085225970911613352\"], \"times\": []}, {\"text\": \"CUTIE STREET【Official】\\n@CUTIE_STREET_\\n8月6日\\nお姉さん化計画は順調なようです\\n\\n#梅田みゆ\\n#デコみゆ\\n#CUTIESTREET #きゅーすと\", \"status_hrefs\": [\"/CUTIE_STREET_/status/2085225970911613352/photo/1\", \"/CUTIE_STREET_/status/2085225970911613352/photo/1\", \"/CUTIE_STREET_/status/2085225970911613352\"], \"times\": []}, {\"text\": \"CUTIE STREET【Official】\\n@CUTIE_STREET_\\n13h\\n🔍#モニタリング 出演🔍\\n\\n8/13(木)\\nTBSテレビ「ニンゲン観察バラエティ モニタリング」\\n\\nCUTIE STREETより\\n💛古澤里紗💙増田彩乃が出演しました❕\\n\\nUSJでサプライズありのワクワクする1日を過ごしました☀️\\nご視聴ありがとうございました✨\\n\\n▼見逃し配信中\\ntver.jp/episodes/ep7kk…\\n\\n#CUTIESTREET さらに表示\\n22\\n239\\n3415\\n20万\", \"status_hrefs\": [\"/CUTIE_STREET_/status/2087887485821157494\", \"/CUTIE_STREET_/status/2087887485821157494/photo/1\", \"/CUTIE_STREET_/status/2087887485821157494/photo/1\", \"/CUTIE_STREET_/status/2087887485821157494/photo/2\", \"/CUTIE_STREET_/status/2087887485821157494/photo/2\", \"/CUTIE_STREET_/status/2087887485821157494/photo/3\", \"/CUTIE_STREET_/status/2087887485821157494/photo/3\"], \"times\": []}, {\"text\": \"CUTIE STREET【Official】\\n@CUTIE_STREET_\\n13h\\n👻#真夏の怪奇ファイル 出演👻\\n\\n8/13(木) \\nテレビ東京「真夏の怪奇ファイル2026 見えてしまった…招かれざるモノたち」\\n\\nCUTIE STREETより\\n💜真鍋凪咲が出演しました❕\\n\\n印象的なシーンはありましたか？💭\\nご視聴ありがとうございました🎐\\n\\n▼見逃し配信中\\ntver.jp/live/simul/ley… \\n\\n#CUTIESTREET さらに表示\\n17\\n127\\n2070\\n7.6万\", \"status_hrefs\": [\"/CUTIE_STREET_/status/2087885369740317100\", \"/CUTIE_STREET_/status/2087885369740317100/photo/1\", \"/CUTIE_STREET_/status/2087885369740317100/photo/1\", \"/CUTIE_STREET_/status/2087885369740317100/photo/2\", \"/CUTIE_STREET_/status/2087885369740317100/photo/2\"], \"times\": []}], \"body_start\": \"CUTIE STREET【Official】\\n12.1K posts\\nCUTIE STREET【Official】\\n@CUTIE_STREET_\\n原宿から世界へ。 ASOBISYSTEMのアイドルプロジェクト「KAWAII LAB.」より2024年8月にデビュー。 コンセプトは《KAWAII MAKER》 #CUTIESTREET #きゅーすと 💌お仕事/お問い合わせcutie_street@asobisystem.com\\nファンクラブ/スケジュール▼\\ncutiestreet.asobisystem.com\\nJuly 2024からXを利用しています\\n15\\nフォロー中\\n30.2万\\nフォロワー\\n@ポスト\\nフォロー\\nポスト\\n返信\\nメディア\\n固定\\nCUTIE STREET【Official】\\n@CUTIE_STREET_\\n8月1日\\n🪩📣CUTIE STREET 初アリーナツアー いち早プレリザーブ先行受付開始📣🪩\\n\\n【CUTIE STREET JAPAN ARENA TOUR 2026 -AUTUMN-】\\n\\n#きゅーてすと と過ごす秋🍂\\n楽しみです⋆*˙˚°𖤐\\n\\n▼いち早プレリザーブ先行受付🎫\\nw.pia.jp/t/cutiestreet-…\\n期間：〜8/9(日)23:59\\n\\n🩷💛💜🧡💚🩵❤️💙\\n9/23(水・祝)  神奈川 さらに表示\\n25\\n237\\n2654\\n119万\\nCUTIE STREET【Official】\\n@CUTIE_STREET_\\n1h\\nKANA💚°・*:.。.☆\\n\\n#板倉可奈\\n#CUTIESTREET #きゅーすと\\n21\\n197\\n2042\\n3.3万\\nCUTIE STREET【Official】\\n@CUTIE_STREET_\\n3h\\nお姉さん化計画は順調なので不運な状況も1人でシッカリ解決します。\\n\\n【ノーカット版】#アンラッキーうめさん がﾗｯｷｰになるまで。\\n\\n🩵👶🏻 ｱﾘｶﾞﾄｯ♪\\n\\n#LuckyFes\\n#CUTIESTREET #きゅーすと\\n00:17\\nCUTIE STREET【Official】\\n@CUTIE_STREET_\\n8月6日\\nお姉さん化計画は順調なようです\\n\\n#梅田みゆ\\n#デコみゆ\\n#CUTIESTREET #きゅーすと\\n33\\n280\\n3544\\n14万\\nCUTIE STREET【Official】\\n@CUTIE_STREET_\\n13h\\n🔍#モ\"}"
+      "type": "initial_seed",
+      "detected_at": "2026-08-14T11:53:01.902600+09:00",
+      "message": "Posts older than the initial public-profile view may be missing."
     }
   ],
-  "tweets": []
+  "tweets": [
+    {
+      "id": "2087885369740317100",
+      "author": "CUTIE_STREET_",
+      "created_at": "2026-08-13T21:53:57.837000+09:00",
+      "text": "",
+      "type": "post",
+      "pinned": false,
+      "images": [
+        "https://pbs.twimg.com/media/HPmorYcagAAA8O-?format=webp&name=small",
+        "https://pbs.twimg.com/media/HPmorYqaUAA5v6f?format=webp&name=small"
+      ],
+      "has_video": false,
+      "videos": [],
+      "url": "https://x.com/CUTIE_STREET_/status/2087885369740317100",
+      "first_seen_at": "2026-08-14T11:53:01.902600+09:00"
+    },
+    {
+      "id": "2087887485821157494",
+      "author": "CUTIE_STREET_",
+      "created_at": "2026-08-13T22:02:22.350000+09:00",
+      "text": "",
+      "type": "post",
+      "pinned": false,
+      "images": [
+        "https://pbs.twimg.com/media/HPmqjYubUAAEH6L?format=webp&name=small",
+        "https://pbs.twimg.com/media/HPmqjYmakAAWW-p?format=webp&name=small",
+        "https://pbs.twimg.com/media/HPmqjYnaYAAN4Kt?format=webp&name=small"
+      ],
+      "has_video": false,
+      "videos": [],
+      "url": "https://x.com/CUTIE_STREET_/status/2087887485821157494",
+      "first_seen_at": "2026-08-14T11:53:01.902600+09:00"
+    }
+  ]
 }

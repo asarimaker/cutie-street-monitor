@@ -62,16 +62,28 @@ def extract_article(article: Locator) -> dict | None:
     try:
         body = article.inner_text(timeout=5_000)
         links = article.locator('a[href*="/status/"]')
+        times = article.locator("time[datetime]")
         candidates: list[tuple[str, str, str, str]] = []
 
-        for index in range(links.count()):
-            link = links.nth(index)
-            href = link.get_attribute("href")
-            time = link.locator("time")
-            timestamp = time.first.get_attribute("datetime") if time.count() else None
+        # X normally wraps each <time> in its permalink. Starting from the time
+        # element is more stable than assuming every status link contains time.
+        for index in range(times.count()):
+            time = times.nth(index)
+            timestamp = time.get_attribute("datetime")
+            parent_link = time.locator("xpath=ancestor::a[contains(@href, '/status/')][1]")
+            href = parent_link.get_attribute("href") if parent_link.count() else None
             match = STATUS_RE.search(href or "")
             if match and timestamp:
                 candidates.append((href or "", timestamp, match.group(1), match.group(2)))
+
+        # Fallback for a DOM variant where <time> and the permalink are siblings.
+        if not candidates and times.count() and links.count():
+            timestamp = times.first.get_attribute("datetime")
+            for index in range(links.count()):
+                href = links.nth(index).get_attribute("href")
+                match = STATUS_RE.search(href or "")
+                if match and timestamp:
+                    candidates.append((href or "", timestamp, match.group(1), match.group(2)))
 
         if not candidates:
             return None
@@ -169,7 +181,33 @@ def fetch_visible_posts() -> tuple[list[dict], int]:
 
             result = sorted(posts.values(), key=lambda item: item["created_at"], reverse=True)
             if not result:
-                raise RuntimeError("No timeline posts could be parsed from the public profile")
+                article_diagnostics = []
+                for index in range(min(raw_article_count, 8)):
+                    article = articles.nth(index)
+                    article_diagnostics.append(
+                        {
+                            "text": article.inner_text(timeout=5_000)[:500],
+                            "status_hrefs": article.locator(
+                                'a[href*="/status/"]'
+                            ).evaluate_all(
+                                "elements => elements.map(element => element.getAttribute('href'))"
+                            ),
+                            "times": article.locator("time").evaluate_all(
+                                "elements => elements.map(element => element.getAttribute('datetime'))"
+                            ),
+                        }
+                    )
+                diagnostics = {
+                    "final_url": page.url,
+                    "title": page.title(),
+                    "raw_article_count": raw_article_count,
+                    "articles": article_diagnostics,
+                    "body_start": page.locator("body").inner_text()[:1_000],
+                }
+                raise RuntimeError(
+                    "No timeline posts could be parsed. DOM diagnostics: "
+                    + json.dumps(diagnostics, ensure_ascii=False)
+                )
             return result, raw_article_count
         finally:
             browser.close()
@@ -320,7 +358,7 @@ def build_daily_output(
     ]
     active_issue = state.get("active_issue")
     warnings = list(relevant_events)
-    if active_issue:
+    if active_issue and active_issue not in warnings:
         warnings.append(active_issue)
 
     if current_fetch_error and not archive.get("tweets"):

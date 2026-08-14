@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "account": "CUTIE_STREET_",
+  "updated_at": "2026-08-14T11:32:32.784119+09:00",
+  "last_heartbeat_at": "2026-08-14T11:32:32.784119+09:00",
+  "last_daily_generated_at": "2026-08-14T11:32:32.784119+09:00",
+  "active_issue": {
+    "type": "fetch_error",
+    "detected_at": "2026-08-14T11:32:32.784119+09:00",
+    "message": "RuntimeError: No timeline posts could be parsed from the public profile"
+  },
+  "coverage_events": [
+    {
+      "type": "fetch_error",
+      "detected_at": "2026-08-14T11:32:32.784119+09:00",
+      "message": "RuntimeError: No timeline posts could be parsed from the public profile"
+    }
+  ]
+}

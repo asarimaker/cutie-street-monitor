@@ -2,11 +2,11 @@
   "schema_version": 1,
   "account": "CUTIE_STREET_",
   "status": "partial",
-  "generated_at": "2026-08-14T12:01:32.434022+09:00",
-  "window_start": "2026-08-13T07:00:00+09:00",
-  "window_end": "2026-08-14T07:00:00+09:00",
+  "generated_at": "2026-08-15T07:32:12.176525+09:00",
+  "window_start": "2026-08-14T07:00:00+09:00",
+  "window_end": "2026-08-15T07:00:00+09:00",
   "source": "rolling_playwright_public_profile_snapshots",
-  "count": 2,
+  "count": 9,
   "warnings": [
     {
       "type": "initial_seed",
@@ -16,39 +16,141 @@
   ],
   "tweets": [
     {
-      "id": "2087885369740317100",
+      "id": "2088037885480153543",
       "author": "CUTIE_STREET_",
-      "created_at": "2026-08-13T21:53:57.837000+09:00",
-      "text": "👻#真夏の怪奇ファイル 出演👻\n8/13(木)\nテレビ東京「真夏の怪奇ファイル2026 見えてしまった…招かれざるモノたち」\nCUTIE STREETより\n💜真鍋凪咲が出演しました❕\n印象的なシーンはありましたか？💭\nご視聴ありがとうございました🎐\n▼見逃し配信中\ntver.jp/live/simul/ley…\n#CUTIESTREET",
-      "type": "post",
+      "created_at": "2026-08-14T08:00:00.423000+09:00",
+      "text": "お姉さん化計画は順調なので不運な状況も1人でシッカリ解決します。\n【ノーカット版】#アンラッキーうめさん がﾗｯｷｰになるまで。\n🩵👶🏻 ｱﾘｶﾞﾄｯ♪\n#LuckyFes\n#CUTIESTREET #きゅーすと",
+      "type": "quote",
       "pinned": false,
       "images": [
-        "https://pbs.twimg.com/media/HPmorYcagAAA8O-?format=webp&name=small",
-        "https://pbs.twimg.com/media/HPmorYqaUAA5v6f?format=webp&name=small"
+        "https://pbs.twimg.com/media/HPA19wsaoAAS2Gx?format=webp&name=small"
       ],
-      "has_video": false,
+      "has_video": true,
       "videos": [],
-      "url": "https://x.com/CUTIE_STREET_/status/2087885369740317100",
+      "url": "https://x.com/CUTIE_STREET_/status/2088037885480153543",
       "first_seen_at": "2026-08-14T11:53:01.902600+09:00",
       "last_changed_at": "2026-08-14T12:01:32.434022+09:00"
     },
     {
-      "id": "2087887485821157494",
+      "id": "2088071287516344341",
       "author": "CUTIE_STREET_",
-      "created_at": "2026-08-13T22:02:22.350000+09:00",
-      "text": "🔍#モニタリング 出演🔍\n8/13(木)\nTBSテレビ「ニンゲン観察バラエティ モニタリング」\nCUTIE STREETより\n💛古澤里紗💙増田彩乃が出演しました❕\nUSJでサプライズありのワクワクする1日を過ごしました☀️\nご視聴ありがとうございました✨\n▼見逃し配信中\ntver.jp/episodes/ep7kk…\n#CUTIESTREET",
+      "created_at": "2026-08-14T10:12:44.089000+09:00",
+      "text": "KANA💚°・*:.。.☆\n#板倉可奈\n#CUTIESTREET #きゅーすと",
       "type": "post",
       "pinned": false,
       "images": [
-        "https://pbs.twimg.com/media/HPmqjYubUAAEH6L?format=webp&name=small",
-        "https://pbs.twimg.com/media/HPmqjYmakAAWW-p?format=webp&name=small",
-        "https://pbs.twimg.com/media/HPmqjYnaYAAN4Kt?format=webp&name=small"
+        "https://pbs.twimg.com/media/HPpRw9vaAAABJdU?format=webp&name=small",
+        "https://pbs.twimg.com/media/HPpRw9uasAA2hAr?format=webp&name=small"
       ],
       "has_video": false,
       "videos": [],
-      "url": "https://x.com/CUTIE_STREET_/status/2087887485821157494",
+      "url": "https://x.com/CUTIE_STREET_/status/2088071287516344341",
       "first_seen_at": "2026-08-14T11:53:01.902600+09:00",
       "last_changed_at": "2026-08-14T12:01:32.434022+09:00"
+    },
+    {
+      "id": "2088098989170442581",
+      "author": "CUTIE_STREET_",
+      "created_at": "2026-08-14T12:02:48.678000+09:00",
+      "text": "【似てる？】ヤミラミ ≒ 真鍋凪咲🟪\n#アニポケ\n#キュートなキューたい\n#CUTIESTREET #きゅーすと\n©Nintendo･Creatures･GAME FREAK･TV Tokyo･ShoPro･JR Kikaku ©Pokémon",
+      "type": "post",
+      "pinned": false,
+      "images": [],
+      "has_video": true,
+      "videos": [],
+      "url": "https://x.com/CUTIE_STREET_/status/2088098989170442581",
+      "first_seen_at": "2026-08-14T13:32:01.042000+09:00"
+    },
+    {
+      "id": "2088113386563199321",
+      "author": "CUTIE_STREET_",
+      "created_at": "2026-08-14T13:00:01.284000+09:00",
+      "text": "⚡️📡 本日 #アニポケ 放送📡⚡️\n本日8/14(金)よる6:55~\nテレビアニメ「ポケットモンスター」\n#CUTIESTREET 3rdシングル表題曲『キュートなキューたい』が\nテーマを務めるエンディング映像💎\nアニポケ × きゅーすと ❣️\n今週もぜひお楽しみください🫶\n⚡️配信を見る\ntver.jp/series/srqxxaj…",
+      "type": "post",
+      "pinned": false,
+      "images": [
+        "https://pbs.twimg.com/media/HPpzkeLbAAAHVHW?format=webp&name=small",
+        "https://pbs.twimg.com/media/HPpzkeOawAAbZ0D?format=webp&name=small"
+      ],
+      "has_video": false,
+      "videos": [],
+      "url": "https://x.com/CUTIE_STREET_/status/2088113386563199321",
+      "first_seen_at": "2026-08-14T13:32:01.042000+09:00"
+    },
+    {
+      "id": "2088137868158107817",
+      "author": "CUTIE_STREET_",
+      "created_at": "2026-08-14T14:37:18.151000+09:00",
+      "text": "海も公園も全部いこうね\n▼Memory Video🌻\nyoutu.be/z2oi4uftfLA\n#写ルンです\n#CUTIESTREET #きゅーすと",
+      "type": "post",
+      "pinned": false,
+      "images": [
+        "https://pbs.twimg.com/media/HPqOUOyaoAEzkdq?format=webp&name=small",
+        "https://pbs.twimg.com/media/HPqOUO6bIAAS66p?format=webp&name=small"
+      ],
+      "has_video": false,
+      "videos": [],
+      "url": "https://x.com/CUTIE_STREET_/status/2088137868158107817",
+      "first_seen_at": "2026-08-14T15:06:15.417659+09:00"
+    },
+    {
+      "id": "2088168134444470436",
+      "author": "CUTIE_STREET_",
+      "created_at": "2026-08-14T16:37:34.196000+09:00",
+      "text": "❤️ア\n💜ニ\n🩵ポ\n💙ケ\n🩷た\n💚く\n💛さ\n🧡ん\n🤍みてね〜〜〜！！\n#キャップ ＆ #きゅーすと より⚡️\n#アニポケ\n#キュートなキューたい\n#CUTIESTREET\n©Nintendo･Creatures･GAME FREAK･TV Tokyo･ShoPro･JR Kikaku ©Pokémon\n00:00 / 00:13",
+      "type": "post",
+      "pinned": false,
+      "images": [],
+      "has_video": true,
+      "videos": [],
+      "url": "https://x.com/CUTIE_STREET_/status/2088168134444470436",
+      "first_seen_at": "2026-08-14T16:55:30.606303+09:00"
+    },
+    {
+      "id": "2088188899667652681",
+      "author": "CUTIE_STREET_",
+      "created_at": "2026-08-14T18:00:05.011000+09:00",
+      "text": "🎊🛍️日本武道館単独公演 グッズ情報🛍️🎊\n✨新グッズ登場✨\n🤍2nd ANNIV. Tシャツ\n🤍2nd ANNIV. フェイスタオル\n🤍メンバー別メッセージ ラバーバンド\nなどなど\n▼グッズ詳細🫶🏻(当日販売時間/一覧/事前決済受付など)\ncutiestreet.asobisystem.com/news/detail/87…\n💫会場受取(事前決済)💫",
+      "type": "post",
+      "pinned": false,
+      "images": [
+        "https://pbs.twimg.com/media/HPq8u9LbMAA6SNW?format=webp&name=small",
+        "https://pbs.twimg.com/media/HPq8u9LaAAApf8h?format=webp&name=small",
+        "https://pbs.twimg.com/media/HPq8u9aagAAReIs?format=webp&name=small",
+        "https://pbs.twimg.com/media/HPq8u9Xa0AAUib6?format=webp&name=small"
+      ],
+      "has_video": false,
+      "videos": [],
+      "url": "https://x.com/CUTIE_STREET_/status/2088188899667652681",
+      "first_seen_at": "2026-08-14T18:04:30.523087+09:00"
+    },
+    {
+      "id": "2088224497606516791",
+      "author": "CUTIE_STREET_",
+      "created_at": "2026-08-14T20:21:32.221000+09:00",
+      "text": "✨🌳森の中のメイキング公開🌳✨\n#アニポケ エンディングテーマ⚡️\n「キュートなキューたい」\nガールスカウトな8人に密着🏕️\n▼フルはYouTube💎\nyoutu.be/ylQI6rgiee4\n💛古澤里紗❤️佐野愛花\n💚板倉可奈🧡川本笑瑠\n🩵梅田みゆ💜真鍋凪咲\n🩷桜庭遥花💙増田彩乃\n#きゅーすと #CUTIESTREET\n00:00 / 00:30",
+      "type": "post",
+      "pinned": false,
+      "images": [],
+      "has_video": true,
+      "videos": [],
+      "url": "https://x.com/CUTIE_STREET_/status/2088224497606516791",
+      "first_seen_at": "2026-08-14T20:34:09.010516+09:00",
+      "last_changed_at": "2026-08-15T05:51:41.742924+09:00"
+    },
+    {
+      "id": "2088256829885399153",
+      "author": "CUTIE_STREET_",
+      "created_at": "2026-08-14T22:30:00.837000+09:00",
+      "text": "갑작스럽겠지만 여러분은 앞머리를 믿으십니까 ? 선수권🎀\nMIYU의 대단함을 느끼신 분은 좋아요를 눌러주세요🩵\n#CUTIESTREET #きゅーすと",
+      "type": "quote",
+      "pinned": false,
+      "images": [],
+      "has_video": true,
+      "videos": [],
+      "url": "https://x.com/CUTIE_STREET_/status/2088256829885399153",
+      "first_seen_at": "2026-08-14T23:05:23.479641+09:00",
+      "last_changed_at": "2026-08-15T07:32:12.176525+09:00"
     }
   ]
 }

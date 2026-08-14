@@ -56,6 +56,37 @@ def snowflake_datetime(post_id: str) -> datetime:
     return datetime.fromtimestamp(timestamp_ms / 1_000, tz=ZoneInfo("UTC")).astimezone(JST)
 
 
+def fallback_article_text(body: str) -> str:
+    lines = [line.strip() for line in body.splitlines() if line.strip()]
+    handle_index = next(
+        (index for index, line in enumerate(lines) if line.casefold() == f"@{USERNAME}".casefold()),
+        None,
+    )
+    if handle_index is None or handle_index + 2 >= len(lines):
+        return ""
+
+    content = lines[handle_index + 2 :]
+
+    # Stop before an embedded quoted post begins.
+    for index in range(len(content) - 1):
+        if (
+            content[index] == "CUTIE STREET【Official】"
+            and content[index + 1].casefold() == f"@{USERNAME}".casefold()
+        ):
+            content = content[:index]
+            break
+
+    metric_pattern = re.compile(
+        r"^(?:[\d.,]+(?:万|億|K|M)?|\d{1,2}:\d{2})$",
+        re.IGNORECASE,
+    )
+    while content and metric_pattern.fullmatch(content[-1]):
+        content.pop()
+
+    text = "\n".join(content).strip()
+    return re.sub(r"\s*さらに表示\s*$", "", text).strip()
+
+
 def is_daily_mode() -> bool:
     return os.environ.get("DAILY_MODE", "false").strip().casefold() in {
         "1",
@@ -109,8 +140,13 @@ def extract_article(article: Locator) -> dict | None:
             return None
 
         created_at = snowflake_datetime(post_id)
-        tweet_texts = article.locator('[data-testid="tweetText"]')
-        text = tweet_texts.first.inner_text(timeout=5_000) if tweet_texts.count() else ""
+        status_ids = unique([item[2] for item in candidates])
+        content_nodes = article.locator('[data-testid="tweetText"], div[lang]')
+        text = (
+            content_nodes.first.inner_text(timeout=5_000)
+            if content_nodes.count()
+            else fallback_article_text(body)
+        )
         image_urls = article.locator('img[src*="pbs.twimg.com/media/"]').evaluate_all(
             "elements => elements.map(element => element.src)"
         )
@@ -120,14 +156,13 @@ def extract_article(article: Locator) -> dict | None:
         video_urls = article.locator("video").evaluate_all(
             "elements => elements.map(element => element.currentSrc || element.src || '')"
         )
-        status_ids = unique([item[2] for item in candidates])
         replying = bool(re.search(r"返信先:|Replying to", body, re.IGNORECASE))
 
         if reposted:
             post_type = "repost"
         elif replying:
             post_type = "reply"
-        elif len(status_ids) > 1 and tweet_texts.count() > 1:
+        elif len(status_ids) > 1:
             post_type = "quote"
         else:
             post_type = "post"

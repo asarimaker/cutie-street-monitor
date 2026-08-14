@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "CUTIE_STREET_",
-  "updated_at": "2026-08-15T07:45:26.401019+09:00",
+  "updated_at": "2026-08-15T08:09:02.674189+09:00",
   "tweets": {
     "2088071287516344341": {
       "id": "2088071287516344341",
@@ -190,6 +190,19 @@
       "url": "https://x.com/CUTIE_STREET_/status/2088256829885399153",
       "first_seen_at": "2026-08-14T23:05:23.479641+09:00",
       "last_changed_at": "2026-08-15T07:45:26.401019+09:00"
+    },
+    "2088400277221036069": {
+      "id": "2088400277221036069",
+      "author": "CUTIE_STREET_",
+      "created_at": "2026-08-15T08:00:01.347000+09:00",
+      "text": "古澤さんの『生意気っ』リストに追加ですどうぞ🟥🟨\n#ふりあいのふれあい\n#LuckyFes\n#CUTIESTREET #きゅーすと\n00:00 / 00:24",
+      "type": "quote",
+      "pinned": false,
+      "images": [],
+      "has_video": true,
+      "videos": [],
+      "url": "https://x.com/CUTIE_STREET_/status/2088400277221036069",
+      "first_seen_at": "2026-08-15T08:09:02.674189+09:00"
     }
   }
 }

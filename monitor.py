@@ -19,6 +19,7 @@ JST = ZoneInfo("Asia/Tokyo")
 ARCHIVE_DAYS = 35
 HEARTBEAT_HOURS = 6
 EXPECTED_PUBLIC_ITEMS = 5
+X_SNOWFLAKE_EPOCH_MS = 1_288_834_974_657
 STATUS_RE = re.compile(r"/([^/]+)/status/(\d+)", re.IGNORECASE)
 
 
@@ -50,6 +51,11 @@ def unique(values: list[str]) -> list[str]:
     return list(dict.fromkeys(value for value in values if value))
 
 
+def snowflake_datetime(post_id: str) -> datetime:
+    timestamp_ms = (int(post_id) >> 22) + X_SNOWFLAKE_EPOCH_MS
+    return datetime.fromtimestamp(timestamp_ms / 1_000, tz=ZoneInfo("UTC")).astimezone(JST)
+
+
 def is_daily_mode() -> bool:
     return os.environ.get("DAILY_MODE", "false").strip().casefold() in {
         "1",
@@ -62,35 +68,28 @@ def extract_article(article: Locator) -> dict | None:
     try:
         body = article.inner_text(timeout=5_000)
         links = article.locator('a[href*="/status/"]')
-        times = article.locator("time[datetime]")
-        candidates: list[tuple[str, str, str, str]] = []
+        candidates: list[tuple[str, str, str]] = []
+        seen_candidates: set[tuple[str, str]] = set()
 
-        # X normally wraps each <time> in its permalink. Starting from the time
-        # element is more stable than assuming every status link contains time.
-        for index in range(times.count()):
-            time = times.nth(index)
-            timestamp = time.get_attribute("datetime")
-            parent_link = time.locator("xpath=ancestor::a[contains(@href, '/status/')][1]")
-            href = parent_link.get_attribute("href") if parent_link.count() else None
+        # Logged-out X omits <time datetime>, but the Snowflake post ID itself
+        # encodes the exact creation timestamp. Preserve DOM order so an outer
+        # quote post is selected before the embedded quoted post.
+        for index in range(links.count()):
+            href = links.nth(index).get_attribute("href")
             match = STATUS_RE.search(href or "")
-            if match and timestamp:
-                candidates.append((href or "", timestamp, match.group(1), match.group(2)))
-
-        # Fallback for a DOM variant where <time> and the permalink are siblings.
-        if not candidates and times.count() and links.count():
-            timestamp = times.first.get_attribute("datetime")
-            for index in range(links.count()):
-                href = links.nth(index).get_attribute("href")
-                match = STATUS_RE.search(href or "")
-                if match and timestamp:
-                    candidates.append((href or "", timestamp, match.group(1), match.group(2)))
+            if not match:
+                continue
+            key = (match.group(1), match.group(2))
+            if key not in seen_candidates:
+                candidates.append((href or "", match.group(1), match.group(2)))
+                seen_candidates.add(key)
 
         if not candidates:
             return None
 
         first_lines = "\n".join(body.splitlines()[:5])
         own_candidates = [
-            item for item in candidates if item[2].casefold() == USERNAME.casefold()
+            item for item in candidates if item[1].casefold() == USERNAME.casefold()
         ]
         reposted = bool(
             re.search(
@@ -103,13 +102,13 @@ def extract_article(article: Locator) -> dict | None:
         # Quoted posts may contain a nested <article>. Count only posts authored or
         # explicitly reposted by the monitored profile.
         if own_candidates:
-            _, timestamp, author, post_id = own_candidates[0]
+            _, author, post_id = own_candidates[0]
         elif reposted:
-            _, timestamp, author, post_id = candidates[0]
+            _, author, post_id = candidates[0]
         else:
             return None
 
-        created_at = parse_datetime(timestamp)
+        created_at = snowflake_datetime(post_id)
         tweet_texts = article.locator('[data-testid="tweetText"]')
         text = tweet_texts.first.inner_text(timeout=5_000) if tweet_texts.count() else ""
         image_urls = article.locator('img[src*="pbs.twimg.com/media/"]').evaluate_all(
@@ -121,7 +120,7 @@ def extract_article(article: Locator) -> dict | None:
         video_urls = article.locator("video").evaluate_all(
             "elements => elements.map(element => element.currentSrc || element.src || '')"
         )
-        status_ids = unique([item[3] for item in candidates])
+        status_ids = unique([item[2] for item in candidates])
         replying = bool(re.search(r"返信先:|Replying to", body, re.IGNORECASE))
 
         if reposted:
@@ -173,9 +172,14 @@ def fetch_visible_posts() -> tuple[list[dict], int]:
 
             articles = page.locator("article")
             raw_article_count = articles.count()
+            top_level_article_count = 0
             posts: dict[str, dict] = {}
             for index in range(raw_article_count):
-                item = extract_article(articles.nth(index))
+                article = articles.nth(index)
+                if article.locator("xpath=ancestor::article").count():
+                    continue
+                top_level_article_count += 1
+                item = extract_article(article)
                 if item:
                     posts[item["id"]] = item
 
@@ -208,7 +212,7 @@ def fetch_visible_posts() -> tuple[list[dict], int]:
                     "No timeline posts could be parsed. DOM diagnostics: "
                     + json.dumps(diagnostics, ensure_ascii=False)
                 )
-            return result, raw_article_count
+            return result, top_level_article_count
         finally:
             browser.close()
 
@@ -429,6 +433,11 @@ def main() -> None:
 
         if state.get("active_issue") is not None:
             state["active_issue"] = None
+            state["coverage_events"] = [
+                event
+                for event in state.get("coverage_events", [])
+                if event.get("type") != "fetch_error"
+            ]
             state_changed = True
 
         if heartbeat_due(state, now):

@@ -1,106 +1,29 @@
 import asyncio
-import json
-from datetime import datetime, timedelta, timezone
-from pathlib import Path
-
-from twikit.guest import Client
+from twikit.guest import GuestClient
 
 USERNAME = "CUTIE_STREET_"
-OUTPUT_FILE = Path("data/latest.json")
-
-
-def now_jst():
-    return datetime.now(timezone(timedelta(hours=9)))
-
 
 async def main():
-    generated_at = now_jst()
-    cutoff = generated_at - timedelta(hours=24)
+    client = GuestClient()
 
-    output = {
-        "status": "error",
-        "account": USERNAME,
-        "generated_at": generated_at.isoformat(),
-        "tweets": [],
-        "error": None,
-    }
+    print("1. Activating guest client...")
+    await client.activate()
+    print("2. Guest activation succeeded")
 
-    try:
-        client = Client()
+    print(f"3. Looking up @{USERNAME}...")
+    user = await client.get_user_by_screen_name(USERNAME)
 
-        user = await client.get_user_by_screen_name(USERNAME)
-        tweets = await user.get_tweets("Tweets", count=50)
+    print("4. User lookup succeeded")
+    print("User ID:", user.id)
+    print("Name:", user.name)
+    print("Screen name:", user.screen_name)
 
-        results = []
+    print("5. Getting tweets...")
+    tweets = await client.get_user_tweets(user.id, count=10)
 
-        for tweet in tweets:
-            created_at = tweet.created_at_datetime
+    print(f"6. Retrieved {len(tweets)} tweets")
 
-            if created_at.tzinfo is None:
-                created_at = created_at.replace(tzinfo=timezone.utc)
-
-            created_at_jst = created_at.astimezone(
-                timezone(timedelta(hours=9))
-            )
-
-            if created_at_jst < cutoff:
-                continue
-
-            media = getattr(tweet, "media", None) or []
-
-            images = []
-            videos = []
-
-            for item in media:
-                media_type = getattr(item, "type", "")
-
-                if media_type == "photo":
-                    url = getattr(item, "media_url_https", None)
-                    if url:
-                        images.append(url)
-
-                elif media_type in ("video", "animated_gif"):
-                    url = getattr(item, "media_url_https", None)
-                    if url:
-                        videos.append(url)
-
-            tweet_type = "tweet"
-
-            if getattr(tweet, "retweeted_tweet", None):
-                tweet_type = "retweet"
-            elif getattr(tweet, "quoted_tweet", None):
-                tweet_type = "quote"
-            elif getattr(tweet, "in_reply_to", None):
-                tweet_type = "reply"
-
-            results.append(
-                {
-                    "id": str(tweet.id),
-                    "created_at": created_at_jst.isoformat(),
-                    "text": tweet.text,
-                    "type": tweet_type,
-                    "images": images,
-                    "videos": videos,
-                    "url": f"https://x.com/{USERNAME}/status/{tweet.id}",
-                }
-            )
-
-        results.sort(key=lambda x: x["created_at"])
-
-        output["status"] = "success"
-        output["tweets"] = results
-        output["error"] = None
-
-    except Exception as e:
-        output["status"] = "error"
-        output["error"] = f"{type(e).__name__}: {e}"
-
-    OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
-
-    with OUTPUT_FILE.open("w", encoding="utf-8") as f:
-        json.dump(output, f, ensure_ascii=False, indent=2)
-
-    print(json.dumps(output, ensure_ascii=False, indent=2))
-
+    for tweet in tweets:
+        print(tweet.id, tweet.text[:100])
 
 asyncio.run(main())

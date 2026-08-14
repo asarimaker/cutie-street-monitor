@@ -1,49 +1,73 @@
-import json
 from pathlib import Path
+from playwright.sync_api import sync_playwright
 
-from xtf import Router
-
-USERNAME = "CUTIE_STREET_"
-OUTPUT_FILE = Path("data/latest.json")
-
+URL = "https://x.com/CUTIE_STREET_"
 
 def main():
-    print(f"Fetching @{USERNAME} timeline...")
+    Path("data").mkdir(exist_ok=True)
 
-    router = Router(
-        backend="browser",
-        browser_driver="playwright"
-    )
-
-    tweets = router.fetch_timeline(USERNAME, limit=20)
-
-    print(f"Retrieved {len(tweets)} tweets")
-
-    results = []
-
-    for tweet in tweets:
-        data = tweet.to_dict()
-        results.append(data)
-
-        print("---")
-        print(json.dumps(data, ensure_ascii=False, indent=2))
-
-    OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
-
-    with OUTPUT_FILE.open("w", encoding="utf-8") as f:
-        json.dump(
-            {
-                "account": USERNAME,
-                "count": len(results),
-                "tweets": results,
-            },
-            f,
-            ensure_ascii=False,
-            indent=2,
+    with sync_playwright() as p:
+        browser = p.chromium.launch(
+            headless=True,
+            args=["--no-sandbox"]
         )
 
-    print(f"Saved {len(results)} tweets to {OUTPUT_FILE}")
+        context = browser.new_context(
+            locale="ja-JP",
+            timezone_id="Asia/Tokyo",
+            viewport={"width": 1440, "height": 1400},
+            user_agent=(
+                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                "AppleWebKit/537.36 (KHTML, like Gecko) "
+                "Chrome/151.0.0.0 Safari/537.36"
+            ),
+        )
 
+        page = context.new_page()
+
+        print("Opening:", URL)
+
+        page.goto(
+            URL,
+            wait_until="domcontentloaded",
+            timeout=60000
+        )
+
+        page.wait_for_timeout(10000)
+
+        print("Final URL:", page.url)
+        print("Title:", page.title())
+
+        body = page.locator("body").inner_text()
+
+        print("BODY START")
+        print(body[:5000])
+        print("BODY END")
+
+        articles = page.locator("article").count()
+        print("Article count:", articles)
+
+        page.screenshot(
+            path="data/debug.png",
+            full_page=False
+        )
+
+        Path("data/debug.txt").write_text(
+            f"""URL: {page.url}
+
+TITLE:
+{page.title()}
+
+ARTICLE COUNT:
+{articles}
+
+BODY:
+{body}
+""",
+            encoding="utf-8"
+        )
+
+        browser.close()
 
 if __name__ == "__main__":
     main()

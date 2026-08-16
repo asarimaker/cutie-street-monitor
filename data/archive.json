@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "CUTIE_STREET_",
-  "updated_at": "2026-08-16T23:09:56.184602+09:00",
+  "updated_at": "2026-08-17T08:02:25.795937+09:00",
   "tweets": {
     "2088071287516344341": {
       "id": "2088071287516344341",
@@ -479,6 +479,21 @@
       "videos": [],
       "url": "https://x.com/CUTIE_STREET_/status/2088989158023086243",
       "first_seen_at": "2026-08-16T23:09:56.184602+09:00"
+    },
+    "2089125054122790923": {
+      "id": "2089125054122790923",
+      "author": "CUTIE_STREET_",
+      "created_at": "2026-08-17T08:00:01.626000+09:00",
+      "text": "♨️【本日】#ドリームエンタ 出演♨️\n8/17(月)24:15〜\nテレビ朝日『START UP！ドリームエンタ』\nCUTIE STREETより\n❤️佐野愛花 が出演します❕\nKAWAII LAB. 赤色㌠初の4人旅🌟\n5週連続放送の初週です❕\n▼視聴はこちら❣️\ntver.jp/series/sru1g36…\n@EXdream_ent\n#CUTIESTREET #きゅーすと",
+      "type": "post",
+      "pinned": false,
+      "images": [
+        "https://pbs.twimg.com/media/HP2lQ-UbgAA2kOg?format=webp&name=medium"
+      ],
+      "has_video": false,
+      "videos": [],
+      "url": "https://x.com/CUTIE_STREET_/status/2089125054122790923",
+      "first_seen_at": "2026-08-17T08:02:25.795937+09:00"
     }
   }
 }

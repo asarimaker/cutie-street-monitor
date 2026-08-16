@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "CUTIE_STREET_",
-  "updated_at": "2026-08-16T08:05:06.743669+09:00",
+  "updated_at": "2026-08-16T16:05:31.540288+09:00",
   "tweets": {
     "2088071287516344341": {
       "id": "2088071287516344341",
@@ -390,6 +390,21 @@
       "videos": [],
       "url": "https://x.com/CUTIE_STREET_/status/2088762669079966149",
       "first_seen_at": "2026-08-16T08:05:06.743669+09:00"
+    },
+    "2088876561974100040": {
+      "id": "2088876561974100040",
+      "author": "CUTIE_STREET_",
+      "created_at": "2026-08-16T15:32:36.481000+09:00",
+      "text": "🎉地上波進出 第20回 #きゅーラジ 🎉\n毎週日曜日21:30~21:55\nTOKYO FM「CUTIE STREET♡\nKAWAII MAKERラジオ」\n第20回は❕\n#梅田みゆ #桜庭遥花 が務めます🩵🩷\nきゅーすとの新曲『Error404♡』について\nたっぷりお話しちゃいます💭\n▼是非お聴き下さい🫶🏻\nradiko.jp/r_seasons/1002…\n▼おたより🕊💌",
+      "type": "post",
+      "pinned": false,
+      "images": [
+        "https://pbs.twimg.com/media/HP0uKOnbkAAF4OV?format=webp&name=medium"
+      ],
+      "has_video": false,
+      "videos": [],
+      "url": "https://x.com/CUTIE_STREET_/status/2088876561974100040",
+      "first_seen_at": "2026-08-16T16:05:31.540288+09:00"
     }
   }
 }

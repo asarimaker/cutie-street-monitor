@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "CUTIE_STREET_",
-  "updated_at": "2026-08-16T16:50:37.855990+09:00",
+  "updated_at": "2026-08-16T18:15:13.706859+09:00",
   "tweets": {
     "2088071287516344341": {
       "id": "2088071287516344341",
@@ -418,6 +418,21 @@
       "videos": [],
       "url": "https://x.com/CUTIE_STREET_/status/2088892362177270205",
       "first_seen_at": "2026-08-16T16:50:37.855990+09:00"
+    },
+    "2088915424931151904": {
+      "id": "2088915424931151904",
+      "author": "CUTIE_STREET_",
+      "created_at": "2026-08-16T18:07:02.132000+09:00",
+      "text": "【#ぷりきゅきゅ】 w/ Hearts2Hearts①🤍\n아… 이렇게 귀여운 영상이 존재해도 되는 걸까요?\n#JIWOO\n#CARMEN\n#JUUN\n#A_NA\n&\n🧡EMIRU KAWAMOTO\n💚KANA ITAKURA\n🩵MIYU UMEDA\n💙AYANO MASUDA\n#Hearts2Hearts @Hearts2Hearts\n#CUTIESTREET #きゅーすと",
+      "type": "quote",
+      "pinned": false,
+      "images": [
+        "https://pbs.twimg.com/media/HPmOoqrbcAA53bO?format=webp&name=small"
+      ],
+      "has_video": true,
+      "videos": [],
+      "url": "https://x.com/CUTIE_STREET_/status/2088915424931151904",
+      "first_seen_at": "2026-08-16T18:15:13.706859+09:00"
     }
   }
 }

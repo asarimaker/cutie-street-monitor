@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "CUTIE_STREET_",
-  "updated_at": "2026-08-17T20:15:49.249139+09:00",
+  "updated_at": "2026-08-17T20:46:07.695935+09:00",
   "tweets": {
     "2088071287516344341": {
       "id": "2088071287516344341",
@@ -639,6 +639,24 @@
       "videos": [],
       "url": "https://x.com/CUTIE_STREET_/status/2089299801376747555",
       "first_seen_at": "2026-08-17T19:52:40.946047+09:00"
+    },
+    "2089313757843661175": {
+      "id": "2089313757843661175",
+      "author": "CUTIE_STREET_",
+      "created_at": "2026-08-17T20:29:52.099000+09:00",
+      "text": "2回目のサークル夏合宿、2回生8人で📸\n後輩もできて1回生の時とは違う楽しさがあるかも？\n明日はバスで帰るだけだから\n今日は夜更かししちゃおっかな\n▼Memory Video\nyoutu.be/z2oi4uftfLA\n#回生\n#あやのちゃんはスイカこぼした\n#CUTIESTREET #きゅーすと",
+      "type": "post",
+      "pinned": false,
+      "images": [
+        "https://pbs.twimg.com/media/HP67x2sbcAA-fqX?format=webp&name=small",
+        "https://pbs.twimg.com/media/HP67x2ia0AAtDGe?format=webp&name=small",
+        "https://pbs.twimg.com/media/HP67x2iaUAAM-mA?format=webp&name=small",
+        "https://pbs.twimg.com/media/HP67x2ubUAAHFmG?format=webp&name=small"
+      ],
+      "has_video": false,
+      "videos": [],
+      "url": "https://x.com/CUTIE_STREET_/status/2089313757843661175",
+      "first_seen_at": "2026-08-17T20:46:07.695935+09:00"
     }
   }
 }

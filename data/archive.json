@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "CUTIE_STREET_",
-  "updated_at": "2026-08-17T19:18:23.479287+09:00",
+  "updated_at": "2026-08-17T19:52:40.946047+09:00",
   "tweets": {
     "2088071287516344341": {
       "id": "2088071287516344341",
@@ -622,6 +622,22 @@
       "videos": [],
       "url": "https://x.com/CUTIE_STREET_/status/2089283430110613944",
       "first_seen_at": "2026-08-17T19:18:23.479287+09:00"
+    },
+    "2089299801376747555": {
+      "id": "2089299801376747555",
+      "author": "CUTIE_STREET_",
+      "created_at": "2026-08-17T19:34:24.618000+09:00",
+      "text": "【特別抽選会】ASOBIEXPO 2026🌈\nCUTIE STREET 対象商品をご購入の方が参加できる抽選会🎯\nハズレなしの抽選会で特典が必ず当たります！\n▼詳細はこちら\ncutiestreet.asobisystem.com/news/detail/87…\n✨抽選景品✨\nA賞：メンバーサイン入り集合チェキ　(計5名様)",
+      "type": "post",
+      "pinned": false,
+      "images": [
+        "https://pbs.twimg.com/media/HP6vGD5bEAA1gpL?format=webp&name=small",
+        "https://pbs.twimg.com/media/HP6vGD9a0AAaisG?format=webp&name=small"
+      ],
+      "has_video": false,
+      "videos": [],
+      "url": "https://x.com/CUTIE_STREET_/status/2089299801376747555",
+      "first_seen_at": "2026-08-17T19:52:40.946047+09:00"
     }
   }
 }

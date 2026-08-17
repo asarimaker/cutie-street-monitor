@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "CUTIE_STREET_",
-  "updated_at": "2026-08-17T10:58:50.480318+09:00",
+  "updated_at": "2026-08-17T12:24:17.680078+09:00",
   "tweets": {
     "2088071287516344341": {
       "id": "2088071287516344341",
@@ -507,6 +507,34 @@
       "videos": [],
       "url": "https://x.com/CUTIE_STREET_/status/2089163642407366773",
       "first_seen_at": "2026-08-17T10:58:50.480318+09:00"
+    },
+    "2089191190977810610": {
+      "id": "2089191190977810610",
+      "author": "CUTIE_STREET_",
+      "created_at": "2026-08-17T12:22:49.881000+09:00",
+      "text": "【似てる？】カヌチャン ≒ 桜庭遥花🌸\n#アニポケ\n#キュートなキューたい\n#CUTIESTREET #きゅーすと\n©Nintendo･Creatures･GAME FREAK･TV Tokyo･ShoPro･JR Kikaku ©Pokémon",
+      "type": "post",
+      "pinned": false,
+      "images": [],
+      "has_video": true,
+      "videos": [],
+      "url": "https://x.com/CUTIE_STREET_/status/2089191190977810610",
+      "first_seen_at": "2026-08-17T12:24:17.680078+09:00"
+    },
+    "2089185446261879218": {
+      "id": "2089185446261879218",
+      "author": "CUTIE_STREET_",
+      "created_at": "2026-08-17T12:00:00.234000+09:00",
+      "text": "🎉🎯日本武道館公演 FC連動企画🎯🎉\n日本武道館単独公演にて❕\nFC連動企画実施決定🎉\n▼詳細は🫶🏻\ncutiestreet.asobisystem.com/news/detail/87…\n▼企画特設サイト\ncutiestreet.asobisystem.com/feature/homema…\n🎁特典内容🎁\n①「ホメマクリクジ」\nPick up!賞⚡️：メンバー自撮りステッカー(全8種ランダム)",
+      "type": "post",
+      "pinned": false,
+      "images": [
+        "https://pbs.twimg.com/media/HP2jiLfbYAAIykr?format=webp&name=medium"
+      ],
+      "has_video": false,
+      "videos": [],
+      "url": "https://x.com/CUTIE_STREET_/status/2089185446261879218",
+      "first_seen_at": "2026-08-17T12:24:17.680078+09:00"
     }
   }
 }

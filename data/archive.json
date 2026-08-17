@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "CUTIE_STREET_",
-  "updated_at": "2026-08-17T08:02:25.795937+09:00",
+  "updated_at": "2026-08-17T10:58:50.480318+09:00",
   "tweets": {
     "2088071287516344341": {
       "id": "2088071287516344341",
@@ -494,6 +494,19 @@
       "videos": [],
       "url": "https://x.com/CUTIE_STREET_/status/2089125054122790923",
       "first_seen_at": "2026-08-17T08:02:25.795937+09:00"
+    },
+    "2089163642407366773": {
+      "id": "2089163642407366773",
+      "author": "CUTIE_STREET_",
+      "created_at": "2026-08-17T10:33:21.790000+09:00",
+      "text": "💚『ｼﾞｬｰﾝ♪ お団子で〜す♪』\n？？『ヨッ！お団子見れてﾗｯｷｰ！』\n#LuckyFes\n#CUTIESTREET #きゅーすと",
+      "type": "post",
+      "pinned": false,
+      "images": [],
+      "has_video": true,
+      "videos": [],
+      "url": "https://x.com/CUTIE_STREET_/status/2089163642407366773",
+      "first_seen_at": "2026-08-17T10:58:50.480318+09:00"
     }
   }
 }

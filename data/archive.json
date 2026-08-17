@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "CUTIE_STREET_",
-  "updated_at": "2026-08-17T16:40:42.140979+09:00",
+  "updated_at": "2026-08-17T17:27:35.466196+09:00",
   "tweets": {
     "2088071287516344341": {
       "id": "2088071287516344341",
@@ -596,6 +596,19 @@
       "videos": [],
       "url": "https://x.com/CUTIE_STREET_/status/2089251665891446829",
       "first_seen_at": "2026-08-17T16:40:42.140979+09:00"
+    },
+    "2089260986087682054": {
+      "id": "2089260986087682054",
+      "author": "CUTIE_STREET_",
+      "created_at": "2026-08-17T17:00:10.332000+09:00",
+      "text": "📣#ASOBIEXPO 無料生中継📣\n8/18(火)\n『ASOBISYSTEM 19th Anniversary ASOBIEXPO 2026』\n📍TOYOTA ARENA TOKYO\nABEMAにて\nライブパフォーマンスはもちろん、様々なコンテンツを\n\"無料\"生中継🎥\n▼視聴はこちら\nabema.go.link/dElXj\n※見逃し配信は後日順次配信予定\n▼イベントHP さらに表示\nABEMA(アベマ)\n00:00 / 00:30",
+      "type": "quote",
+      "pinned": false,
+      "images": [],
+      "has_video": true,
+      "videos": [],
+      "url": "https://x.com/CUTIE_STREET_/status/2089260986087682054",
+      "first_seen_at": "2026-08-17T17:27:35.466196+09:00"
     }
   }
 }

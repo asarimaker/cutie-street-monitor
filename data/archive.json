@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "CUTIE_STREET_",
-  "updated_at": "2026-08-17T13:10:15.586043+09:00",
+  "updated_at": "2026-08-17T14:04:00.145382+09:00",
   "tweets": {
     "2088071287516344341": {
       "id": "2088071287516344341",
@@ -550,6 +550,24 @@
       "videos": [],
       "url": "https://x.com/CUTIE_STREET_/status/2089196843746148727",
       "first_seen_at": "2026-08-17T13:10:15.586043+09:00"
+    },
+    "2089215060916982106": {
+      "id": "2089215060916982106",
+      "author": "CUTIE_STREET_",
+      "created_at": "2026-08-17T13:57:40.918000+09:00",
+      "text": "📸🌻✨\n#LuckyFes #きゅーすと",
+      "type": "post",
+      "pinned": false,
+      "images": [
+        "https://pbs.twimg.com/media/HP5iBXsaIAA-dXw?format=webp&name=small",
+        "https://pbs.twimg.com/media/HP5iBXja4AAS0O3?format=webp&name=small",
+        "https://pbs.twimg.com/media/HP5iBXsagAAoo83?format=webp&name=small",
+        "https://pbs.twimg.com/media/HP5iBXubUAAxerC?format=webp&name=small"
+      ],
+      "has_video": false,
+      "videos": [],
+      "url": "https://x.com/CUTIE_STREET_/status/2089215060916982106",
+      "first_seen_at": "2026-08-17T14:04:00.145382+09:00"
     }
   }
 }

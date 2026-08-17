@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "CUTIE_STREET_",
-  "updated_at": "2026-08-17T17:27:35.466196+09:00",
+  "updated_at": "2026-08-17T19:18:23.479287+09:00",
   "tweets": {
     "2088071287516344341": {
       "id": "2088071287516344341",
@@ -609,6 +609,19 @@
       "videos": [],
       "url": "https://x.com/CUTIE_STREET_/status/2089260986087682054",
       "first_seen_at": "2026-08-17T17:27:35.466196+09:00"
+    },
+    "2089283430110613944": {
+      "id": "2089283430110613944",
+      "author": "CUTIE_STREET_",
+      "created_at": "2026-08-17T18:29:21.404000+09:00",
+      "text": "【リベンジ🔆】えっと…『任せて1mm単位』のひとー？？？？(困惑)\n🧡川本笑瑠\n💙増田彩乃\n💚板倉可奈  ◀犯人は誰？\n🩷桜庭遥花\n#CUTIESTREET #きゅーすと",
+      "type": "quote",
+      "pinned": false,
+      "images": [],
+      "has_video": true,
+      "videos": [],
+      "url": "https://x.com/CUTIE_STREET_/status/2089283430110613944",
+      "first_seen_at": "2026-08-17T19:18:23.479287+09:00"
     }
   }
 }

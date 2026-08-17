@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "CUTIE_STREET_",
-  "updated_at": "2026-08-17T20:46:07.695935+09:00",
+  "updated_at": "2026-08-17T22:57:38.284599+09:00",
   "tweets": {
     "2088071287516344341": {
       "id": "2088071287516344341",
@@ -657,6 +657,22 @@
       "videos": [],
       "url": "https://x.com/CUTIE_STREET_/status/2089313757843661175",
       "first_seen_at": "2026-08-17T20:46:07.695935+09:00"
+    },
+    "2089346576737272014": {
+      "id": "2089346576737272014",
+      "author": "CUTIE_STREET_",
+      "created_at": "2026-08-17T22:40:16.733000+09:00",
+      "text": "はぁ〜あ、好き過ぎてちゅらい！💊\n🟥.｡oO(って思ってるんだろうな\n🟨.｡oO(って思ってるんだろうな\n『Error404♡』MV🏥\nyoutu.be/eAFzQwArpFM\n#ふりあいのふれあい\n#CUTIESTREET #きゅーすと",
+      "type": "post",
+      "pinned": false,
+      "images": [
+        "https://pbs.twimg.com/media/HP7Zov6bAAAggcb?format=webp&name=small",
+        "https://pbs.twimg.com/media/HP7Zov2bEAA2WFX?format=webp&name=small"
+      ],
+      "has_video": false,
+      "videos": [],
+      "url": "https://x.com/CUTIE_STREET_/status/2089346576737272014",
+      "first_seen_at": "2026-08-17T22:57:38.284599+09:00"
     }
   }
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "CUTIE_STREET_",
-  "updated_at": "2026-08-18T12:13:11.884988+09:00",
+  "updated_at": "2026-08-18T13:57:40.443740+09:00",
   "tweets": {
     "2088071287516344341": {
       "id": "2088071287516344341",
@@ -720,6 +720,19 @@
       "videos": [],
       "url": "https://x.com/CUTIE_STREET_/status/2089547841605877781",
       "first_seen_at": "2026-08-18T12:13:11.884988+09:00"
+    },
+    "2089563906150932819": {
+      "id": "2089563906150932819",
+      "author": "CUTIE_STREET_",
+      "created_at": "2026-08-18T13:03:52.103000+09:00",
+      "text": "【似てる？】ニャオハ ≒ 板倉可奈🍃\n#アニポケ\n#キュートなキューたい\n#CUTIESTREET #きゅーすと\n©Nintendo･Creatures･GAME FREAK･TV Tokyo･ShoPro･JR Kikaku ©Pokémon",
+      "type": "post",
+      "pinned": false,
+      "images": [],
+      "has_video": true,
+      "videos": [],
+      "url": "https://x.com/CUTIE_STREET_/status/2089563906150932819",
+      "first_seen_at": "2026-08-18T13:57:40.443740+09:00"
     }
   }
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "CUTIE_STREET_",
-  "updated_at": "2026-08-18T16:11:00.672536+09:00",
+  "updated_at": "2026-08-18T18:54:16.878909+09:00",
   "tweets": {
     "2088071287516344341": {
       "id": "2088071287516344341",
@@ -761,6 +761,35 @@
       "videos": [],
       "url": "https://x.com/CUTIE_STREET_/status/2089608232381620529",
       "first_seen_at": "2026-08-18T16:11:00.672536+09:00"
+    },
+    "2089644101490847977": {
+      "id": "2089644101490847977",
+      "author": "CUTIE_STREET_",
+      "created_at": "2026-08-18T18:22:32.162000+09:00",
+      "text": "🫧🟪真鍋凪咲 ランウェイ🟪🫧\n#ASOBIEXPO jouetieステージ✨\nランウェイありがとうございました👗\n💜真鍋凪咲 @nagisa_cs0628\n▼全国アリーナツアー受付中🌏\nw.pia.jp/t/cutiestreet-…\n▼生配信中！このあとはLIVE出演も🎬\nabema.go.link/dElXj\n#CUTIESTREET #きゅーすと",
+      "type": "post",
+      "pinned": false,
+      "images": [
+        "https://pbs.twimg.com/media/HP_oOy_bIAAHrgu?format=webp&name=small",
+        "https://pbs.twimg.com/media/HP_oOy5bEAAZtIi?format=webp&name=small"
+      ],
+      "has_video": false,
+      "videos": [],
+      "url": "https://x.com/CUTIE_STREET_/status/2089644101490847977",
+      "first_seen_at": "2026-08-18T18:54:16.878909+09:00"
+    },
+    "2089638435804135848": {
+      "id": "2089638435804135848",
+      "author": "CUTIE_STREET_",
+      "created_at": "2026-08-18T18:00:01.357000+09:00",
+      "text": "【#かわいいだけじゃだめですか？】 w/ Hearts2Hearts②🌈\n천사가 8명, 나는 행복합니다\n이런 콜라보가 실현될 줄은 몰랐어…T T\n#YUHA\n#YE_ON\n#IAN\n#STELLA\n&\n🩷HARUKA SAKURABA\n💜NAGISA MANABE\n❤️AIKA SANO\n💛RISA FURUSAWA\n#Hearts2Hearts @Hearts2Hearts\n#CUTIESTREET #きゅーすと",
+      "type": "post",
+      "pinned": false,
+      "images": [],
+      "has_video": true,
+      "videos": [],
+      "url": "https://x.com/CUTIE_STREET_/status/2089638435804135848",
+      "first_seen_at": "2026-08-18T18:54:16.878909+09:00"
     }
   }
 }

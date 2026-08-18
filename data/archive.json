@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "CUTIE_STREET_",
-  "updated_at": "2026-08-18T18:54:16.878909+09:00",
+  "updated_at": "2026-08-18T19:51:46.432473+09:00",
   "tweets": {
     "2088071287516344341": {
       "id": "2088071287516344341",
@@ -790,6 +790,22 @@
       "videos": [],
       "url": "https://x.com/CUTIE_STREET_/status/2089638435804135848",
       "first_seen_at": "2026-08-18T18:54:16.878909+09:00"
+    },
+    "2089663642921017679": {
+      "id": "2089663642921017679",
+      "author": "CUTIE_STREET_",
+      "created_at": "2026-08-18T19:40:11.202000+09:00",
+      "text": "凪咲 of jouetieステージ🟪\n#ASOBIEXPO\n#CUTIESTREET #きゅーすと\n00:00 / 00:17",
+      "type": "quote",
+      "pinned": false,
+      "images": [
+        "https://pbs.twimg.com/media/HP_oOy_bIAAHrgu?format=webp&name=small",
+        "https://pbs.twimg.com/media/HP_oOy5bEAAZtIi?format=webp&name=small"
+      ],
+      "has_video": true,
+      "videos": [],
+      "url": "https://x.com/CUTIE_STREET_/status/2089663642921017679",
+      "first_seen_at": "2026-08-18T19:51:46.432473+09:00"
     }
   }
 }

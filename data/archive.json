@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "CUTIE_STREET_",
-  "updated_at": "2026-08-18T21:25:40.764606+09:00",
+  "updated_at": "2026-08-18T22:14:47.817686+09:00",
   "tweets": {
     "2088071287516344341": {
       "id": "2088071287516344341",
@@ -823,6 +823,34 @@
       "videos": [],
       "url": "https://x.com/CUTIE_STREET_/status/2089683864168124675",
       "first_seen_at": "2026-08-18T21:25:40.764606+09:00"
+    },
+    "2089698750067527778": {
+      "id": "2089698750067527778",
+      "author": "CUTIE_STREET_",
+      "created_at": "2026-08-18T21:59:41.398000+09:00",
+      "text": "【LIVE映像】#ASOBIEXPO🏮👘\nアソビシステム19周年✨\nおめでとうございます🤍\n💎Overture\n🍀かわいいだけじゃだめですか？\n💎ひたむきシンデレラ！\n🍀キュートなキューたい\n💛古澤里紗❤️佐野愛花\n💚板倉可奈💙増田彩乃\n🧡川本笑瑠🩵梅田みゆ\n💜真鍋凪咲🩷桜庭遥花\n▼全国アリーナツアー受付中🌏 さらに表示\n00:00 / 00:29",
+      "type": "post",
+      "pinned": false,
+      "images": [],
+      "has_video": true,
+      "videos": [],
+      "url": "https://x.com/CUTIE_STREET_/status/2089698750067527778",
+      "first_seen_at": "2026-08-18T22:14:47.817686+09:00"
+    },
+    "2089696372345946280": {
+      "id": "2089696372345946280",
+      "author": "CUTIE_STREET_",
+      "created_at": "2026-08-18T21:50:14.505000+09:00",
+      "text": "🌺#ASOBIEXPO HAWAII 2027 開催決定🌺\n2027/3/8(月)\n『ASOBIEXPO HAWAII 2027 - Japanese Pop Culture Experience』\n📍TOM MOFFATT WAIKIKI SHELL(トム・モファット・ワイキキ・シェル)\n#きゅーすと 初ハワイ🌺⛱️\n一緒にハワイを楽しみしょう🌟\nオフィシャルFCツアーも開催予定🚢",
+      "type": "post",
+      "pinned": false,
+      "images": [
+        "https://pbs.twimg.com/media/HQAXxVmbEAAjHEn?format=webp&name=medium"
+      ],
+      "has_video": false,
+      "videos": [],
+      "url": "https://x.com/CUTIE_STREET_/status/2089696372345946280",
+      "first_seen_at": "2026-08-18T22:14:47.817686+09:00"
     }
   }
 }

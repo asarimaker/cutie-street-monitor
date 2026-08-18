@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "CUTIE_STREET_",
-  "updated_at": "2026-08-18T08:09:23.475526+09:00",
+  "updated_at": "2026-08-18T11:00:08.630191+09:00",
   "tweets": {
     "2088071287516344341": {
       "id": "2088071287516344341",
@@ -691,6 +691,19 @@
       "videos": [],
       "url": "https://x.com/CUTIE_STREET_/status/2089487438733599094",
       "first_seen_at": "2026-08-18T08:09:23.475526+09:00"
+    },
+    "2089517636355010692": {
+      "id": "2089517636355010692",
+      "author": "CUTIE_STREET_",
+      "created_at": "2026-08-18T10:00:00.524000+09:00",
+      "text": "古来より、幸せの黄色いヒヨコは、あなたのチケットを確保/運搬してきてくれると信じられています🐥\n🐣 t.pia.jp/pia/event/even…\n#古澤里紗\n#CUTIESTREET #きゅーすと\n00:00 / 00:19",
+      "type": "post",
+      "pinned": false,
+      "images": [],
+      "has_video": true,
+      "videos": [],
+      "url": "https://x.com/CUTIE_STREET_/status/2089517636355010692",
+      "first_seen_at": "2026-08-18T11:00:08.630191+09:00"
     }
   }
 }

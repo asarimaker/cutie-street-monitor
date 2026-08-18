@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "CUTIE_STREET_",
-  "updated_at": "2026-08-18T19:51:46.432473+09:00",
+  "updated_at": "2026-08-18T21:25:40.764606+09:00",
   "tweets": {
     "2088071287516344341": {
       "id": "2088071287516344341",
@@ -806,6 +806,23 @@
       "videos": [],
       "url": "https://x.com/CUTIE_STREET_/status/2089663642921017679",
       "first_seen_at": "2026-08-18T19:51:46.432473+09:00"
+    },
+    "2089683864168124675": {
+      "id": "2089683864168124675",
+      "author": "CUTIE_STREET_",
+      "created_at": "2026-08-18T21:00:32.323000+09:00",
+      "text": "👘🏮きゅーすと #ASOBIEXPO🏮👘\nアソビシステム19周年✨\nLIVEありがとうございました❣️\n▼本日のセットリスト🌸\n💎Overture\n🍀かわいいだけじゃだめですか？\n💎ひたむきシンデレラ！\n🍀キュートなキューたい\n💛古澤里紗❤️佐野愛花\n💚板倉可奈💙増田彩乃\n🧡川本笑瑠🩵梅田みゆ\n💜真鍋凪咲🩷桜庭遥花",
+      "type": "post",
+      "pinned": false,
+      "images": [
+        "https://pbs.twimg.com/media/HQAMZA6aEAAu6be?format=webp&name=small",
+        "https://pbs.twimg.com/media/HQAMZBEbYAACWot?format=webp&name=small",
+        "https://pbs.twimg.com/media/HQAMZA-bAAAwBmu?format=webp&name=small"
+      ],
+      "has_video": false,
+      "videos": [],
+      "url": "https://x.com/CUTIE_STREET_/status/2089683864168124675",
+      "first_seen_at": "2026-08-18T21:25:40.764606+09:00"
     }
   }
 }

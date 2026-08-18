@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "CUTIE_STREET_",
-  "updated_at": "2026-08-18T22:14:47.817686+09:00",
+  "updated_at": "2026-08-18T23:03:37.617965+09:00",
   "tweets": {
     "2088071287516344341": {
       "id": "2088071287516344341",
@@ -851,6 +851,19 @@
       "videos": [],
       "url": "https://x.com/CUTIE_STREET_/status/2089696372345946280",
       "first_seen_at": "2026-08-18T22:14:47.817686+09:00"
+    },
+    "2089710177113260519": {
+      "id": "2089710177113260519",
+      "author": "CUTIE_STREET_",
+      "created_at": "2026-08-18T22:45:05.818000+09:00",
+      "text": "#きゅーすとこぼれ話 ぱるたんLIVE終了後のアフターパーティーにて出店を見つけて第1声\n🌸「わたあめもうやってますか〜？🥰」\n【🔴LIVE】#ASOBIEXPO ただいま無料生中継▶︎abema.go.link/ezvAD\n⬆️\n佐野愛花 大食い対決はじまります❕🍝\n#CUTIESTREET #きゅーすと",
+      "type": "quote",
+      "pinned": false,
+      "images": [],
+      "has_video": true,
+      "videos": [],
+      "url": "https://x.com/CUTIE_STREET_/status/2089710177113260519",
+      "first_seen_at": "2026-08-18T23:03:37.617965+09:00"
     }
   }
 }

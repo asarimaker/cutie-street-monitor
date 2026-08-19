@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "CUTIE_STREET_",
-  "updated_at": "2026-08-19T15:21:57.197498+09:00",
+  "updated_at": "2026-08-19T16:59:54.915576+09:00",
   "tweets": {
     "2088071287516344341": {
       "id": "2088071287516344341",
@@ -922,6 +922,19 @@
       "videos": [],
       "url": "https://x.com/CUTIE_STREET_/status/2089955524603220388",
       "first_seen_at": "2026-08-19T15:21:57.197498+09:00"
+    },
+    "2089976226672996548": {
+      "id": "2089976226672996548",
+      "author": "CUTIE_STREET_",
+      "created_at": "2026-08-19T16:22:16.976000+09:00",
+      "text": "とってもなかよしです♡\n#キュートなキューたい\n#CUTIESTREET #きゅーすと",
+      "type": "post",
+      "pinned": false,
+      "images": [],
+      "has_video": true,
+      "videos": [],
+      "url": "https://x.com/CUTIE_STREET_/status/2089976226672996548",
+      "first_seen_at": "2026-08-19T16:59:54.915576+09:00"
     }
   }
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "CUTIE_STREET_",
-  "updated_at": "2026-08-19T16:59:54.915576+09:00",
+  "updated_at": "2026-08-19T18:54:40.791687+09:00",
   "tweets": {
     "2088071287516344341": {
       "id": "2088071287516344341",
@@ -935,6 +935,52 @@
       "videos": [],
       "url": "https://x.com/CUTIE_STREET_/status/2089976226672996548",
       "first_seen_at": "2026-08-19T16:59:54.915576+09:00"
+    },
+    "2090003430433776033": {
+      "id": "2090003430433776033",
+      "author": "CUTIE_STREET_",
+      "created_at": "2026-08-19T18:10:22.858000+09:00",
+      "text": "【GAME🎮】 w/ Hearts2Hearts③🌸\n저는 이 영상을 올리기 전에 500번이나 시청했어요\n#YE_ON\n&\n🩷HARUKA SAKURABA\n#Hearts2Hearts\n#ぷりきゅきゅ @Hearts2Hearts\n#CUTIESTREET #きゅーすと",
+      "type": "quote",
+      "pinned": false,
+      "images": [
+        "https://pbs.twimg.com/media/HPmOoqrbcAA53bO?format=webp&name=small"
+      ],
+      "has_video": true,
+      "videos": [],
+      "url": "https://x.com/CUTIE_STREET_/status/2090003430433776033",
+      "first_seen_at": "2026-08-19T18:54:40.791687+09:00"
+    },
+    "2090000826458939417": {
+      "id": "2090000826458939417",
+      "author": "CUTIE_STREET_",
+      "created_at": "2026-08-19T18:00:02.022000+09:00",
+      "text": "👗#カワコレTGC 北九州 KAWAII LAB.  FC会員先行受付開始👗\n10/12(月・祝)\n『KAWAII LAB. COLLECTION produced by TGC ~KAWAIIっちゃ in KITAKYUSH~』\n📍北九州メッセ\n開場14:00　開演16:00\n▼KAWAII LAB. FC会員先行受付開始🎟️\nkawaiilab.asobisystem.com/news/detail/87…\n期間：〜8/23(日)23:59",
+      "type": "post",
+      "pinned": false,
+      "images": [
+        "https://pbs.twimg.com/media/HQDr07sbsAAqbdS?format=webp&name=medium"
+      ],
+      "has_video": false,
+      "videos": [],
+      "url": "https://x.com/CUTIE_STREET_/status/2090000826458939417",
+      "first_seen_at": "2026-08-19T18:54:40.791687+09:00"
+    },
+    "2089985725110649048": {
+      "id": "2089985725110649048",
+      "author": "CUTIE_STREET_",
+      "created_at": "2026-08-19T17:00:01.580000+09:00",
+      "text": "⚠️日本武道館単独公演 ペンライトについて⚠️\n8/25(火), 8/26(水)\nCUTIE STREET\n2nd ANNIVERSARY LIVE 2026\n「8TREASURES」\n📍日本武道館\n☑️お持ち込み可能なペンライト\n・本公演では、「CUTIE STREET OFFICIAL FAN",
+      "type": "post",
+      "pinned": false,
+      "images": [
+        "https://pbs.twimg.com/media/HQEVAU-bcAEa5ni?format=webp&name=small",
+        "https://pbs.twimg.com/media/HQEVB0nbwAA4kfJ?format=webp&name=small"
+      ],
+      "has_video": false,
+      "videos": [],
+      "url": "https://x.com/CUTIE_STREET_/status/2089985725110649048",
+      "first_seen_at": "2026-08-19T18:54:40.791687+09:00"
     }
   }
 }

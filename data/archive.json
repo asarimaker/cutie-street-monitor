@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "CUTIE_STREET_",
-  "updated_at": "2026-08-18T23:03:37.617965+09:00",
+  "updated_at": "2026-08-19T10:59:39.008811+09:00",
   "tweets": {
     "2088071287516344341": {
       "id": "2088071287516344341",
@@ -864,6 +864,35 @@
       "videos": [],
       "url": "https://x.com/CUTIE_STREET_/status/2089710177113260519",
       "first_seen_at": "2026-08-18T23:03:37.617965+09:00"
+    },
+    "2089891624751092125": {
+      "id": "2089891624751092125",
+      "author": "CUTIE_STREET_",
+      "created_at": "2026-08-19T10:46:06.306000+09:00",
+      "text": "🎂【本日まで】2周年記念 復刻すきくじ🎂🎊\nCUTIE STREETの2周年を記念した 復刻すきくじ を引けるのは本日まで📣\n▼くじ/詳細は🎀\nsukisuki-shop.com/kuji/3728\n期間: 〜8/19(水)23:59\n🎐KAWAII LAB. 夏祭り2026衣装のチェキ\n🌟過去衣装ランダムチェキ\n🌟繋がるアクスタ\n🌟チェキファイル\n🌟アクキー",
+      "type": "quote",
+      "pinned": false,
+      "images": [
+        "https://pbs.twimg.com/media/HO79O3WaYAAFnWW?format=webp&name=small",
+        "https://pbs.twimg.com/media/HO79O3La8AAVqVi?format=webp&name=small"
+      ],
+      "has_video": false,
+      "videos": [],
+      "url": "https://x.com/CUTIE_STREET_/status/2089891624751092125",
+      "first_seen_at": "2026-08-19T10:59:39.008811+09:00"
+    },
+    "2089880027521511444": {
+      "id": "2089880027521511444",
+      "author": "CUTIE_STREET_",
+      "created_at": "2026-08-19T10:00:01.311000+09:00",
+      "text": "🍧かき氷の味あてゲーム\n🍧後ろ、うるさすぎ\n🍧アイスコレクターみゆ\n🍧ドッキリをしかけられみゆ\n#なつやすみ\n#CUTIESTREET #きゅーすと\n00:00 / 01:14",
+      "type": "post",
+      "pinned": false,
+      "images": [],
+      "has_video": true,
+      "videos": [],
+      "url": "https://x.com/CUTIE_STREET_/status/2089880027521511444",
+      "first_seen_at": "2026-08-19T10:59:39.008811+09:00"
     }
   }
 }

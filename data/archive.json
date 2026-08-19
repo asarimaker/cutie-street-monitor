@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "CUTIE_STREET_",
-  "updated_at": "2026-08-19T10:59:39.008811+09:00",
+  "updated_at": "2026-08-19T13:04:33.475937+09:00",
   "tweets": {
     "2088071287516344341": {
       "id": "2088071287516344341",
@@ -885,14 +885,28 @@
       "id": "2089880027521511444",
       "author": "CUTIE_STREET_",
       "created_at": "2026-08-19T10:00:01.311000+09:00",
-      "text": "🍧かき氷の味あてゲーム\n🍧後ろ、うるさすぎ\n🍧アイスコレクターみゆ\n🍧ドッキリをしかけられみゆ\n#なつやすみ\n#CUTIESTREET #きゅーすと\n00:00 / 01:14",
+      "text": "🍧かき氷の味あてゲーム\n🍧後ろ、うるさすぎ\n🍧アイスコレクターみゆ\n🍧ドッキリをしかけられみゆ\n#なつやすみ\n#CUTIESTREET #きゅーすと",
       "type": "post",
       "pinned": false,
       "images": [],
       "has_video": true,
       "videos": [],
       "url": "https://x.com/CUTIE_STREET_/status/2089880027521511444",
-      "first_seen_at": "2026-08-19T10:59:39.008811+09:00"
+      "first_seen_at": "2026-08-19T10:59:39.008811+09:00",
+      "last_changed_at": "2026-08-19T13:04:33.475937+09:00"
+    },
+    "2089920352076120289": {
+      "id": "2089920352076120289",
+      "author": "CUTIE_STREET_",
+      "created_at": "2026-08-19T12:40:15.434000+09:00",
+      "text": "【似てる？】テブリム ≒ 梅田みゆ🩵\n#アニポケ\n#キュートなキューたい\n#CUTIESTREET #きゅーすと\n©Nintendo･Creatures･GAME FREAK･TV Tokyo･ShoPro･JR Kikaku ©Pokémon",
+      "type": "post",
+      "pinned": false,
+      "images": [],
+      "has_video": true,
+      "videos": [],
+      "url": "https://x.com/CUTIE_STREET_/status/2089920352076120289",
+      "first_seen_at": "2026-08-19T13:04:33.475937+09:00"
     }
   }
 }

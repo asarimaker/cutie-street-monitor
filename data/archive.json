@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "CUTIE_STREET_",
-  "updated_at": "2026-08-19T13:04:33.475937+09:00",
+  "updated_at": "2026-08-19T15:21:57.197498+09:00",
   "tweets": {
     "2088071287516344341": {
       "id": "2088071287516344341",
@@ -907,6 +907,21 @@
       "videos": [],
       "url": "https://x.com/CUTIE_STREET_/status/2089920352076120289",
       "first_seen_at": "2026-08-19T13:04:33.475937+09:00"
+    },
+    "2089955524603220388": {
+      "id": "2089955524603220388",
+      "author": "CUTIE_STREET_",
+      "created_at": "2026-08-19T15:00:01.218000+09:00",
+      "text": "【推し旅】JR東海× #きゅーすと🚃✨\nCUTIE STREET JAPAN ARENA TOUR 2026 -AUTUMN-\n『CUTIE LAND』を記念し❣️\n#推し旅 コラボ“第2弾“が決定🎊\n▼詳細🚃\nrecommend.jr-central.co.jp/oshi-tabi/cuti…\nコラボ期間：9/2(水)~12/20(日)🗓\n🚄東海道新幹線車内限定のトーク\n🚄オリジナルスマホ壁紙\n🚄抽選プレゼント",
+      "type": "post",
+      "pinned": false,
+      "images": [
+        "https://pbs.twimg.com/media/HQDq3SWbgAASIJw?format=webp&name=medium"
+      ],
+      "has_video": false,
+      "videos": [],
+      "url": "https://x.com/CUTIE_STREET_/status/2089955524603220388",
+      "first_seen_at": "2026-08-19T15:21:57.197498+09:00"
     }
   }
 }

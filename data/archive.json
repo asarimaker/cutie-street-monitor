@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "CUTIE_STREET_",
-  "updated_at": "2026-08-19T22:16:31.497721+09:00",
+  "updated_at": "2026-08-20T08:10:59.081779+09:00",
   "tweets": {
     "2088071287516344341": {
       "id": "2088071287516344341",
@@ -1009,6 +1009,19 @@
       "videos": [],
       "url": "https://x.com/CUTIE_STREET_/status/2090061767938560046",
       "first_seen_at": "2026-08-19T22:16:31.497721+09:00"
+    },
+    "2090212214464725121": {
+      "id": "2090212214464725121",
+      "author": "CUTIE_STREET_",
+      "created_at": "2026-08-20T08:00:00.850000+09:00",
+      "text": "あっっっついものを食べた板倉さん\n#でもGood🟢\n00:00 / 00:09",
+      "type": "post",
+      "pinned": false,
+      "images": [],
+      "has_video": true,
+      "videos": [],
+      "url": "https://x.com/CUTIE_STREET_/status/2090212214464725121",
+      "first_seen_at": "2026-08-20T08:10:59.081779+09:00"
     }
   }
 }

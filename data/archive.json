@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "CUTIE_STREET_",
-  "updated_at": "2026-08-19T18:54:40.791687+09:00",
+  "updated_at": "2026-08-19T20:12:43.582950+09:00",
   "tweets": {
     "2088071287516344341": {
       "id": "2088071287516344341",
@@ -981,6 +981,19 @@
       "videos": [],
       "url": "https://x.com/CUTIE_STREET_/status/2089985725110649048",
       "first_seen_at": "2026-08-19T18:54:40.791687+09:00"
+    },
+    "2090031029012615309": {
+      "id": "2090031029012615309",
+      "author": "CUTIE_STREET_",
+      "created_at": "2026-08-19T20:00:02.872000+09:00",
+      "text": "【#キュートなキューたい】w/ 新しい学校のリーダーズ🏫📕📙📗\n#MIZYU さんと❕💃\n💚板倉可奈💙増田彩乃\n(可愛かったので音はそのままで…)\n#新しい学校のリーダーズ\n@japanleaders\n#MIZYUさんと板倉の知られざる関係\n#CUTIESTREET #きゅーすと\n00:00 / 00:18",
+      "type": "post",
+      "pinned": false,
+      "images": [],
+      "has_video": true,
+      "videos": [],
+      "url": "https://x.com/CUTIE_STREET_/status/2090031029012615309",
+      "first_seen_at": "2026-08-19T20:12:43.582950+09:00"
     }
   }
 }

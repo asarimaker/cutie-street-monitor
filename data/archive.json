@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "CUTIE_STREET_",
-  "updated_at": "2026-08-20T08:10:59.081779+09:00",
+  "updated_at": "2026-08-20T10:57:37.594777+09:00",
   "tweets": {
     "2088071287516344341": {
       "id": "2088071287516344341",
@@ -1022,6 +1022,19 @@
       "videos": [],
       "url": "https://x.com/CUTIE_STREET_/status/2090212214464725121",
       "first_seen_at": "2026-08-20T08:10:59.081779+09:00"
+    },
+    "2090242418637676862": {
+      "id": "2090242418637676862",
+      "author": "CUTIE_STREET_",
+      "created_at": "2026-08-20T10:00:02.086000+09:00",
+      "text": "【推しカメラ】真鍋凪咲🟪\n「ホメマクリズム」\n▼アリーナツアー先行受付中🎫\nw.pia.jp/t/cutiestreet-…\n#ロングボイスぴーこさん添え\n#CUTIESTREET #きゅーすと\n00:00 / 00:43",
+      "type": "post",
+      "pinned": false,
+      "images": [],
+      "has_video": true,
+      "videos": [],
+      "url": "https://x.com/CUTIE_STREET_/status/2090242418637676862",
+      "first_seen_at": "2026-08-20T10:57:37.594777+09:00"
     }
   }
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "CUTIE_STREET_",
-  "updated_at": "2026-08-20T13:59:18.013265+09:00",
+  "updated_at": "2026-08-20T16:12:53.327533+09:00",
   "tweets": {
     "2088071287516344341": {
       "id": "2088071287516344341",
@@ -1064,6 +1064,19 @@
       "videos": [],
       "url": "https://x.com/CUTIE_STREET_/status/2090297017428021445",
       "first_seen_at": "2026-08-20T13:59:18.013265+09:00"
+    },
+    "2090335316964237445": {
+      "id": "2090335316964237445",
+      "author": "CUTIE_STREET_",
+      "created_at": "2026-08-20T16:09:10.773000+09:00",
+      "text": "🔥ポケモンバトル！？🔮\n❤️佐野愛花\nホゲータ！じだんだ！\nVS\n💜真鍋凪咲\nヤミラミ！パワージェム！\n#アニポケ\n#キュートなキューたい\n#CUTIESTREET #きゅーすと\n©Nintendo･Creatures･GAME FREAK･TV Tokyo･ShoPro･JR Kikaku ©Pokémon",
+      "type": "post",
+      "pinned": false,
+      "images": [],
+      "has_video": true,
+      "videos": [],
+      "url": "https://x.com/CUTIE_STREET_/status/2090335316964237445",
+      "first_seen_at": "2026-08-20T16:12:53.327533+09:00"
     }
   }
 }

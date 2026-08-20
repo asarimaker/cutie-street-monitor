@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "CUTIE_STREET_",
-  "updated_at": "2026-08-20T18:01:26.509755+09:00",
+  "updated_at": "2026-08-20T19:24:44.535723+09:00",
   "tweets": {
     "2088071287516344341": {
       "id": "2088071287516344341",
@@ -1093,6 +1093,24 @@
       "videos": [],
       "url": "https://x.com/CUTIE_STREET_/status/2090362623917539741",
       "first_seen_at": "2026-08-20T18:01:26.509755+09:00"
+    },
+    "2090378311004483725": {
+      "id": "2090378311004483725",
+      "author": "CUTIE_STREET_",
+      "created_at": "2026-08-20T19:00:01.351000+09:00",
+      "text": "🏹🛍️増田彩乃 生誕グッズオンライン販売🛍🏹\n#増田彩乃生誕祭2026 グッズ\nオンライン事後販売が決定✨㊗️\n新登場…\n生誕衣装アクスタ、アクキー、トレカも👑💍\nそして…❕\n生誕衣装アクスタ、トレカは\n仲間たちver.も販売🫶🏻\n▼ 8/21(金) 21:00より販売❕\nasobisystem.shop/shops/cutie-st…\n▼受注商品",
+      "type": "post",
+      "pinned": false,
+      "images": [
+        "https://pbs.twimg.com/media/HQIim2BaEAA3_ii?format=webp&name=small",
+        "https://pbs.twimg.com/media/HQIim11bAAEtPuy?format=webp&name=small",
+        "https://pbs.twimg.com/media/HQIim1xboAAk8pj?format=webp&name=small",
+        "https://pbs.twimg.com/media/HQIim1makAAuR6P?format=webp&name=small"
+      ],
+      "has_video": false,
+      "videos": [],
+      "url": "https://x.com/CUTIE_STREET_/status/2090378311004483725",
+      "first_seen_at": "2026-08-20T19:24:44.535723+09:00"
     }
   }
 }

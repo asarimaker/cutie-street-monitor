@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "CUTIE_STREET_",
-  "updated_at": "2026-08-20T12:14:57.724808+09:00",
+  "updated_at": "2026-08-20T13:59:18.013265+09:00",
   "tweets": {
     "2088071287516344341": {
       "id": "2088071287516344341",
@@ -1051,6 +1051,19 @@
       "videos": [],
       "url": "https://x.com/CUTIE_STREET_/status/2090272621275267075",
       "first_seen_at": "2026-08-20T12:14:57.724808+09:00"
+    },
+    "2090297017428021445": {
+      "id": "2090297017428021445",
+      "author": "CUTIE_STREET_",
+      "created_at": "2026-08-20T13:36:59.452000+09:00",
+      "text": "【似てる？】黄色いルカリオ ≒ 古澤里紗🟨\n#アニポケ\n#キュートなキューたい\n#CUTIESTREET #きゅーすと\n©Nintendo･Creatures･GAME FREAK･TV Tokyo･ShoPro･JR Kikaku ©Pokémon",
+      "type": "post",
+      "pinned": false,
+      "images": [],
+      "has_video": true,
+      "videos": [],
+      "url": "https://x.com/CUTIE_STREET_/status/2090297017428021445",
+      "first_seen_at": "2026-08-20T13:59:18.013265+09:00"
     }
   }
 }

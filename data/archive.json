@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "CUTIE_STREET_",
-  "updated_at": "2026-08-20T10:57:37.594777+09:00",
+  "updated_at": "2026-08-20T12:14:57.724808+09:00",
   "tweets": {
     "2088071287516344341": {
       "id": "2088071287516344341",
@@ -1035,6 +1035,22 @@
       "videos": [],
       "url": "https://x.com/CUTIE_STREET_/status/2090242418637676862",
       "first_seen_at": "2026-08-20T10:57:37.594777+09:00"
+    },
+    "2090272621275267075": {
+      "id": "2090272621275267075",
+      "author": "CUTIE_STREET_",
+      "created_at": "2026-08-20T12:00:02.956000+09:00",
+      "text": "🧳#nonno 本日発売💚🧳\n本日8/20(木)発売\n雑誌『non-no』10月号\n\"トラベルコスメ企画\"にて✈️\nCUTIE STREETより\n💚板倉可奈\nが登場📚\n▼詳しくはこちら✨\nnonno.hpplus.jp/magazine/38990…\n▼是非お買い求め下さい📗\namazon.co.jp/dp/B0H94GDND8\n@nonno_staff\n#nonno10月号\n#CUTIESTREET #きゅーすと",
+      "type": "post",
+      "pinned": false,
+      "images": [
+        "https://pbs.twimg.com/media/HQIgJgLaAAAWf6Z?format=webp&name=small",
+        "https://pbs.twimg.com/media/HQIgK5ObAAA4fPv?format=webp&name=small"
+      ],
+      "has_video": false,
+      "videos": [],
+      "url": "https://x.com/CUTIE_STREET_/status/2090272621275267075",
+      "first_seen_at": "2026-08-20T12:14:57.724808+09:00"
     }
   }
 }

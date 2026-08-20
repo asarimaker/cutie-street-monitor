@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "CUTIE_STREET_",
-  "updated_at": "2026-08-20T16:12:53.327533+09:00",
+  "updated_at": "2026-08-20T18:01:26.509755+09:00",
   "tweets": {
     "2088071287516344341": {
       "id": "2088071287516344341",
@@ -1077,6 +1077,22 @@
       "videos": [],
       "url": "https://x.com/CUTIE_STREET_/status/2090335316964237445",
       "first_seen_at": "2026-08-20T16:12:53.327533+09:00"
+    },
+    "2090362623917539741": {
+      "id": "2090362623917539741",
+      "author": "CUTIE_STREET_",
+      "created_at": "2026-08-20T17:57:41.258000+09:00",
+      "text": "아기 귤은 자랑스럽게 큰 비눗방울을 양손에 안고 있습니다🫧\n저기, 여러분, 아기 귤에게 '대단하다'고 말해 주세요🍊\n🍊🍊🍊🍊🍊🐣\n▼Memory Video\nyoutu.be/z2oi4uftfLA\n#モアベリサマー\n#CUTIESTREET #きゅーすと",
+      "type": "post",
+      "pinned": false,
+      "images": [
+        "https://pbs.twimg.com/media/HQJ1tNnbsAA7EAU?format=webp&name=small",
+        "https://pbs.twimg.com/media/HQJ1tNia4AAW5sz?format=webp&name=small"
+      ],
+      "has_video": false,
+      "videos": [],
+      "url": "https://x.com/CUTIE_STREET_/status/2090362623917539741",
+      "first_seen_at": "2026-08-20T18:01:26.509755+09:00"
     }
   }
 }

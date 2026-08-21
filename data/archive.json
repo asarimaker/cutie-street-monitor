@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "CUTIE_STREET_",
-  "updated_at": "2026-08-21T15:28:43.374723+09:00",
+  "updated_at": "2026-08-21T17:22:04.000534+09:00",
   "tweets": {
     "2088071287516344341": {
       "id": "2088071287516344341",
@@ -1231,6 +1231,19 @@
       "videos": [],
       "url": "https://x.com/CUTIE_STREET_/status/2090680296928575949",
       "first_seen_at": "2026-08-21T15:28:43.374723+09:00"
+    },
+    "2090712614829711584": {
+      "id": "2090712614829711584",
+      "author": "CUTIE_STREET_",
+      "created_at": "2026-08-21T17:08:25.594000+09:00",
+      "text": "#えみかな LOVERの皆さんへ\n夏やっ( •̀ω•́ )🍉\n#ネクタイ鍋\n#CUTIESTREET #きゅーすと",
+      "type": "post",
+      "pinned": false,
+      "images": [],
+      "has_video": true,
+      "videos": [],
+      "url": "https://x.com/CUTIE_STREET_/status/2090712614829711584",
+      "first_seen_at": "2026-08-21T17:22:04.000534+09:00"
     }
   }
 }

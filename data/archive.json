@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "CUTIE_STREET_",
-  "updated_at": "2026-08-21T11:15:00.542519+09:00",
+  "updated_at": "2026-08-21T12:26:34.984737+09:00",
   "tweets": {
     "2088071287516344341": {
       "id": "2088071287516344341",
@@ -1172,6 +1172,21 @@
       "videos": [],
       "url": "https://x.com/CUTIE_STREET_/status/2090605412827767125",
       "first_seen_at": "2026-08-21T11:15:00.542519+09:00"
+    },
+    "2090635001192968506": {
+      "id": "2090635001192968506",
+      "author": "CUTIE_STREET_",
+      "created_at": "2026-08-21T12:00:01.061000+09:00",
+      "text": "🌈단독 내한 라이브 공연 오늘 20:00에 발매🌈\n2027. 1. 23. (토)\n『CUTIE STREET Live in Korea 2027 WINTER』\n📍KINTEX Hall 9\n▼KAWAII LAB. GLOBAL MEMBERSHIP 회원 선예매 팬클럽 선예매🎟️\ngo.weverse.io/qt3S/xfbji0s9\n선예매 기간: 8월 21일(금) 20:00〜8월 23일(일) 23:59 (KST)\n*위버스 참여",
+      "type": "post",
+      "pinned": false,
+      "images": [
+        "https://pbs.twimg.com/media/HQNsH1FbQAAXiZX?format=webp&name=medium"
+      ],
+      "has_video": false,
+      "videos": [],
+      "url": "https://x.com/CUTIE_STREET_/status/2090635001192968506",
+      "first_seen_at": "2026-08-21T12:26:34.984737+09:00"
     }
   }
 }

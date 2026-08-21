@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "CUTIE_STREET_",
-  "updated_at": "2026-08-21T18:04:32.090378+09:00",
+  "updated_at": "2026-08-21T19:54:09.111911+09:00",
   "tweets": {
     "2088071287516344341": {
       "id": "2088071287516344341",
@@ -1262,6 +1262,19 @@
       "videos": [],
       "url": "https://x.com/CUTIE_STREET_/status/2090725601145426309",
       "first_seen_at": "2026-08-21T18:04:32.090378+09:00"
+    },
+    "2090746104929521733": {
+      "id": "2090746104929521733",
+      "author": "CUTIE_STREET_",
+      "created_at": "2026-08-21T19:21:30.256000+09:00",
+      "text": "【推しカメラ】増田彩乃🟦\n「ゆめみるプリマドンナ」\nツインテール🎀\n▼アリーナツアー先行受付中🎫\nw.pia.jp/t/cutiestreet-…\n#CUTIESTREET #きゅーすと",
+      "type": "post",
+      "pinned": false,
+      "images": [],
+      "has_video": true,
+      "videos": [],
+      "url": "https://x.com/CUTIE_STREET_/status/2090746104929521733",
+      "first_seen_at": "2026-08-21T19:54:09.111911+09:00"
     }
   }
 }

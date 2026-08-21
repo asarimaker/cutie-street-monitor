@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "CUTIE_STREET_",
-  "updated_at": "2026-08-21T17:22:04.000534+09:00",
+  "updated_at": "2026-08-21T18:04:32.090378+09:00",
   "tweets": {
     "2088071287516344341": {
       "id": "2088071287516344341",
@@ -1244,6 +1244,24 @@
       "videos": [],
       "url": "https://x.com/CUTIE_STREET_/status/2090712614829711584",
       "first_seen_at": "2026-08-21T17:22:04.000534+09:00"
+    },
+    "2090725601145426309": {
+      "id": "2090725601145426309",
+      "author": "CUTIE_STREET_",
+      "created_at": "2026-08-21T18:00:01.773000+09:00",
+      "text": "🌸#LARME 推し表紙解禁💛❤️💚🌸\n9/17(木)発売\n雑誌『LARME 070』\nグループで表紙を務める\n『LARME 070』の推し表紙ver.を一足早く公開❣️\n本日は❕\n💛古澤里紗\n❤️佐野愛花\n💚板倉可奈\nの推し表紙を解禁🌟\nまた、発売を記念して、\nオリジナルトレカSETの受注予約を受付中📣",
+      "type": "post",
+      "pinned": false,
+      "images": [
+        "https://pbs.twimg.com/media/HQOKgJJbYAADucz?format=webp&name=small",
+        "https://pbs.twimg.com/media/HQOKq1absAAoTwx?format=webp&name=small",
+        "https://pbs.twimg.com/media/HQOKt2wasAA3xax?format=webp&name=small",
+        "https://pbs.twimg.com/media/HQOKwC7aoAAfHJr?format=webp&name=small"
+      ],
+      "has_video": false,
+      "videos": [],
+      "url": "https://x.com/CUTIE_STREET_/status/2090725601145426309",
+      "first_seen_at": "2026-08-21T18:04:32.090378+09:00"
     }
   }
 }

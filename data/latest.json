@@ -2,189 +2,191 @@
   "schema_version": 1,
   "account": "CUTIE_STREET_",
   "status": "success",
-  "generated_at": "2026-08-22T07:33:17.858444+09:00",
-  "window_start": "2026-08-21T07:00:00+09:00",
-  "window_end": "2026-08-22T07:00:00+09:00",
+  "generated_at": "2026-08-23T07:30:44.691656+09:00",
+  "window_start": "2026-08-22T07:00:00+09:00",
+  "window_end": "2026-08-23T07:00:00+09:00",
   "source": "rolling_playwright_public_profile_snapshots",
   "count": 12,
   "warnings": [],
   "tweets": [
     {
-      "id": "2090574600107417855",
+      "id": "2090936990644502593",
       "author": "CUTIE_STREET_",
-      "created_at": "2026-08-21T08:00:00.320000+09:00",
-      "text": "【推しカメラ】梅田みゆ🩵\n「キュートなキューたい」\nｱｯ!!☺️\n▼アリーナツアー先行受付中🎫\nw.pia.jp/t/cutiestreet-…\n#CUTIESTREET #きゅーすと\n00:00 / 00:28",
+      "created_at": "2026-08-22T08:00:00.957000+09:00",
+      "text": "【推しカメラ】佐野愛花🟥\n「ゆめみるプリマドンナ」\nまんまるおめめ✨\n▼アリーナツアー先行受付中🎫\nw.pia.jp/t/cutiestreet-…\n#CUTIESTREET #きゅーすと\n00:00 / 00:30",
       "type": "post",
       "pinned": false,
       "images": [],
       "has_video": true,
       "videos": [],
-      "url": "https://x.com/CUTIE_STREET_/status/2090574600107417855",
-      "first_seen_at": "2026-08-21T08:13:16.855385+09:00"
+      "url": "https://x.com/CUTIE_STREET_/status/2090936990644502593",
+      "first_seen_at": "2026-08-22T08:10:37.178485+09:00"
     },
     {
-      "id": "2090605412827767125",
+      "id": "2090967193626333275",
       "author": "CUTIE_STREET_",
-      "created_at": "2026-08-21T10:02:26.645000+09:00",
-      "text": "💄#VOCE 本日発売💛❤️💄\n本日8/21(金)発売\n雑誌『VOCE』10月号\nCUTIE STREETより\n💛古澤里紗\n❤️佐野愛花\nが登場📚\n#ふりあい が“いちごラテメイク”で\n新たな魅力を発見🍓\n▼WEB記事配信中📱\n🟨古澤里紗のちょっぴり大人な秋メイク\ni-voce.jp/feed/5067283/\n🟥佐野愛花の脱アイドルメイク",
+      "created_at": "2026-08-22T10:00:01.909000+09:00",
+      "text": "🩵梅田みゆ 生誕祭 一般発売開始🩵\n9/14(月)\n『梅田みゆ 生誕祭 2026』\n📍SGCホール有明\n開場17:30 開演19:00\n▼一般発売(先着)🎟️\nw.pia.jp/t/umeda-miyu-b…\n※予定枚数終了しだい発売終了\n#梅田みゆ生誕祭2026\n#CUTIESTREET #きゅーすと",
       "type": "post",
       "pinned": false,
       "images": [
-        "https://pbs.twimg.com/media/HQNSisXagAAx-3k?format=webp&name=medium"
+        "https://pbs.twimg.com/media/HQQjWN_b0AAnjir?format=webp&name=medium"
       ],
       "has_video": false,
       "videos": [],
-      "url": "https://x.com/CUTIE_STREET_/status/2090605412827767125",
-      "first_seen_at": "2026-08-21T11:15:00.542519+09:00"
+      "url": "https://x.com/CUTIE_STREET_/status/2090967193626333275",
+      "first_seen_at": "2026-08-22T10:56:53.399316+09:00"
     },
     {
-      "id": "2090635001192968506",
+      "id": "2090999902495240495",
       "author": "CUTIE_STREET_",
-      "created_at": "2026-08-21T12:00:01.061000+09:00",
-      "text": "🌈단독 내한 라이브 공연 오늘 20:00에 발매🌈\n2027. 1. 23. (토)\n『CUTIE STREET Live in Korea 2027 WINTER』\n📍KINTEX Hall 9\n▼KAWAII LAB. GLOBAL MEMBERSHIP 회원 선예매 팬클럽 선예매🎟️\ngo.weverse.io/qt3S/xfbji0s9\n선예매 기간: 8월 21일(금) 20:00〜8월 23일(일) 23:59 (KST)\n*위버스 참여",
+      "created_at": "2026-08-22T12:10:00.311000+09:00",
+      "text": "❄️🎄KAWAII LAB.  Christmas SESSION 2026 アップグレード抽選受付開始🎄❄️\n12/12(土)、13(日)\n『KAWAII LAB. Christmas SESSION 2026 Day1, 2』\n📍有明アリーナ\n一般指定席のチケット購入済みでご希望の方を対象に、アップグレード抽選受付を実施いたします❣️\n▼アップグレード",
       "type": "post",
       "pinned": false,
       "images": [
-        "https://pbs.twimg.com/media/HQNsH1FbQAAXiZX?format=webp&name=medium"
+        "https://pbs.twimg.com/media/HQSy9jYbsAAhtY4?format=webp&name=medium"
       ],
       "has_video": false,
       "videos": [],
-      "url": "https://x.com/CUTIE_STREET_/status/2090635001192968506",
-      "first_seen_at": "2026-08-21T12:26:34.984737+09:00"
+      "url": "https://x.com/CUTIE_STREET_/status/2090999902495240495",
+      "first_seen_at": "2026-08-22T12:11:54.622842+09:00"
     },
     {
-      "id": "2090657648404472099",
+      "id": "2091012486652698885",
       "author": "CUTIE_STREET_",
-      "created_at": "2026-08-21T13:30:00.577000+09:00",
-      "text": "#板増の日常 #リラックス\n00:00 / 00:25",
+      "created_at": "2026-08-22T13:00:00.608000+09:00",
+      "text": "🍃ポケモンバトル！？🌸\n💚板倉可奈\nニャオハ！マジカルリーフ！\nVS\n🩷桜庭遥花\nカヌチャン！たたきつける！\n#アニポケ\n#キュートなキューたい\n#CUTIESTREET #きゅーすと\n©Nintendo･Creatures･GAME FREAK･TV Tokyo･ShoPro･JR Kikaku ©Pokémon\n00:00 / 00:31",
       "type": "post",
       "pinned": false,
       "images": [],
       "has_video": true,
       "videos": [],
-      "url": "https://x.com/CUTIE_STREET_/status/2090657648404472099",
-      "first_seen_at": "2026-08-21T14:03:43.354203+09:00"
+      "url": "https://x.com/CUTIE_STREET_/status/2091012486652698885",
+      "first_seen_at": "2026-08-22T13:00:55.606401+09:00"
     },
     {
-      "id": "2090661266532835679",
+      "id": "2091035134174855674",
       "author": "CUTIE_STREET_",
-      "created_at": "2026-08-21T13:44:23.206000+09:00",
-      "text": "📣🗞️インタビュー掲載🗞️📣\n本日発売\n「#デイリースポーツ」に\nCUTIE STREETのインタビューが掲載されています💎\n初の日本武道館公演に向けて\n意気込みやきゅーてすとへの想いをお話させていただきました💝\n▼電子版はこちら📱\ndaily.co.jp/gossip/2026/08…\n@Daily_Online\n#CUTIESTREET #きゅーすと",
-      "type": "post",
-      "pinned": false,
-      "images": [
-        "https://pbs.twimg.com/media/HQOEvIFagAAGXvS?format=webp&name=medium"
-      ],
-      "has_video": false,
-      "videos": [],
-      "url": "https://x.com/CUTIE_STREET_/status/2090661266532835679",
-      "first_seen_at": "2026-08-21T14:03:43.354203+09:00"
-    },
-    {
-      "id": "2090680296928575949",
-      "author": "CUTIE_STREET_",
-      "created_at": "2026-08-21T15:00:00.406000+09:00",
-      "text": "⚡️📡 本日 #アニポケ 放送📡⚡️\n本日8/21(金)よる6:55~\nテレビアニメ「ポケットモンスター」\n#CUTIESTREET 3rdシングル表題曲『キュートなキューたい』が\nテーマを務めるエンディング映像💎\nぜひ一緒に踊ってみてください💃\n#アニポケ × #きゅーすと ❣️\n今週もぜひお楽しみください🫶",
-      "type": "post",
-      "pinned": false,
-      "images": [
-        "https://pbs.twimg.com/media/HQOKHr5aQAAw4kT?format=webp&name=small",
-        "https://pbs.twimg.com/media/HQOKHr_aEAAnUlA?format=webp&name=small"
-      ],
-      "has_video": false,
-      "videos": [],
-      "url": "https://x.com/CUTIE_STREET_/status/2090680296928575949",
-      "first_seen_at": "2026-08-21T15:28:43.374723+09:00"
-    },
-    {
-      "id": "2090712614829711584",
-      "author": "CUTIE_STREET_",
-      "created_at": "2026-08-21T17:08:25.594000+09:00",
-      "text": "#えみかな LOVERの皆さんへ\n夏やっ( •̀ω•́ )🍉\n#ネクタイ鍋\n#CUTIESTREET #きゅーすと",
+      "created_at": "2026-08-22T14:30:00.198000+09:00",
+      "text": "【推しカメラ】板倉可奈🟩\n「かわいいさがしてくれますか？」\n可奈のみりょくぜんぶ見つけて♡\n▼アリーナツアー先行受付中🎫\nw.pia.jp/t/cutiestreet-…\n#CUTIESTREET #きゅーすと\n00:00 / 00:20",
       "type": "post",
       "pinned": false,
       "images": [],
       "has_video": true,
       "videos": [],
-      "url": "https://x.com/CUTIE_STREET_/status/2090712614829711584",
-      "first_seen_at": "2026-08-21T17:22:04.000534+09:00"
+      "url": "https://x.com/CUTIE_STREET_/status/2091035134174855674",
+      "first_seen_at": "2026-08-22T14:49:53.463991+09:00"
     },
     {
-      "id": "2090725601145426309",
+      "id": "2091057784309924125",
       "author": "CUTIE_STREET_",
-      "created_at": "2026-08-21T18:00:01.773000+09:00",
-      "text": "🌸#LARME 推し表紙解禁💛❤️💚🌸\n9/17(木)発売\n雑誌『LARME 070』\nグループで表紙を務める\n『LARME 070』の推し表紙ver.を一足早く公開❣️\n本日は❕\n💛古澤里紗\n❤️佐野愛花\n💚板倉可奈\nの推し表紙を解禁🌟\nまた、発売を記念して、\nオリジナルトレカSETの受注予約を受付中📣",
-      "type": "post",
-      "pinned": false,
-      "images": [
-        "https://pbs.twimg.com/media/HQOKgJJbYAADucz?format=webp&name=small",
-        "https://pbs.twimg.com/media/HQOKq1absAAoTwx?format=webp&name=small",
-        "https://pbs.twimg.com/media/HQOKt2wasAA3xax?format=webp&name=small",
-        "https://pbs.twimg.com/media/HQOKwC7aoAAfHJr?format=webp&name=small"
-      ],
-      "has_video": false,
-      "videos": [],
-      "url": "https://x.com/CUTIE_STREET_/status/2090725601145426309",
-      "first_seen_at": "2026-08-21T18:04:32.090378+09:00"
-    },
-    {
-      "id": "2090746104929521733",
-      "author": "CUTIE_STREET_",
-      "created_at": "2026-08-21T19:21:30.256000+09:00",
-      "text": "【推しカメラ】増田彩乃🟦\n「ゆめみるプリマドンナ」\nツインテール🎀\n▼アリーナツアー先行受付中🎫\nw.pia.jp/t/cutiestreet-…\n#CUTIESTREET #きゅーすと",
-      "type": "post",
-      "pinned": false,
-      "images": [],
-      "has_video": true,
-      "videos": [],
-      "url": "https://x.com/CUTIE_STREET_/status/2090746104929521733",
-      "first_seen_at": "2026-08-21T19:54:09.111911+09:00"
-    },
-    {
-      "id": "2090755798372913645",
-      "author": "CUTIE_STREET_",
-      "created_at": "2026-08-21T20:00:01.353000+09:00",
-      "text": "【日本武道館単独公演 リセールサービスのお知らせ】\n8/25(火), 26(水)に開催を予定しております、「CUTIE STREET 2nd ANNIVERSARY LIVE 2026『8TREASURES』」公演ですが、\nチケットを購入されたお客様へは高額転売への対策としてリセールサービスの運用を実施します。\n▼詳細はこちら",
-      "type": "post",
-      "pinned": false,
-      "images": [
-        "https://pbs.twimg.com/media/HQOLVKXbAAAum12?format=webp&name=medium"
-      ],
-      "has_video": false,
-      "videos": [],
-      "url": "https://x.com/CUTIE_STREET_/status/2090755798372913645",
-      "first_seen_at": "2026-08-21T20:18:50.629400+09:00"
-    },
-    {
-      "id": "2090770894134141118",
-      "author": "CUTIE_STREET_",
-      "created_at": "2026-08-21T21:00:00.463000+09:00",
-      "text": "💙増田彩乃 生誕グッズ 販売開始💙\n#増田彩乃生誕祭2026 グッズ\nオンライン事後販売が開始しました🎂\n▼購入はこちらから\nasobisystem.shop/shops/cutie-st…\n＊8/31(月)23:59まで\n#CUTIESTREET #きゅーすと",
+      "created_at": "2026-08-22T16:00:00.411000+09:00",
+      "text": "？？「お化け役が…やりたいの。」\n#真鍋凪咲 #ホラー\n#お待ちしております\n00:00 / 00:17",
       "type": "quote",
       "pinned": false,
       "images": [
-        "https://pbs.twimg.com/media/HQIim2BaEAA3_ii?format=webp&name=small",
-        "https://pbs.twimg.com/media/HQIim11bAAEtPuy?format=webp&name=small",
-        "https://pbs.twimg.com/media/HQIim1xboAAk8pj?format=webp&name=small",
-        "https://pbs.twimg.com/media/HQIim1makAAuR6P?format=webp&name=small"
+        "https://pbs.twimg.com/media/HPmorYcagAAA8O-?format=webp&name=small",
+        "https://pbs.twimg.com/media/HPmorYqaUAA5v6f?format=webp&name=small"
+      ],
+      "has_video": true,
+      "videos": [],
+      "url": "https://x.com/CUTIE_STREET_/status/2091057784309924125",
+      "first_seen_at": "2026-08-22T16:06:10.437389+09:00"
+    },
+    {
+      "id": "2091087986742149162",
+      "author": "CUTIE_STREET_",
+      "created_at": "2026-08-22T18:00:01.232000+09:00",
+      "text": "🌸#LARME 推し表紙解禁🩵💜🌸\n9/17(木)発売\n雑誌『LARME 070』\nグループで表紙を務める\n『LARME 070』の推し表紙ver.を一足早く公開❣️\n本日は❕\n🩵梅田みゆ\n💜真鍋凪咲\nの推し表紙を解禁🌟\nまた、発売を記念して、\nオリジナルトレカSETの受注予約を受付中📣\n販売日時：〜8/23(日)23:59\n▼",
+      "type": "post",
+      "pinned": false,
+      "images": [
+        "https://pbs.twimg.com/media/HQSzYSsbMAATRWk?format=webp&name=small",
+        "https://pbs.twimg.com/media/HQSzfQba4AA1wL5?format=webp&name=small",
+        "https://pbs.twimg.com/media/HQSzhXuaYAALZ9R?format=webp&name=small"
       ],
       "has_video": false,
       "videos": [],
-      "url": "https://x.com/CUTIE_STREET_/status/2090770894134141118",
-      "first_seen_at": "2026-08-21T21:17:48.158355+09:00"
+      "url": "https://x.com/CUTIE_STREET_/status/2091087986742149162",
+      "first_seen_at": "2026-08-22T18:17:40.552993+09:00"
     },
     {
-      "id": "2090785994270457869",
+      "id": "2091103086131687660",
       "author": "CUTIE_STREET_",
-      "created_at": "2026-08-21T22:00:00.616000+09:00",
-      "text": "🏹❤️‍🩹𝐂𝐡𝐨𝐫𝐞𝐨𝐠𝐫𝐚𝐩𝐡𝐲 𝐕𝐢𝐝𝐞𝐨❤️‍🩹🏹\n『Error404♡』\n＼ 君とあたし永久不滅♡／\n▼𝐘𝐨𝐮𝐓𝐮𝐛𝐞✨\nyoutu.be/FBuBwOYfadY\n▼MV🏹\nyoutu.be/eAFzQwArpFM\n▼聴く🎧\nkawaii-lab.lnk.to/Error404\n💛古澤里紗❤️佐野愛花\n💚板倉可奈💙増田彩乃\n🧡川本笑瑠🩵梅田みゆ",
+      "created_at": "2026-08-22T19:00:01.207000+09:00",
+      "text": "✨💎2周年ライブ写真集発売決定💎✨\nCUTIE STREET\n2nd ANNIVERSARY LIVE 2026\n「8TREASURES」LIVE写真集\nの発売が決定しました📸\n📣8/24(月) 19:00〜予約開始📣\n※プレミアム版のみ先着となります\nプレミアム版\n通常版\nデジタル版\nの3形態で販売🛍️\n▼詳細はこちら❕\nstyolo0307.official.ec/categories/749…\n‧⋆",
+      "type": "post",
+      "pinned": false,
+      "images": [
+        "https://pbs.twimg.com/media/HQT-BtOagAAsbWn?format=webp&name=small",
+        "https://pbs.twimg.com/media/HQT-BtGbEAADZ_H?format=webp&name=small",
+        "https://pbs.twimg.com/media/HQT-ZGxaoAAaMc7?format=webp&name=small",
+        "https://pbs.twimg.com/media/HQT-ao_bAAAIOWT?format=webp&name=small"
+      ],
+      "has_video": false,
+      "videos": [],
+      "url": "https://x.com/CUTIE_STREET_/status/2091103086131687660",
+      "first_seen_at": "2026-08-22T19:09:39.674645+09:00"
+    },
+    {
+      "id": "2091133281039176133",
+      "author": "CUTIE_STREET_",
+      "created_at": "2026-08-22T21:00:00.234000+09:00",
+      "text": "🎀#Venue101 生出演決定🎀\n8/29(土)23:00~\nNHK音楽番組『Venue 101』\n「キュートなキューたい」を披露させていただきます❕\n2回目の生出演、たくさんCUTIEをお届けします💝\n▼番組HP📺\nweb.nhk/tv/an/venue101/\n@nhk_venue101\n#CUTIESTREET #きゅーすと",
+      "type": "post",
+      "pinned": false,
+      "images": [
+        "https://pbs.twimg.com/media/HQT_Q-7aIAAXbeD?format=webp&name=medium"
+      ],
+      "has_video": false,
+      "videos": [],
+      "url": "https://x.com/CUTIE_STREET_/status/2091133281039176133",
+      "first_seen_at": "2026-08-22T21:11:08.968042+09:00"
+    },
+    {
+      "id": "2091144605865791932",
+      "author": "CUTIE_STREET_",
+      "created_at": "2026-08-22T21:45:00.283000+09:00",
+      "text": "🫧🍃 #SPUR 掲載 🫧🍃\nSPURデジタル\n「おしゃれな人はなぜ\"いい香り\"？」\nCUTIE  STREETより\n💜真鍋凪咲 が初登場･:*+.\nお気に入りの香りについてお話しさせていただきました😌🤍\n少し大人な雰囲気のなべちゃんにも注目です･:*+.\n▼記事はこちらから❕\nspur.hpplus.jp/beauty/fragran…",
+      "type": "post",
+      "pinned": false,
+      "images": [
+        "https://pbs.twimg.com/media/HQU7GzVaEAARZcs?format=webp&name=medium"
+      ],
+      "has_video": false,
+      "videos": [],
+      "url": "https://x.com/CUTIE_STREET_/status/2091144605865791932",
+      "first_seen_at": "2026-08-22T22:06:23.551567+09:00"
+    },
+    {
+      "id": "2091155930327261420",
+      "author": "CUTIE_STREET_",
+      "created_at": "2026-08-22T22:30:00.245000+09:00",
+      "text": "💉🏥KAWAII FOCUS 公開🏥💉\nMV撮影地に置かれた1機のカメラ。\nここでのルールは\n私達のKAWAIIにFOCUSさせること。\nナースさんが4人と💊\n患者さんが4人💊\n『Error404♡』\n▼フルは𝐘𝐨𝐮𝐓𝐮𝐛𝐞💎\nyoutu.be/w8xfJYASmvE\nLyrics：すぅ(SILENT SIREN)\nCompose：クボナオキ(M-AG)",
       "type": "post",
       "pinned": false,
       "images": [],
       "has_video": true,
       "videos": [],
-      "url": "https://x.com/CUTIE_STREET_/status/2090785994270457869",
-      "first_seen_at": "2026-08-21T22:18:01.627888+09:00"
+      "url": "https://x.com/CUTIE_STREET_/status/2091155930327261420",
+      "first_seen_at": "2026-08-22T22:48:16.523395+09:00"
+    },
+    {
+      "id": "2091171030081700252",
+      "author": "CUTIE_STREET_",
+      "created_at": "2026-08-22T23:30:00.307000+09:00",
+      "text": "⚡️☀️ #ポケどこ 出演☀️⚡️\n8/23(日)7:30～8:30\nテレ東系列「ポケモンとどこいく！？」\nテレビアニメ「ポケットモンスター」第147話\nCUTIE STREET初のゲスト声優決定コメントがオンエアされます📣\nぜひご覧ください❕\n▼番組HP📺\ntv-tokyo.co.jp/anime/pokedoko/\n#アニポケ\n#CUTIESTREET #きゅーすと",
+      "type": "post",
+      "pinned": false,
+      "images": [
+        "https://pbs.twimg.com/media/HQVUUfRa4AESBpP?format=webp&name=small",
+        "https://pbs.twimg.com/media/HQVUUfDbYAAnct9?format=webp&name=small"
+      ],
+      "has_video": false,
+      "videos": [],
+      "url": "https://x.com/CUTIE_STREET_/status/2091171030081700252",
+      "first_seen_at": "2026-08-22T23:43:32.330757+09:00"
     }
   ]
 }

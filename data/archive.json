@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "CUTIE_STREET_",
-  "updated_at": "2026-08-22T08:10:37.178485+09:00",
+  "updated_at": "2026-08-22T10:56:53.399316+09:00",
   "tweets": {
     "2088071287516344341": {
       "id": "2088071287516344341",
@@ -1334,6 +1334,21 @@
       "videos": [],
       "url": "https://x.com/CUTIE_STREET_/status/2090936990644502593",
       "first_seen_at": "2026-08-22T08:10:37.178485+09:00"
+    },
+    "2090967193626333275": {
+      "id": "2090967193626333275",
+      "author": "CUTIE_STREET_",
+      "created_at": "2026-08-22T10:00:01.909000+09:00",
+      "text": "🩵梅田みゆ 生誕祭 一般発売開始🩵\n9/14(月)\n『梅田みゆ 生誕祭 2026』\n📍SGCホール有明\n開場17:30 開演19:00\n▼一般発売(先着)🎟️\nw.pia.jp/t/umeda-miyu-b…\n※予定枚数終了しだい発売終了\n#梅田みゆ生誕祭2026\n#CUTIESTREET #きゅーすと",
+      "type": "post",
+      "pinned": false,
+      "images": [
+        "https://pbs.twimg.com/media/HQQjWN_b0AAnjir?format=webp&name=medium"
+      ],
+      "has_video": false,
+      "videos": [],
+      "url": "https://x.com/CUTIE_STREET_/status/2090967193626333275",
+      "first_seen_at": "2026-08-22T10:56:53.399316+09:00"
     }
   }
 }

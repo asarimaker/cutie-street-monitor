@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "CUTIE_STREET_",
-  "updated_at": "2026-08-22T14:49:53.463991+09:00",
+  "updated_at": "2026-08-22T16:06:10.437389+09:00",
   "tweets": {
     "2088071287516344341": {
       "id": "2088071287516344341",
@@ -1390,6 +1390,22 @@
       "videos": [],
       "url": "https://x.com/CUTIE_STREET_/status/2091035134174855674",
       "first_seen_at": "2026-08-22T14:49:53.463991+09:00"
+    },
+    "2091057784309924125": {
+      "id": "2091057784309924125",
+      "author": "CUTIE_STREET_",
+      "created_at": "2026-08-22T16:00:00.411000+09:00",
+      "text": "？？「お化け役が…やりたいの。」\n#真鍋凪咲 #ホラー\n#お待ちしております\n00:00 / 00:17",
+      "type": "quote",
+      "pinned": false,
+      "images": [
+        "https://pbs.twimg.com/media/HPmorYcagAAA8O-?format=webp&name=small",
+        "https://pbs.twimg.com/media/HPmorYqaUAA5v6f?format=webp&name=small"
+      ],
+      "has_video": true,
+      "videos": [],
+      "url": "https://x.com/CUTIE_STREET_/status/2091057784309924125",
+      "first_seen_at": "2026-08-22T16:06:10.437389+09:00"
     }
   }
 }

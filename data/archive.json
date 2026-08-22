@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "CUTIE_STREET_",
-  "updated_at": "2026-08-22T22:48:16.523395+09:00",
+  "updated_at": "2026-08-22T23:43:32.330757+09:00",
   "tweets": {
     "2088071287516344341": {
       "id": "2088071287516344341",
@@ -1484,6 +1484,22 @@
       "videos": [],
       "url": "https://x.com/CUTIE_STREET_/status/2091155930327261420",
       "first_seen_at": "2026-08-22T22:48:16.523395+09:00"
+    },
+    "2091171030081700252": {
+      "id": "2091171030081700252",
+      "author": "CUTIE_STREET_",
+      "created_at": "2026-08-22T23:30:00.307000+09:00",
+      "text": "⚡️☀️ #ポケどこ 出演☀️⚡️\n8/23(日)7:30～8:30\nテレ東系列「ポケモンとどこいく！？」\nテレビアニメ「ポケットモンスター」第147話\nCUTIE STREET初のゲスト声優決定コメントがオンエアされます📣\nぜひご覧ください❕\n▼番組HP📺\ntv-tokyo.co.jp/anime/pokedoko/\n#アニポケ\n#CUTIESTREET #きゅーすと",
+      "type": "post",
+      "pinned": false,
+      "images": [
+        "https://pbs.twimg.com/media/HQVUUfRa4AESBpP?format=webp&name=small",
+        "https://pbs.twimg.com/media/HQVUUfDbYAAnct9?format=webp&name=small"
+      ],
+      "has_video": false,
+      "videos": [],
+      "url": "https://x.com/CUTIE_STREET_/status/2091171030081700252",
+      "first_seen_at": "2026-08-22T23:43:32.330757+09:00"
     }
   }
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "CUTIE_STREET_",
-  "updated_at": "2026-08-22T22:06:23.551567+09:00",
+  "updated_at": "2026-08-22T22:48:16.523395+09:00",
   "tweets": {
     "2088071287516344341": {
       "id": "2088071287516344341",
@@ -1471,6 +1471,19 @@
       "videos": [],
       "url": "https://x.com/CUTIE_STREET_/status/2091144605865791932",
       "first_seen_at": "2026-08-22T22:06:23.551567+09:00"
+    },
+    "2091155930327261420": {
+      "id": "2091155930327261420",
+      "author": "CUTIE_STREET_",
+      "created_at": "2026-08-22T22:30:00.245000+09:00",
+      "text": "💉🏥KAWAII FOCUS 公開🏥💉\nMV撮影地に置かれた1機のカメラ。\nここでのルールは\n私達のKAWAIIにFOCUSさせること。\nナースさんが4人と💊\n患者さんが4人💊\n『Error404♡』\n▼フルは𝐘𝐨𝐮𝐓𝐮𝐛𝐞💎\nyoutu.be/w8xfJYASmvE\nLyrics：すぅ(SILENT SIREN)\nCompose：クボナオキ(M-AG)",
+      "type": "post",
+      "pinned": false,
+      "images": [],
+      "has_video": true,
+      "videos": [],
+      "url": "https://x.com/CUTIE_STREET_/status/2091155930327261420",
+      "first_seen_at": "2026-08-22T22:48:16.523395+09:00"
     }
   }
 }

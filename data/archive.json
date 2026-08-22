@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "CUTIE_STREET_",
-  "updated_at": "2026-08-22T10:56:53.399316+09:00",
+  "updated_at": "2026-08-22T12:11:54.622842+09:00",
   "tweets": {
     "2088071287516344341": {
       "id": "2088071287516344341",
@@ -1349,6 +1349,21 @@
       "videos": [],
       "url": "https://x.com/CUTIE_STREET_/status/2090967193626333275",
       "first_seen_at": "2026-08-22T10:56:53.399316+09:00"
+    },
+    "2090999902495240495": {
+      "id": "2090999902495240495",
+      "author": "CUTIE_STREET_",
+      "created_at": "2026-08-22T12:10:00.311000+09:00",
+      "text": "❄️🎄KAWAII LAB.  Christmas SESSION 2026 アップグレード抽選受付開始🎄❄️\n12/12(土)、13(日)\n『KAWAII LAB. Christmas SESSION 2026 Day1, 2』\n📍有明アリーナ\n一般指定席のチケット購入済みでご希望の方を対象に、アップグレード抽選受付を実施いたします❣️\n▼アップグレード",
+      "type": "post",
+      "pinned": false,
+      "images": [
+        "https://pbs.twimg.com/media/HQSy9jYbsAAhtY4?format=webp&name=medium"
+      ],
+      "has_video": false,
+      "videos": [],
+      "url": "https://x.com/CUTIE_STREET_/status/2090999902495240495",
+      "first_seen_at": "2026-08-22T12:11:54.622842+09:00"
     }
   }
 }

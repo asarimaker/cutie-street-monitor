@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "CUTIE_STREET_",
-  "updated_at": "2026-08-22T19:09:39.674645+09:00",
+  "updated_at": "2026-08-22T21:11:08.968042+09:00",
   "tweets": {
     "2088071287516344341": {
       "id": "2088071287516344341",
@@ -1441,6 +1441,21 @@
       "videos": [],
       "url": "https://x.com/CUTIE_STREET_/status/2091103086131687660",
       "first_seen_at": "2026-08-22T19:09:39.674645+09:00"
+    },
+    "2091133281039176133": {
+      "id": "2091133281039176133",
+      "author": "CUTIE_STREET_",
+      "created_at": "2026-08-22T21:00:00.234000+09:00",
+      "text": "🎀#Venue101 生出演決定🎀\n8/29(土)23:00~\nNHK音楽番組『Venue 101』\n「キュートなキューたい」を披露させていただきます❕\n2回目の生出演、たくさんCUTIEをお届けします💝\n▼番組HP📺\nweb.nhk/tv/an/venue101/\n@nhk_venue101\n#CUTIESTREET #きゅーすと",
+      "type": "post",
+      "pinned": false,
+      "images": [
+        "https://pbs.twimg.com/media/HQT_Q-7aIAAXbeD?format=webp&name=medium"
+      ],
+      "has_video": false,
+      "videos": [],
+      "url": "https://x.com/CUTIE_STREET_/status/2091133281039176133",
+      "first_seen_at": "2026-08-22T21:11:08.968042+09:00"
     }
   }
 }

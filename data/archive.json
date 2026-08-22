@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "CUTIE_STREET_",
-  "updated_at": "2026-08-22T23:43:32.330757+09:00",
+  "updated_at": "2026-08-23T07:03:03.946035+09:00",
   "tweets": {
     "2088071287516344341": {
       "id": "2088071287516344341",
@@ -1500,6 +1500,26 @@
       "videos": [],
       "url": "https://x.com/CUTIE_STREET_/status/2091171030081700252",
       "first_seen_at": "2026-08-22T23:43:32.330757+09:00"
+    },
+    "2091284280387293559": {
+      "id": "2091284280387293559",
+      "author": "CUTIE_STREET_",
+      "created_at": "2026-08-23T07:00:01.284000+09:00",
+      "text": "🛍️【本日18時まで】日本武道館単独公演グッズ 会場受取受付🛍️\n✨さまざまなグッズを販売✨\n🤍2nd ANNIV. 新グッズ\n❤️佐野待望！熱中症防止ネッククーラー\n🔦定番のペンライト\nなどなど\n▼グッズ詳細🫶🏻(当日販売時間/一覧/事前決済受付など)\ncutiestreet.asobisystem.com/news/detail/87…\n期間：8/23(日)18:00まで\nCUTIE",
+      "type": "quote",
+      "pinned": false,
+      "images": [
+        "https://pbs.twimg.com/media/HQW6hEsbIAAYetQ?format=webp&name=small",
+        "https://pbs.twimg.com/media/HQW6jC6aUAA9nhJ?format=webp&name=small",
+        "https://pbs.twimg.com/media/HPq8u9LbMAA6SNW?format=webp&name=small",
+        "https://pbs.twimg.com/media/HPq8u9LaAAApf8h?format=webp&name=small",
+        "https://pbs.twimg.com/media/HPq8u9aagAAReIs?format=webp&name=small",
+        "https://pbs.twimg.com/media/HPq8u9Xa0AAUib6?format=webp&name=small"
+      ],
+      "has_video": false,
+      "videos": [],
+      "url": "https://x.com/CUTIE_STREET_/status/2091284280387293559",
+      "first_seen_at": "2026-08-23T07:03:03.946035+09:00"
     }
   }
 }

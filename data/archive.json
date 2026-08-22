@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "CUTIE_STREET_",
-  "updated_at": "2026-08-22T18:17:40.552993+09:00",
+  "updated_at": "2026-08-22T19:09:39.674645+09:00",
   "tweets": {
     "2088071287516344341": {
       "id": "2088071287516344341",
@@ -1423,6 +1423,24 @@
       "videos": [],
       "url": "https://x.com/CUTIE_STREET_/status/2091087986742149162",
       "first_seen_at": "2026-08-22T18:17:40.552993+09:00"
+    },
+    "2091103086131687660": {
+      "id": "2091103086131687660",
+      "author": "CUTIE_STREET_",
+      "created_at": "2026-08-22T19:00:01.207000+09:00",
+      "text": "✨💎2周年ライブ写真集発売決定💎✨\nCUTIE STREET\n2nd ANNIVERSARY LIVE 2026\n「8TREASURES」LIVE写真集\nの発売が決定しました📸\n📣8/24(月) 19:00〜予約開始📣\n※プレミアム版のみ先着となります\nプレミアム版\n通常版\nデジタル版\nの3形態で販売🛍️\n▼詳細はこちら❕\nstyolo0307.official.ec/categories/749…\n‧⋆",
+      "type": "post",
+      "pinned": false,
+      "images": [
+        "https://pbs.twimg.com/media/HQT-BtOagAAsbWn?format=webp&name=small",
+        "https://pbs.twimg.com/media/HQT-BtGbEAADZ_H?format=webp&name=small",
+        "https://pbs.twimg.com/media/HQT-ZGxaoAAaMc7?format=webp&name=small",
+        "https://pbs.twimg.com/media/HQT-ao_bAAAIOWT?format=webp&name=small"
+      ],
+      "has_video": false,
+      "videos": [],
+      "url": "https://x.com/CUTIE_STREET_/status/2091103086131687660",
+      "first_seen_at": "2026-08-22T19:09:39.674645+09:00"
     }
   }
 }

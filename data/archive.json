@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "CUTIE_STREET_",
-  "updated_at": "2026-08-23T12:26:21.985603+09:00",
+  "updated_at": "2026-08-23T13:24:15.560325+09:00",
   "tweets": {
     "2088071287516344341": {
       "id": "2088071287516344341",
@@ -1593,6 +1593,21 @@
       "videos": [],
       "url": "https://x.com/CUTIE_STREET_/status/2091356461083607470",
       "first_seen_at": "2026-08-23T12:26:21.985603+09:00"
+    },
+    "2091378270919090512": {
+      "id": "2091378270919090512",
+      "author": "CUTIE_STREET_",
+      "created_at": "2026-08-23T13:13:30.373000+09:00",
+      "text": "🎉🌳800万回再生 突破⁉️🌳🎉\nテレビアニメ「ポケットモンスター」\nエンディングテーマ🌈\n『キュートなキューたい』\nYouTubeにて800万回再生突破🔥\n▼Music Video⚡️\nyoutu.be/VQmdUnlNnds\n💛古澤里紗❤️佐野愛花\n💚板倉可奈💙増田彩乃\n🧡川本笑瑠🩵梅田みゆ\n💜真鍋凪咲🩷桜庭遥花\n▼聴く🎧",
+      "type": "post",
+      "pinned": false,
+      "images": [
+        "https://pbs.twimg.com/media/HQYRc4mawAA2x_c?format=webp&name=medium"
+      ],
+      "has_video": false,
+      "videos": [],
+      "url": "https://x.com/CUTIE_STREET_/status/2091378270919090512",
+      "first_seen_at": "2026-08-23T13:24:15.560325+09:00"
     }
   }
 }

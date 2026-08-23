@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "CUTIE_STREET_",
-  "updated_at": "2026-08-23T16:08:00.354914+09:00",
+  "updated_at": "2026-08-23T18:19:54.419799+09:00",
   "tweets": {
     "2088071287516344341": {
       "id": "2088071287516344341",
@@ -1621,6 +1621,21 @@
       "videos": [],
       "url": "https://x.com/CUTIE_STREET_/status/2091417743392489724",
       "first_seen_at": "2026-08-23T16:08:00.354914+09:00"
+    },
+    "2091450473953857658": {
+      "id": "2091450473953857658",
+      "author": "CUTIE_STREET_",
+      "created_at": "2026-08-23T18:00:24.918000+09:00",
+      "text": "🎀💫#dingojapan 初登場💫🎀\n韓国発のコンテンツブランド「dingo」の日本公式アカウントにて\n新コンテンツMOVE REC. GRID.に登場📣\n「かわいいだけじゃだめですか？」 韓国語ver.を披露します💓\n⏰8/24 (月) 18:00 公開⏰\n▼dingo japan 公式YouTubeチャンネル\nyoutube.com/@dingojapanoff…",
+      "type": "post",
+      "pinned": false,
+      "images": [
+        "https://pbs.twimg.com/media/HQZTHsHagAA9mAk?format=webp&name=medium"
+      ],
+      "has_video": false,
+      "videos": [],
+      "url": "https://x.com/CUTIE_STREET_/status/2091450473953857658",
+      "first_seen_at": "2026-08-23T18:19:54.419799+09:00"
     }
   }
 }

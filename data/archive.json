@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "CUTIE_STREET_",
-  "updated_at": "2026-08-23T18:19:54.419799+09:00",
+  "updated_at": "2026-08-23T20:09:17.885966+09:00",
   "tweets": {
     "2088071287516344341": {
       "id": "2088071287516344341",
@@ -1636,6 +1636,21 @@
       "videos": [],
       "url": "https://x.com/CUTIE_STREET_/status/2091450473953857658",
       "first_seen_at": "2026-08-23T18:19:54.419799+09:00"
+    },
+    "2091480583754948970": {
+      "id": "2091480583754948970",
+      "author": "CUTIE_STREET_",
+      "created_at": "2026-08-23T20:00:03.654000+09:00",
+      "text": "🎀💫#dingojapan スペシャルTeaser公開💫🎀\n韓国発のコンテンツブランド「dingo」の日本公式アカウントにて\n「かわいいだけじゃだめですか？」 韓国語ver.を披露💓\n本日はスペシャルTeaserを公開📣\nちょこっとだけ先見せです ꒰ ᐡ >_< ꒱👍🏻\n▼Teaserをチェック☑️\nyoutube.com/watch?v=NYkWu-…\n▼dingo",
+      "type": "post",
+      "pinned": false,
+      "images": [
+        "https://pbs.twimg.com/media/HQZiNo4akAAlQDY?format=webp&name=medium"
+      ],
+      "has_video": false,
+      "videos": [],
+      "url": "https://x.com/CUTIE_STREET_/status/2091480583754948970",
+      "first_seen_at": "2026-08-23T20:09:17.885966+09:00"
     }
   }
 }

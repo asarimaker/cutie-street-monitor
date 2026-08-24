@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "CUTIE_STREET_",
-  "updated_at": "2026-08-24T20:01:21.548286+09:00",
+  "updated_at": "2026-08-24T21:18:30.926491+09:00",
   "tweets": {
     "2088071287516344341": {
       "id": "2088071287516344341",
@@ -1860,6 +1860,19 @@
       "videos": [],
       "url": "https://x.com/CUTIE_STREET_/status/2091835468895990064",
       "first_seen_at": "2026-08-24T20:01:21.548286+09:00"
+    },
+    "2091858070024663079": {
+      "id": "2091858070024663079",
+      "author": "CUTIE_STREET_",
+      "created_at": "2026-08-24T21:00:03.394000+09:00",
+      "text": "세로 포메이션 댄스 영상을 공개했습니다🎀\n「#ぷりきゅきゅ KOREAN ver」\n▼YouTube💎\nyoutu.be/hPk6Kijlibk\n▼한국 단독 공연 일반 예매 시작🎀\nto.livet.one/CS2027WINTERG\n💙마스다 아야노\n💜마나베 나기사\n🩷사쿠라바 하루카\n💛후루사와 리사\n❤️사노 아이카\n💚이타쿠라 카나\n🧡카와모토 さらに表示\n00:00 / 00:36",
+      "type": "post",
+      "pinned": false,
+      "images": [],
+      "has_video": true,
+      "videos": [],
+      "url": "https://x.com/CUTIE_STREET_/status/2091858070024663079",
+      "first_seen_at": "2026-08-24T21:18:30.926491+09:00"
     }
   }
 }

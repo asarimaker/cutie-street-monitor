@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "CUTIE_STREET_",
-  "updated_at": "2026-08-24T23:28:49.038382+09:00",
+  "updated_at": "2026-08-25T00:25:37.321146+09:00",
   "tweets": {
     "2088071287516344341": {
       "id": "2088071287516344341",
@@ -1901,6 +1901,21 @@
       "videos": [],
       "url": "https://x.com/CUTIE_STREET_/status/2091880709044711659",
       "first_seen_at": "2026-08-24T23:28:49.038382+09:00"
+    },
+    "2091903363466297569": {
+      "id": "2091903363466297569",
+      "author": "CUTIE_STREET_",
+      "created_at": "2026-08-25T00:00:02.192000+09:00",
+      "text": "【New Release】\n8/25(火)0:00 Release\n#CUTIESTREET New Digital Single\n『Top of the top』\n〜君が楽しそうなだけで私は幸せなんだよ〜\n▼配信サイト🎧\nkawaii-lab.lnk.to/Top_of_the_top\nLyrics：安部大希-amazuti-\nCompose：安部大希-amazuti- / 宮崎諒-amazuti-\nArrange：宮崎諒-amazuti-",
+      "type": "post",
+      "pinned": false,
+      "images": [
+        "https://pbs.twimg.com/media/HQfkBXMaYAEOutY?format=webp&name=medium"
+      ],
+      "has_video": false,
+      "videos": [],
+      "url": "https://x.com/CUTIE_STREET_/status/2091903363466297569",
+      "first_seen_at": "2026-08-25T00:25:37.321146+09:00"
     }
   }
 }

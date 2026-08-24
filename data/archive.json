@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "CUTIE_STREET_",
-  "updated_at": "2026-08-25T00:25:37.321146+09:00",
+  "updated_at": "2026-08-25T07:11:28.294552+09:00",
   "tweets": {
     "2088071287516344341": {
       "id": "2088071287516344341",
@@ -1916,6 +1916,24 @@
       "videos": [],
       "url": "https://x.com/CUTIE_STREET_/status/2091903363466297569",
       "first_seen_at": "2026-08-25T00:25:37.321146+09:00"
+    },
+    "2092009053761540394": {
+      "id": "2092009053761540394",
+      "author": "CUTIE_STREET_",
+      "created_at": "2026-08-25T07:00:00.722000+09:00",
+      "text": "💎🌟【本日】日本武道館単独公演 DAY1🌟💎\nついに❕\n8つの宝物が日本武道館に集まります💎\n8/25(火)\nCUTIE STREET\n2nd ANNIVERSARY LIVE 2026\n「8TREASURES」\n📍日本武道館\n▼グッズ🛍️\ncutiestreet.asobisystem.com/news/detail/87…\n先行販売：10:30〜(予定)\n▼抽選会🎯\ncutiestreet.asobisystem.com/news/detail/88…",
+      "type": "post",
+      "pinned": false,
+      "images": [
+        "https://pbs.twimg.com/media/HQflK15agAAtILL?format=webp&name=small",
+        "https://pbs.twimg.com/media/HQflK1_bgAARDsl?format=webp&name=small",
+        "https://pbs.twimg.com/media/HQflK17a0AEHAKe?format=webp&name=small",
+        "https://pbs.twimg.com/media/HQflK2MacAAK4oR?format=webp&name=small"
+      ],
+      "has_video": false,
+      "videos": [],
+      "url": "https://x.com/CUTIE_STREET_/status/2092009053761540394",
+      "first_seen_at": "2026-08-25T07:11:28.294552+09:00"
     }
   }
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "CUTIE_STREET_",
-  "updated_at": "2026-08-24T19:24:29.514551+09:00",
+  "updated_at": "2026-08-24T20:01:21.548286+09:00",
   "tweets": {
     "2088071287516344341": {
       "id": "2088071287516344341",
@@ -1814,6 +1814,52 @@
       "videos": [],
       "url": "https://x.com/CUTIE_STREET_/status/2091827857982898603",
       "first_seen_at": "2026-08-24T19:24:29.514551+09:00"
+    },
+    "2091843044568162397": {
+      "id": "2091843044568162397",
+      "author": "CUTIE_STREET_",
+      "created_at": "2026-08-24T20:00:21.046000+09:00",
+      "text": "【特別抽選会】8/25(火), 8/26(水)日本武道館単独公演💎\nCUTIE STREET 対象商品をご購入の方が参加できる抽選会🎯\nハズレなしの抽選会で特典が必ず当たります！\n🔗詳細はこちら\ncutiestreet.asobisystem.com/news/detail/88…\n✨抽選景品✨\nS賞：お見送り会(撮影可能)参加券\nA賞：全メンバー直筆サイン入りOSHI API",
+      "type": "post",
+      "pinned": false,
+      "images": [
+        "https://pbs.twimg.com/media/HQe3zPJbQAAk52D?format=webp&name=medium"
+      ],
+      "has_video": false,
+      "videos": [],
+      "url": "https://x.com/CUTIE_STREET_/status/2091843044568162397",
+      "first_seen_at": "2026-08-24T20:01:21.548286+09:00"
+    },
+    "2091839239000588428": {
+      "id": "2091839239000588428",
+      "author": "CUTIE_STREET_",
+      "created_at": "2026-08-24T19:45:13.728000+09:00",
+      "text": "⚠️日本武道館単独公演ご来場いただく方は必ずご一読をお願いします⚠️\n注意・禁止事項のご案内\n✅本人確認書類\n✅ペンライト\n✅その他\nご来場の皆様に安全に楽しんで頂くための注意事項です。必ずご一読下さい！\n☑️入場時に本人確認を実施致します。",
+      "type": "post",
+      "pinned": false,
+      "images": [
+        "https://pbs.twimg.com/media/HQe0s1caUAA3QdG?format=webp&name=small",
+        "https://pbs.twimg.com/media/HQe0s1QaoAAZS66?format=webp&name=small"
+      ],
+      "has_video": false,
+      "videos": [],
+      "url": "https://x.com/CUTIE_STREET_/status/2091839239000588428",
+      "first_seen_at": "2026-08-24T20:01:21.548286+09:00"
+    },
+    "2091835468895990064": {
+      "id": "2091835468895990064",
+      "author": "CUTIE_STREET_",
+      "created_at": "2026-08-24T19:30:14.865000+09:00",
+      "text": "🌈 【오늘 20시】한국 단독 공연 일반 예매 시작 🌈\n2027/1/23(토)\n『CUTIE STREET Live in Korea 2027 WINTER』\n📍KINTEX Hall 9A\n⬇️ 일반 예매 🎟️\n🌟 누구나 예매 가능합니다 🌟\n▼ 한국 국내 예매 링크\nto.livet.one/CS2027WINTER\n▼ 글로벌 예매 링크\nto.livet.one/CS2027WINTERG\n예매 일정:",
+      "type": "post",
+      "pinned": false,
+      "images": [
+        "https://pbs.twimg.com/media/HQewEMCboAAd8qV?format=webp&name=medium"
+      ],
+      "has_video": false,
+      "videos": [],
+      "url": "https://x.com/CUTIE_STREET_/status/2091835468895990064",
+      "first_seen_at": "2026-08-24T20:01:21.548286+09:00"
     }
   }
 }

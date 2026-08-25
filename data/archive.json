@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "CUTIE_STREET_",
-  "updated_at": "2026-08-25T12:16:31.553769+09:00",
+  "updated_at": "2026-08-25T13:05:26.976685+09:00",
   "tweets": {
     "2088071287516344341": {
       "id": "2088071287516344341",
@@ -1964,6 +1964,19 @@
       "videos": [],
       "url": "https://x.com/CUTIE_STREET_/status/2092069451906891923",
       "first_seen_at": "2026-08-25T12:16:31.553769+09:00"
+    },
+    "2092099651281518878": {
+      "id": "2092099651281518878",
+      "author": "CUTIE_STREET_",
+      "created_at": "2026-08-25T13:00:00.854000+09:00",
+      "text": "🏅📣#Top_of_the_top エール動画公開📣🏅\n本日Release❕\n#CUTIESTREET\n#きゅーてすと と一緒に作り上げたい新曲🌟\n『Top of the top』\n最高の景色をみんなで見る方法🌈\nこれで予習して一緒に盛り上がりましょう🔥\n▼フルはYouTubeで\nyoutu.be/l66YG2t447o\n▼聴く🎧\nkawaii-lab.lnk.to/Top_of_the_top",
+      "type": "post",
+      "pinned": false,
+      "images": [],
+      "has_video": true,
+      "videos": [],
+      "url": "https://x.com/CUTIE_STREET_/status/2092099651281518878",
+      "first_seen_at": "2026-08-25T13:05:26.976685+09:00"
     }
   }
 }

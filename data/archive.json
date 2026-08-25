@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "CUTIE_STREET_",
-  "updated_at": "2026-08-25T13:05:26.976685+09:00",
+  "updated_at": "2026-08-25T15:26:55.829467+09:00",
   "tweets": {
     "2088071287516344341": {
       "id": "2088071287516344341",
@@ -1977,6 +1977,21 @@
       "videos": [],
       "url": "https://x.com/CUTIE_STREET_/status/2092099651281518878",
       "first_seen_at": "2026-08-25T13:05:26.976685+09:00"
+    },
+    "2092129849955770461": {
+      "id": "2092129849955770461",
+      "author": "CUTIE_STREET_",
+      "created_at": "2026-08-25T15:00:00.779000+09:00",
+      "text": "🖼️🎂2周年企画展 グッズ付きチケット限定トレカ デザイン公開🎂🖼️\n『CUTIE STREET 2nd ANNIVERSARY\nすべての道はKAWAIIにつーず！展』\n🗓️ 9/5(土)〜9/23(水・祝)\n📍日本橋三井ホール\nグッズ付きチケットには❣️\n2025年の生誕祭衣装を着たメンバーの\n限定トレカが付いてきます✨\n＊全8種・ランダム",
+      "type": "post",
+      "pinned": false,
+      "images": [
+        "https://pbs.twimg.com/media/HQi0RwCbUAAJ_Cg?format=webp&name=medium"
+      ],
+      "has_video": false,
+      "videos": [],
+      "url": "https://x.com/CUTIE_STREET_/status/2092129849955770461",
+      "first_seen_at": "2026-08-25T15:26:55.829467+09:00"
     }
   }
 }

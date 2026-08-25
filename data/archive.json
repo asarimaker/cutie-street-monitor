@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "CUTIE_STREET_",
-  "updated_at": "2026-08-25T07:11:28.294552+09:00",
+  "updated_at": "2026-08-25T12:16:31.553769+09:00",
   "tweets": {
     "2088071287516344341": {
       "id": "2088071287516344341",
@@ -1934,6 +1934,36 @@
       "videos": [],
       "url": "https://x.com/CUTIE_STREET_/status/2092009053761540394",
       "first_seen_at": "2026-08-25T07:11:28.294552+09:00"
+    },
+    "2092084607319765155": {
+      "id": "2092084607319765155",
+      "author": "CUTIE_STREET_",
+      "created_at": "2026-08-25T12:00:14.094000+09:00",
+      "text": "🪄🏅歌割り歌詞 公開🏅🪄\n『Top of the top』\n▼配信サイト🎧\nkawaii-lab.lnk.to/Top_of_the_top\nLyrics：安部大希-amazuti-\nCompose：安部大希-amazuti- / 宮崎諒-amazuti-\nArrange：宮崎諒-amazuti-\nArtwork：DAWON KIM(yenter)\n#CUTIESTREET #きゅーすと",
+      "type": "post",
+      "pinned": false,
+      "images": [
+        "https://pbs.twimg.com/media/HQiT21hawAAxYkl?format=webp&name=medium"
+      ],
+      "has_video": false,
+      "videos": [],
+      "url": "https://x.com/CUTIE_STREET_/status/2092084607319765155",
+      "first_seen_at": "2026-08-25T12:16:31.553769+09:00"
+    },
+    "2092069451906891923": {
+      "id": "2092069451906891923",
+      "author": "CUTIE_STREET_",
+      "created_at": "2026-08-25T11:00:00.762000+09:00",
+      "text": "🎖️#ForbesJAPAN \"世界を変える30歳未満\"選出🎖️\n8/25(火)発売\n『Forbes JAPAN 10月号』\n\"世界を変える30歳未満の30人\"として\nCUTIE STREETが30 UNDER 30\nに選出いただきました🏆\n本日発売です🛍️\n是非ご覧ください🤍\n▼特設サイト\nforbesjapan.com/feat/30under30…\n▼購入はこちら❕",
+      "type": "post",
+      "pinned": false,
+      "images": [
+        "https://pbs.twimg.com/media/HQfoOk0bkAAVyOZ?format=webp&name=medium"
+      ],
+      "has_video": false,
+      "videos": [],
+      "url": "https://x.com/CUTIE_STREET_/status/2092069451906891923",
+      "first_seen_at": "2026-08-25T12:16:31.553769+09:00"
     }
   }
 }

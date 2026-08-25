@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "CUTIE_STREET_",
-  "updated_at": "2026-08-26T07:11:29.203694+09:00",
+  "updated_at": "2026-08-26T08:13:14.138030+09:00",
   "tweets": {
     "2088071287516344341": {
       "id": "2088071287516344341",
@@ -2117,6 +2117,21 @@
       "videos": [],
       "url": "https://x.com/CUTIE_STREET_/status/2092371440477868491",
       "first_seen_at": "2026-08-26T07:11:29.203694+09:00"
+    },
+    "2092386627389936085": {
+      "id": "2092386627389936085",
+      "author": "CUTIE_STREET_",
+      "created_at": "2026-08-26T08:00:21.290000+09:00",
+      "text": "🎁【本日まで】第3回 #きゅーすとたからくじ 🎁\nファンクラブ会員の #きゅーてすと へ\n感謝の気持ちを込めた「きゅーすとたからくじ」🎯\n▼詳細はこちら📣\ncutiestreet.asobisystem.com/news/detail/84…\n期間：8/26(水)23:59まで\n「きゅーすとたからくじ」第3回💎\n💡賞品情報\n・CUTIE STREET 2nd ANNIVERSARY LIVE 2026",
+      "type": "quote",
+      "pinned": false,
+      "images": [
+        "https://pbs.twimg.com/media/HNJ1NCTa8AAmhiV?format=webp&name=medium"
+      ],
+      "has_video": false,
+      "videos": [],
+      "url": "https://x.com/CUTIE_STREET_/status/2092386627389936085",
+      "first_seen_at": "2026-08-26T08:13:14.138030+09:00"
     }
   }
 }

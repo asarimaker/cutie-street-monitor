@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "CUTIE_STREET_",
-  "updated_at": "2026-08-25T18:07:26.232109+09:00",
+  "updated_at": "2026-08-25T21:19:03.823133+09:00",
   "tweets": {
     "2088071287516344341": {
       "id": "2088071287516344341",
@@ -2005,6 +2005,36 @@
       "videos": [],
       "url": "https://x.com/CUTIE_STREET_/status/2092172996756820049",
       "first_seen_at": "2026-08-25T18:07:26.232109+09:00"
+    },
+    "2092223632202420688": {
+      "id": "2092223632202420688",
+      "author": "CUTIE_STREET_",
+      "created_at": "2026-08-25T21:12:40.209000+09:00",
+      "text": "【日本武道館 360度】\nどこを見ても #きゅーてすと しかいない\n降り注ぐ \"Pick up!!⚡️\"\n「キュートなキューたい」\n💛古澤里紗\n❤️佐野愛花\n💚板倉可奈\n💙増田彩乃\n🧡川本笑瑠\n🩵梅田みゆ\n💜真鍋凪咲\n🩷桜庭遥花\n#きゅーすと武道館\n#CUTIESTREET #きゅーすと",
+      "type": "post",
+      "pinned": false,
+      "images": [],
+      "has_video": true,
+      "videos": [],
+      "url": "https://x.com/CUTIE_STREET_/status/2092223632202420688",
+      "first_seen_at": "2026-08-25T21:19:03.823133+09:00"
+    },
+    "2092220353733186021": {
+      "id": "2092220353733186021",
+      "author": "CUTIE_STREET_",
+      "created_at": "2026-08-25T20:59:38.561000+09:00",
+      "text": "辿り着いた、日本武道館。\nCUTIE STREET\n2nd ANNIVERSARY LIVE 2026\n「8TREASURES」\n𝐓𝐡𝐚𝐧𝐤 𝐲𝐨𝐮 - DAY1💎\n💛古澤里紗\n❤️佐野愛花\n💚板倉可奈\n💙増田彩乃\n🧡川本笑瑠\n🩵梅田みゆ\n💜真鍋凪咲\n🩷桜庭遥花\n#きゅーすと武道館\n#CUTIESTREET #きゅーすと\nPhoto by @yoshimoriyuna",
+      "type": "post",
+      "pinned": false,
+      "images": [
+        "https://pbs.twimg.com/media/HQkPMiFa0AEV8ix?format=webp&name=small",
+        "https://pbs.twimg.com/media/HQkPMhxasAIadjb?format=webp&name=small",
+        "https://pbs.twimg.com/media/HQkPMiUaQAAGBfl?format=webp&name=small"
+      ],
+      "has_video": false,
+      "videos": [],
+      "url": "https://x.com/CUTIE_STREET_/status/2092220353733186021",
+      "first_seen_at": "2026-08-25T21:19:03.823133+09:00"
     }
   }
 }

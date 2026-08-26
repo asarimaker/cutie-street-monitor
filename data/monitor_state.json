@@ -1,10 +1,14 @@
 {
   "schema_version": 1,
   "account": "CUTIE_STREET_",
-  "updated_at": "2026-08-26T23:31:39.418090+09:00",
+  "updated_at": "2026-08-27T03:08:50.162952+09:00",
   "last_heartbeat_at": "2026-08-26T23:31:39.418090+09:00",
   "last_daily_generated_at": "2026-08-26T07:36:08.294997+09:00",
-  "active_issue": null,
+  "active_issue": {
+    "type": "fetch_error",
+    "detected_at": "2026-08-27T03:08:50.162952+09:00",
+    "message": "TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"article\") to be visible\n"
+  },
   "coverage_events": [
     {
       "type": "initial_seed",
@@ -18,6 +22,11 @@
       "raw_article_count": 5,
       "public_item_limit_assumption": 5,
       "message": "The visible posts had no overlap with the archive; more than the publicly visible number of posts may have appeared since the prior snapshot."
+    },
+    {
+      "type": "fetch_error",
+      "detected_at": "2026-08-27T03:08:50.162952+09:00",
+      "message": "TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"article\") to be visible\n"
     }
   ]
 }

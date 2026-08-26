@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "CUTIE_STREET_",
-  "updated_at": "2026-08-26T17:26:02.810583+09:00",
+  "updated_at": "2026-08-26T19:56:39.160219+09:00",
   "tweets": {
     "2088071287516344341": {
       "id": "2088071287516344341",
@@ -2215,6 +2215,38 @@
       "videos": [],
       "url": "https://x.com/CUTIE_STREET_/status/2092518297359265861",
       "first_seen_at": "2026-08-26T17:26:02.810583+09:00"
+    },
+    "2092565611931169257": {
+      "id": "2092565611931169257",
+      "author": "CUTIE_STREET_",
+      "created_at": "2026-08-26T19:51:34.530000+09:00",
+      "text": "武道、音楽の聖地、日本武道館。\nCUTIE STREET 2nd ANNIVERSARY LIVE 2026\n「8TREASURES」\n𝐓𝐡𝐚𝐧𝐤 𝐲𝐨𝐮 - DAY2💎\n💛古澤里紗\n❤️佐野愛花\n💚板倉可奈\n💙増田彩乃\n🧡川本笑瑠\n🩵梅田みゆ\n💜真鍋凪咲\n🩷桜庭遥花\n#きゅーすと武道館\n#CUTIESTREET #きゅーすと\nPhoto by @yoshimoriyuna",
+      "type": "post",
+      "pinned": false,
+      "images": [
+        "https://pbs.twimg.com/media/HQpJMWsbkAAE7gx?format=webp&name=small",
+        "https://pbs.twimg.com/media/HQpJMWpaUAAePLc?format=webp&name=small",
+        "https://pbs.twimg.com/media/HQpJMWmbAAEJrXM?format=webp&name=small"
+      ],
+      "has_video": false,
+      "videos": [],
+      "url": "https://x.com/CUTIE_STREET_/status/2092565611931169257",
+      "first_seen_at": "2026-08-26T19:56:39.160219+09:00"
+    },
+    "2092558450299670542": {
+      "id": "2092558450299670542",
+      "author": "CUTIE_STREET_",
+      "created_at": "2026-08-26T19:23:07.064000+09:00",
+      "text": "🎊㊗️1st アルバム発売決定㊗️🎊\n12/2(水)リリース❕\nCUTIE STREET 1st アルバム\n🎡『CUTIE LAND』🎠\n#きゅーすと の2年間と\nこれからが詰まった初のアルバム💎\n詳細は後日発表いたします🤍\n▼本日8/26(水)20時より予約受付開始📣\nlnk.to/CS_CUTIELAND_CD\n▼詳しくはこちら✅",
+      "type": "post",
+      "pinned": false,
+      "images": [
+        "https://pbs.twimg.com/media/HQpC0Z2bAAA5c2S?format=webp&name=medium"
+      ],
+      "has_video": false,
+      "videos": [],
+      "url": "https://x.com/CUTIE_STREET_/status/2092558450299670542",
+      "first_seen_at": "2026-08-26T19:56:39.160219+09:00"
     }
   }
 }

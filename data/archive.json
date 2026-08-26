@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "CUTIE_STREET_",
-  "updated_at": "2026-08-26T16:35:18.977123+09:00",
+  "updated_at": "2026-08-26T17:26:02.810583+09:00",
   "tweets": {
     "2088071287516344341": {
       "id": "2088071287516344341",
@@ -2202,6 +2202,19 @@
       "videos": [],
       "url": "https://x.com/CUTIE_STREET_/status/2092509209455951971",
       "first_seen_at": "2026-08-26T16:35:18.977123+09:00"
+    },
+    "2092518297359265861": {
+      "id": "2092518297359265861",
+      "author": "CUTIE_STREET_",
+      "created_at": "2026-08-26T16:43:33.857000+09:00",
+      "text": "武道館に、連れてきてくれてありがとう💎\n💚❤️💙🧡💜💛🩵🩷\n#みんなどこ座ってるのー☆\n#きゅーすと武道館\n#CUTIESTREET #きゅーすと",
+      "type": "post",
+      "pinned": false,
+      "images": [],
+      "has_video": true,
+      "videos": [],
+      "url": "https://x.com/CUTIE_STREET_/status/2092518297359265861",
+      "first_seen_at": "2026-08-26T17:26:02.810583+09:00"
     }
   }
 }

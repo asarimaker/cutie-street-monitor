@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "account": "CUTIE_STREET_",
-  "updated_at": "2026-08-29T08:05:39.872301+09:00",
+  "updated_at": "2026-08-29T12:38:25.439434+09:00",
   "last_heartbeat_at": "2026-08-29T08:05:39.872301+09:00",
-  "last_daily_generated_at": "2026-08-28T15:04:10.456102+09:00",
+  "last_daily_generated_at": "2026-08-29T12:38:25.439434+09:00",
   "active_issue": {
     "type": "fetch_error",
     "detected_at": "2026-08-27T03:08:50.162952+09:00",

@@ -4,13 +4,13 @@ Set-Location $repositoryRoot
 
 $venvPython = Join-Path $repositoryRoot ".venv\Scripts\python.exe"
 if (-not (Test-Path -LiteralPath $venvPython)) {
-    throw "初回設定が必要です。先にsetup-local.cmdを実行してください。"
+    throw "Setup is required. Run setup-local.cmd first."
 }
 
-Write-Host "GitHubから最新データを確認しています..." -ForegroundColor Cyan
+Write-Host "Checking the latest data on GitHub..." -ForegroundColor Cyan
 git pull --ff-only origin main
 if ($LASTEXITCODE -ne 0) {
-    throw "GitHubから最新データを取得できませんでした。"
+    throw "Failed to retrieve the latest data from GitHub."
 }
 
 $env:MANUAL_MODE = "true"
@@ -18,7 +18,7 @@ $env:DAILY_MODE = "true"
 try {
     & $venvPython monitor.py
     if ($LASTEXITCODE -ne 0) {
-        throw "Xの投稿取得に失敗しました。diagnosticsフォルダーを確認してください。"
+        throw "X collection failed. Check the diagnostics folder."
     }
 }
 finally {
@@ -28,19 +28,23 @@ finally {
 
 git add -- data/archive.json data/monitor_state.json data/latest.json
 git diff --cached --quiet
-if ($LASTEXITCODE -eq 0) {
-    Write-Host "新しい保存データはありませんでした。" -ForegroundColor Yellow
+$diffExitCode = $LASTEXITCODE
+if ($diffExitCode -eq 0) {
+    Write-Host "There is no new monitoring data." -ForegroundColor Yellow
     exit 0
+}
+if ($diffExitCode -ne 1) {
+    throw "Failed to inspect the monitoring data changes."
 }
 
 $timestamp = Get-Date -Format "yyyy-MM-dd HH:mm:ss K"
 git commit -m "Update CUTIE STREET monitoring data ($timestamp)"
 if ($LASTEXITCODE -ne 0) {
-    throw "取得データのコミットに失敗しました。"
+    throw "Failed to commit the monitoring data."
 }
 git push origin main
 if ($LASTEXITCODE -ne 0) {
-    throw "取得データをGitHubへ送信できませんでした。"
+    throw "Failed to send the monitoring data to GitHub."
 }
 
-Write-Host "取得結果をGitHubへ保存しました。" -ForegroundColor Green
+Write-Host "The monitoring data was saved to GitHub." -ForegroundColor Green

@@ -20,37 +20,37 @@ function Find-Python {
 
 $pythonPath = Find-Python
 if (-not $pythonPath) {
-    Write-Host "Python 3.12をインストールします。" -ForegroundColor Cyan
+    Write-Host "Installing Python 3.12..." -ForegroundColor Cyan
     winget install --exact --id Python.Python.3.12 --source winget
     if ($LASTEXITCODE -ne 0) {
-        throw "Pythonのインストールに失敗しました。"
+        throw "Python installation failed."
     }
     $pythonPath = Find-Python
 }
 
 if (-not $pythonPath) {
-    throw "Pythonが見つかりません。PCを再起動してsetup-local.cmdを再実行してください。"
+    throw "Python was not found. Restart the PC, then run setup-local.cmd again."
 }
 
 if (-not (Test-Path -LiteralPath ".venv\Scripts\python.exe")) {
     & $pythonPath -m venv .venv
     if ($LASTEXITCODE -ne 0) {
-        throw "Python実行環境の作成に失敗しました。"
+        throw "Failed to create the Python environment."
     }
 }
 
 $venvPython = Join-Path (Get-Location) ".venv\Scripts\python.exe"
 & $venvPython -m pip install --upgrade pip
 if ($LASTEXITCODE -ne 0) {
-    throw "pipの更新に失敗しました。"
+    throw "Failed to update pip."
 }
 & $venvPython -m pip install -r requirements.txt
 if ($LASTEXITCODE -ne 0) {
-    throw "必要なライブラリのインストールに失敗しました。"
+    throw "Failed to install the required Python package."
 }
 & $venvPython -m playwright install chromium
 if ($LASTEXITCODE -ne 0) {
-    throw "ブラウザーのインストールに失敗しました。"
+    throw "Failed to install Chromium."
 }
 
-Write-Host "初回設定が完了しました。run-local.cmdをダブルクリックしてください。" -ForegroundColor Green
+Write-Host "Setup completed. Double-click run-local.cmd." -ForegroundColor Green

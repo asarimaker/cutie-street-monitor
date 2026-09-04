@@ -17,9 +17,11 @@ STATE_FILE = DATA_DIR / "monitor_state.json"
 LATEST_FILE = DATA_DIR / "latest.json"
 DIAGNOSTICS_DIR = Path("diagnostics")
 JST = ZoneInfo("Asia/Tokyo")
-ARCHIVE_DAYS = 35
 HEARTBEAT_HOURS = 6
 EXPECTED_PUBLIC_ITEMS = 5
+MANUAL_MAX_SCROLLS = 250
+MANUAL_SCROLL_DELAY_MS = 1_500
+MANUAL_STALLED_SCROLL_LIMIT = 8
 X_SNOWFLAKE_EPOCH_MS = 1_288_834_974_657
 STATUS_RE = re.compile(r"/([^/]+)/status/(\d+)", re.IGNORECASE)
 
@@ -144,6 +146,19 @@ def is_daily_mode() -> bool:
     }
 
 
+def is_manual_mode() -> bool:
+    return os.environ.get("MANUAL_MODE", "false").strip().casefold() in {
+        "1",
+        "true",
+        "yes",
+    }
+
+
+def local_browser_profile_dir() -> Path:
+    base = Path(os.environ.get("LOCALAPPDATA", str(Path.cwd())))
+    return base / "cutie-street-monitor" / "browser-profile"
+
+
 def extract_article(article: Locator) -> dict | None:
     try:
         body = article.inner_text(timeout=5_000)
@@ -235,43 +250,140 @@ def extract_article(article: Locator) -> dict | None:
         return None
 
 
-def fetch_visible_posts() -> tuple[list[dict], int]:
+def collect_page_posts(page, posts: dict[str, dict]) -> tuple[int, int]:
+    articles = page.locator("article")
+    raw_article_count = articles.count()
+    top_level_article_count = 0
+    for index in range(raw_article_count):
+        article = articles.nth(index)
+        if article.locator("xpath=ancestor::article").count():
+            continue
+        top_level_article_count += 1
+        item = extract_article(article)
+        if item:
+            posts[item["id"]] = item
+    return raw_article_count, top_level_article_count
+
+
+def fetch_visible_posts(previous_ids: set[str] | None = None) -> tuple[list[dict], int]:
+    previous_ids = previous_ids or set()
+    manual_mode = is_manual_mode()
     with sync_playwright() as playwright:
-        browser = playwright.chromium.launch(headless=True, args=["--no-sandbox"])
-        try:
-            context = browser.new_context(
-                locale="ja-JP",
-                timezone_id="Asia/Tokyo",
-                viewport={"width": 1440, "height": 1400},
-                user_agent=(
-                    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-                    "AppleWebKit/537.36 (KHTML, like Gecko) "
-                    "Chrome/151.0.0.0 Safari/537.36"
-                ),
+        browser = None
+        profile_was_initialized = True
+        context_options = {
+            "locale": "ja-JP",
+            "timezone_id": "Asia/Tokyo",
+            "viewport": {"width": 1440, "height": 1400},
+        }
+        if not manual_mode:
+            context_options["user_agent"] = (
+                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                "AppleWebKit/537.36 (KHTML, like Gecko) "
+                "Chrome/151.0.0.0 Safari/537.36"
             )
-            page = context.new_page()
+
+        if manual_mode:
+            profile_dir = local_browser_profile_dir()
+            profile_was_initialized = profile_dir.exists() and any(profile_dir.iterdir())
+            profile_dir.mkdir(parents=True, exist_ok=True)
+            context = playwright.chromium.launch_persistent_context(
+                user_data_dir=str(profile_dir),
+                headless=False,
+                **context_options,
+            )
+        else:
+            browser = playwright.chromium.launch(headless=True, args=["--no-sandbox"])
+            context = browser.new_context(**context_options)
+
+        try:
+            page = context.pages[0] if context.pages else context.new_page()
             response = None
             try:
+                if manual_mode and not profile_was_initialized:
+                    page.goto(
+                        "https://x.com/i/flow/login",
+                        wait_until="domcontentloaded",
+                        timeout=60_000,
+                    )
+                    print(
+                        "初回設定: ブラウザーでXにログインしてください。"
+                        "ログイン完了後、この画面でEnterを押してください。"
+                    )
+                    input()
+
                 response = page.goto(
                     PROFILE_URL,
                     wait_until="domcontentloaded",
                     timeout=60_000,
                 )
-                page.wait_for_selector("article", timeout=30_000)
+                try:
+                    page.wait_for_selector("article", timeout=30_000)
+                except Exception:
+                    if not manual_mode:
+                        raise
+                    print(
+                        "投稿を表示できません。ブラウザーでXへのログイン状態を確認し、"
+                        "プロフィールを表示してからEnterを押してください。"
+                    )
+                    input()
+                    response = page.goto(
+                        PROFILE_URL,
+                        wait_until="domcontentloaded",
+                        timeout=60_000,
+                    )
+                    page.wait_for_selector("article", timeout=60_000)
                 page.wait_for_timeout(5_000)
 
-                articles = page.locator("article")
-                raw_article_count = articles.count()
-                top_level_article_count = 0
                 posts: dict[str, dict] = {}
-                for index in range(raw_article_count):
-                    article = articles.nth(index)
-                    if article.locator("xpath=ancestor::article").count():
-                        continue
-                    top_level_article_count += 1
-                    item = extract_article(article)
-                    if item:
-                        posts[item["id"]] = item
+                max_raw_article_count = 0
+                stalled_scrolls = 0
+                overlap_found = False
+
+                scroll_limit = MANUAL_MAX_SCROLLS if manual_mode else 0
+                for scroll_index in range(scroll_limit + 1):
+                    count_before = len(posts)
+                    raw_count, _ = collect_page_posts(page, posts)
+                    max_raw_article_count = max(max_raw_article_count, raw_count)
+
+                    non_pinned_ids = {
+                        post_id
+                        for post_id, item in posts.items()
+                        if not item.get("pinned")
+                    }
+                    overlap = non_pinned_ids & previous_ids
+                    if manual_mode and overlap:
+                        overlap_found = True
+                        print(
+                            f"保存済み投稿との重複を確認しました。"
+                            f"{scroll_index}回スクロール、{len(posts)}件取得。"
+                        )
+                        break
+
+                    if scroll_index >= scroll_limit:
+                        break
+
+                    if len(posts) == count_before:
+                        stalled_scrolls += 1
+                    else:
+                        stalled_scrolls = 0
+
+                    if stalled_scrolls >= MANUAL_STALLED_SCROLL_LIMIT:
+                        print(
+                            "これ以上投稿を読み込めなかったため、スクロールを終了します。"
+                        )
+                        break
+
+                    page.evaluate(
+                        "window.scrollBy(0, Math.max(window.innerHeight * 0.85, 800))"
+                    )
+                    page.wait_for_timeout(MANUAL_SCROLL_DELAY_MS)
+
+                if manual_mode and previous_ids and not overlap_found:
+                    print(
+                        "警告: 保存済み投稿との重複地点まで到達できませんでした。"
+                        "取得漏れの可能性を記録します。"
+                    )
 
                 result = sorted(
                     posts.values(),
@@ -280,7 +392,8 @@ def fetch_visible_posts() -> tuple[list[dict], int]:
                 )
                 if not result:
                     article_diagnostics = []
-                    for index in range(min(raw_article_count, 8)):
+                    articles = page.locator("article")
+                    for index in range(min(articles.count(), 8)):
                         article = articles.nth(index)
                         article_diagnostics.append(
                             {
@@ -298,7 +411,7 @@ def fetch_visible_posts() -> tuple[list[dict], int]:
                     diagnostics = {
                         "final_url": page.url,
                         "title": page.title(),
-                        "raw_article_count": raw_article_count,
+                        "raw_article_count": max_raw_article_count,
                         "articles": article_diagnostics,
                         "body_start": page.locator("body").inner_text()[:1_000],
                     }
@@ -306,7 +419,7 @@ def fetch_visible_posts() -> tuple[list[dict], int]:
                         "No timeline posts could be parsed. DOM diagnostics: "
                         + json.dumps(diagnostics, ensure_ascii=False)
                     )
-                return result, top_level_article_count
+                return result, max_raw_article_count
             except Exception as exc:
                 save_page_diagnostics(
                     page,
@@ -315,7 +428,10 @@ def fetch_visible_posts() -> tuple[list[dict], int]:
                 )
                 raise
         finally:
-            browser.close()
+            if browser is not None:
+                browser.close()
+            else:
+                context.close()
 
 
 def default_archive() -> dict:
@@ -344,25 +460,8 @@ def append_event(state: dict, event: dict) -> None:
 
 
 def prune_old_data(archive: dict, state: dict, now: datetime) -> bool:
-    cutoff = now - timedelta(days=ARCHIVE_DAYS)
-    changed = False
-
-    for post_id, item in list(archive.get("tweets", {}).items()):
-        if parse_datetime(item["created_at"]) < cutoff:
-            del archive["tweets"][post_id]
-            changed = True
-
-    old_events = state.get("coverage_events", [])
-    new_events = [
-        event
-        for event in old_events
-        if parse_datetime(event["detected_at"]) >= cutoff
-    ]
-    if new_events != old_events:
-        state["coverage_events"] = new_events
-        changed = True
-
-    return changed
+    # Posts and coverage events are retained indefinitely.
+    return False
 
 
 def heartbeat_due(state: dict, now: datetime) -> bool:
@@ -372,9 +471,15 @@ def heartbeat_due(state: dict, now: datetime) -> bool:
     return now - parse_datetime(last_value) >= timedelta(hours=HEARTBEAT_HOURS)
 
 
-def merge_posts(archive: dict, posts: list[dict], now: datetime) -> tuple[int, int]:
+def merge_posts(
+    archive: dict,
+    posts: list[dict],
+    now: datetime,
+) -> tuple[int, int, list[str], list[str]]:
     new_count = 0
     changed_count = 0
+    new_ids: list[str] = []
+    changed_ids: list[str] = []
     stored = archive.setdefault("tweets", {})
 
     for item in posts:
@@ -383,6 +488,7 @@ def merge_posts(archive: dict, posts: list[dict], now: datetime) -> tuple[int, i
         if existing is None:
             stored[post_id] = {**item, "first_seen_at": now.isoformat()}
             new_count += 1
+            new_ids.append(post_id)
             continue
 
         comparable_existing = {
@@ -397,8 +503,9 @@ def merge_posts(archive: dict, posts: list[dict], now: datetime) -> tuple[int, i
                 "last_changed_at": now.isoformat(),
             }
             changed_count += 1
+            changed_ids.append(post_id)
 
-    return new_count, changed_count
+    return new_count, changed_count, new_ids, changed_ids
 
 
 def detect_coverage_event(
@@ -512,8 +619,8 @@ def main() -> None:
     state_changed = not STATE_FILE.exists()
 
     try:
-        visible_posts, raw_article_count = fetch_visible_posts()
         previous_ids = set(archive.get("tweets", {}))
+        visible_posts, raw_article_count = fetch_visible_posts(previous_ids)
         archive_was_empty = not previous_ids
         coverage_event = detect_coverage_event(
             archive_was_empty,
@@ -522,7 +629,11 @@ def main() -> None:
             raw_article_count,
             now,
         )
-        new_count, edited_count = merge_posts(archive, visible_posts, now)
+        new_count, edited_count, new_ids, edited_ids = merge_posts(
+            archive,
+            visible_posts,
+            now,
+        )
 
         if new_count or edited_count:
             archive_changed = True
@@ -534,11 +645,6 @@ def main() -> None:
 
         if state.get("active_issue") is not None:
             state["active_issue"] = None
-            state["coverage_events"] = [
-                event
-                for event in state.get("coverage_events", [])
-                if event.get("type") != "fetch_error"
-            ]
             state_changed = True
 
         if heartbeat_due(state, now):
@@ -570,6 +676,12 @@ def main() -> None:
                     "raw_articles": raw_article_count,
                     "new_posts": new_count,
                     "edited_posts": edited_count,
+                    "new_post_urls": [
+                        archive["tweets"][post_id]["url"] for post_id in new_ids
+                    ],
+                    "edited_post_urls": [
+                        archive["tweets"][post_id]["url"] for post_id in edited_ids
+                    ],
                     "coverage_event": coverage_event,
                     "archive_size": len(archive.get("tweets", {})),
                 },

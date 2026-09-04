@@ -1,11 +1,6 @@
 name: CUTIE STREET Monitor
 
 on:
-  schedule:
-    - cron: "25,55 * * * *"
-      timezone: "Asia/Tokyo"
-    - cron: "3 7 * * *"
-      timezone: "Asia/Tokyo"
   workflow_dispatch:
 
 permissions:

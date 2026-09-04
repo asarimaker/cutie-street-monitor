@@ -18,7 +18,7 @@ $env:DAILY_MODE = "true"
 try {
     & $venvPython monitor.py
     if ($LASTEXITCODE -ne 0) {
-        throw "X collection failed. Check the diagnostics folder."
+        throw "The monitor failed. If a diagnostics folder was created, check its contents."
     }
 }
 finally {

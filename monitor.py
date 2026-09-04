@@ -15,6 +15,7 @@ DATA_DIR = Path("data")
 ARCHIVE_FILE = DATA_DIR / "archive.json"
 STATE_FILE = DATA_DIR / "monitor_state.json"
 LATEST_FILE = DATA_DIR / "latest.json"
+DIAGNOSTICS_DIR = Path("diagnostics")
 JST = ZoneInfo("Asia/Tokyo")
 ARCHIVE_DAYS = 35
 HEARTBEAT_HOURS = 6
@@ -35,6 +36,54 @@ def write_json(path: Path, value: dict) -> None:
         json.dumps(value, ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8",
     )
+
+
+def save_page_diagnostics(page, http_status: int | None, error: Exception) -> None:
+    """Save enough of a failed X response to diagnose access and DOM failures."""
+    DIAGNOSTICS_DIR.mkdir(parents=True, exist_ok=True)
+    capture_errors: list[str] = []
+
+    def capture(label: str, getter, default):
+        try:
+            return getter()
+        except Exception as exc:
+            capture_errors.append(f"{label}: {type(exc).__name__}: {exc}")
+            return default
+
+    body_text = capture(
+        "body_text",
+        lambda: page.locator("body").inner_text(timeout=5_000),
+        "",
+    )
+    html = capture("html", page.content, "")
+    diagnostics = {
+        "captured_at": datetime.now(JST).isoformat(),
+        "profile_url": PROFILE_URL,
+        "final_url": capture("final_url", lambda: page.url, ""),
+        "title": capture("title", page.title, ""),
+        "http_status": http_status,
+        "article_count": capture(
+            "article_count",
+            lambda: page.locator("article").count(),
+            None,
+        ),
+        "error": f"{type(error).__name__}: {error}",
+        "body_text": body_text[:10_000],
+        "capture_errors": capture_errors,
+    }
+
+    write_json(DIAGNOSTICS_DIR / "page-diagnostics.json", diagnostics)
+    (DIAGNOSTICS_DIR / "page.html").write_text(html, encoding="utf-8")
+    try:
+        page.screenshot(
+            path=str(DIAGNOSTICS_DIR / "page-screenshot.png"),
+            full_page=True,
+        )
+    except Exception as exc:
+        diagnostics["capture_errors"].append(
+            f"screenshot: {type(exc).__name__}: {exc}"
+        )
+        write_json(DIAGNOSTICS_DIR / "page-diagnostics.json", diagnostics)
 
 
 def parse_datetime(value: str) -> datetime:
@@ -201,53 +250,70 @@ def fetch_visible_posts() -> tuple[list[dict], int]:
                 ),
             )
             page = context.new_page()
-            page.goto(PROFILE_URL, wait_until="domcontentloaded", timeout=60_000)
-            page.wait_for_selector("article", timeout=30_000)
-            page.wait_for_timeout(5_000)
-
-            articles = page.locator("article")
-            raw_article_count = articles.count()
-            top_level_article_count = 0
-            posts: dict[str, dict] = {}
-            for index in range(raw_article_count):
-                article = articles.nth(index)
-                if article.locator("xpath=ancestor::article").count():
-                    continue
-                top_level_article_count += 1
-                item = extract_article(article)
-                if item:
-                    posts[item["id"]] = item
-
-            result = sorted(posts.values(), key=lambda item: item["created_at"], reverse=True)
-            if not result:
-                article_diagnostics = []
-                for index in range(min(raw_article_count, 8)):
-                    article = articles.nth(index)
-                    article_diagnostics.append(
-                        {
-                            "text": article.inner_text(timeout=5_000)[:500],
-                            "status_hrefs": article.locator(
-                                'a[href*="/status/"]'
-                            ).evaluate_all(
-                                "elements => elements.map(element => element.getAttribute('href'))"
-                            ),
-                            "times": article.locator("time").evaluate_all(
-                                "elements => elements.map(element => element.getAttribute('datetime'))"
-                            ),
-                        }
-                    )
-                diagnostics = {
-                    "final_url": page.url,
-                    "title": page.title(),
-                    "raw_article_count": raw_article_count,
-                    "articles": article_diagnostics,
-                    "body_start": page.locator("body").inner_text()[:1_000],
-                }
-                raise RuntimeError(
-                    "No timeline posts could be parsed. DOM diagnostics: "
-                    + json.dumps(diagnostics, ensure_ascii=False)
+            response = None
+            try:
+                response = page.goto(
+                    PROFILE_URL,
+                    wait_until="domcontentloaded",
+                    timeout=60_000,
                 )
-            return result, top_level_article_count
+                page.wait_for_selector("article", timeout=30_000)
+                page.wait_for_timeout(5_000)
+
+                articles = page.locator("article")
+                raw_article_count = articles.count()
+                top_level_article_count = 0
+                posts: dict[str, dict] = {}
+                for index in range(raw_article_count):
+                    article = articles.nth(index)
+                    if article.locator("xpath=ancestor::article").count():
+                        continue
+                    top_level_article_count += 1
+                    item = extract_article(article)
+                    if item:
+                        posts[item["id"]] = item
+
+                result = sorted(
+                    posts.values(),
+                    key=lambda item: item["created_at"],
+                    reverse=True,
+                )
+                if not result:
+                    article_diagnostics = []
+                    for index in range(min(raw_article_count, 8)):
+                        article = articles.nth(index)
+                        article_diagnostics.append(
+                            {
+                                "text": article.inner_text(timeout=5_000)[:500],
+                                "status_hrefs": article.locator(
+                                    'a[href*="/status/"]'
+                                ).evaluate_all(
+                                    "elements => elements.map(element => element.getAttribute('href'))"
+                                ),
+                                "times": article.locator("time").evaluate_all(
+                                    "elements => elements.map(element => element.getAttribute('datetime'))"
+                                ),
+                            }
+                        )
+                    diagnostics = {
+                        "final_url": page.url,
+                        "title": page.title(),
+                        "raw_article_count": raw_article_count,
+                        "articles": article_diagnostics,
+                        "body_start": page.locator("body").inner_text()[:1_000],
+                    }
+                    raise RuntimeError(
+                        "No timeline posts could be parsed. DOM diagnostics: "
+                        + json.dumps(diagnostics, ensure_ascii=False)
+                    )
+                return result, top_level_article_count
+            except Exception as exc:
+                save_page_diagnostics(
+                    page,
+                    response.status if response is not None else None,
+                    exc,
+                )
+                raise
         finally:
             browser.close()
 

@@ -1,14 +1,10 @@
 {
   "schema_version": 1,
   "account": "CUTIE_STREET_",
-  "updated_at": "2026-09-04T20:47:13.621079+09:00",
-  "last_heartbeat_at": "2026-09-04T20:47:13.621079+09:00",
-  "last_daily_generated_at": "2026-09-04T08:57:00.519677+09:00",
-  "active_issue": {
-    "type": "fetch_error",
-    "detected_at": "2026-08-27T03:08:50.162952+09:00",
-    "message": "TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"article\") to be visible\n"
-  },
+  "updated_at": "2026-09-05T22:54:16.861544+09:00",
+  "last_heartbeat_at": "2026-09-05T22:54:16.861544+09:00",
+  "last_daily_generated_at": "2026-09-05T22:54:16.861544+09:00",
+  "active_issue": null,
   "coverage_events": [
     {
       "type": "initial_seed",
@@ -27,6 +23,39 @@
       "type": "fetch_error",
       "detected_at": "2026-08-27T03:08:50.162952+09:00",
       "message": "TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"article\") to be visible\n"
+    },
+    {
+      "type": "possible_gap",
+      "detected_at": "2026-09-05T01:38:16.470123+09:00",
+      "visible_non_pinned_count": 4,
+      "raw_article_count": 6,
+      "public_item_limit_assumption": 5,
+      "message": "The visible posts had no overlap with the archive; more than the publicly visible number of posts may have appeared since the prior snapshot."
+    },
+    {
+      "type": "fetch_error",
+      "detected_at": "2026-09-05T01:39:41.639016+09:00",
+      "message": "TargetClosedError: Locator.count: Target page, context or browser has been closed"
+    },
+    {
+      "type": "fetch_error",
+      "detected_at": "2026-09-05T01:40:16.067325+09:00",
+      "message": "RuntimeError: No timeline posts could be parsed. DOM diagnostics: {\"final_url\": \"https://x.com/\", \"title\": \"「いま」を見つけよう / X\", \"raw_article_count\": 0, \"articles\": [], \"body_start\": \"すべての話題が、ここに。.\\n\\n電話番号で続ける\\n\\nGoogleで続ける\\nGoogle で続ける\\n\\nAppleで続ける\\n\\nまたは\\n\\nメールアドレスまたはユーザー名\\n\\n続ける\\n\\n続行することで、利用規約、プライバシーポリシーおよびCookieの使用に同意したものとみなされます。\\n\\n基本情報\\n·\\nアプリを入手\\n·\\nGrok\\n·\\nヘルプ\\n·\\n利用規約\\n·\\nプライバシー\\n·\\nCookie\\n·\\n採用情報\\n·\\n広告・ビジネス\\n·\\n開発者\\n·\\nニュース\\n·\\nアクセシビリティ\\n·\\n© 2026 X Corp.\\nスキャンしてアプリを入手\\n「いま」を見つけよう / X\"}"
+    },
+    {
+      "type": "fetch_error",
+      "detected_at": "2026-09-05T01:41:20.638427+09:00",
+      "message": "RuntimeError: No timeline posts could be parsed. DOM diagnostics: {\"final_url\": \"https://x.com/\", \"title\": \"「いま」を見つけよう / X\", \"raw_article_count\": 0, \"articles\": [], \"body_start\": \"すべての話題が、ここに。.\\n\\n電話番号で続ける\\n\\nGoogleで続ける\\nGoogle で続ける\\n\\nAppleで続ける\\n\\nまたは\\n\\nメールアドレスまたはユーザー名\\nログインを一時的に制限しました。しばらくしてからやりなおしてください。\\n\\nログインを一時的に制限しました。しばらくしてからやりなおしてください。\\n\\n続ける\\n\\n続行することで、利用規約、プライバシーポリシーおよびCookieの使用に同意したものとみなされます。\\n\\n基本情報\\n·\\nアプリを入手\\n·\\nGrok\\n·\\nヘルプ\\n·\\n利用規約\\n·\\nプライバシー\\n·\\nCookie\\n·\\n採用情報\\n·\\n広告・ビジネス\\n·\\n開発者\\n·\\nニュース\\n·\\nアクセシビリティ\\n·\\n© 2026 X Corp.\\nスキャンしてアプリを入手\\n「いま」を見つけよう / X\"}"
+    },
+    {
+      "type": "fetch_error",
+      "detected_at": "2026-09-05T12:35:53.744408+09:00",
+      "message": "TargetClosedError: Page.goto: Target page, context or browser has been closed"
+    },
+    {
+      "type": "fetch_error",
+      "detected_at": "2026-09-05T12:36:23.292837+09:00",
+      "message": "TargetClosedError: Page.wait_for_selector: Target page, context or browser has been closed\nCall log:\n  - waiting for locator(\"[data-testid=\\\"SideNav_AccountSwitcher_Button\\\"], a[data-testid=\\\"AppTabBar_Home_Link\\\"]\") to be visible\n"
     }
   ]
 }

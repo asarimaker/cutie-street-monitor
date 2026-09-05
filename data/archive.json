@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "CUTIE_STREET_",
-  "updated_at": "2026-09-05T22:54:16.861544+09:00",
+  "updated_at": "2026-09-05T23:17:14.831903+09:00",
   "tweets": {
     "2088071287516344341": {
       "id": "2088071287516344341",
@@ -2495,10 +2495,11 @@
       "type": "post",
       "pinned": false,
       "images": [],
-      "has_video": true,
+      "has_video": false,
       "videos": [],
       "url": "https://x.com/CUTIE_STREET_/status/2096190425828917668",
-      "first_seen_at": "2026-09-05T22:54:16.861544+09:00"
+      "first_seen_at": "2026-09-05T22:54:16.861544+09:00",
+      "last_changed_at": "2026-09-05T23:17:14.831903+09:00"
     },
     "2096165293026689123": {
       "id": "2096165293026689123",

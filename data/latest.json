@@ -2,7 +2,7 @@
   "schema_version": 1,
   "account": "CUTIE_STREET_",
   "status": "partial",
-  "generated_at": "2026-09-05T22:54:16.861544+09:00",
+  "generated_at": "2026-09-05T23:17:14.831903+09:00",
   "window_start": "2026-09-04T07:00:00+09:00",
   "window_end": "2026-09-05T07:00:00+09:00",
   "source": "rolling_playwright_public_profile_snapshots",

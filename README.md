@@ -7,7 +7,7 @@
 1. `setup-local.cmd` をダブルクリックします。
 2. 完了後、`run-local.cmd` をダブルクリックします。
 3. 専用ブラウザーが開いたらXへログインします。
-4. ログイン完了後、黒い実行画面に戻ってEnterキーを押します。
+4. ログイン完了は自動検出され、そのまま投稿取得が始まります。PowerShellへ戻ってEnterキーを押す必要はありません。
 
 ログイン状態は `%LOCALAPPDATA%\cutie-street-monitor\browser-profile` に保存されます。このフォルダーはGitHubへ送信されません。
 

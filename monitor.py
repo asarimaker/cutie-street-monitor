@@ -22,6 +22,11 @@ EXPECTED_PUBLIC_ITEMS = 5
 MANUAL_MAX_SCROLLS = 250
 MANUAL_SCROLL_DELAY_MS = 1_500
 MANUAL_STALLED_SCROLL_LIMIT = 8
+MANUAL_LOGIN_TIMEOUT_MS = 15 * 60 * 1_000
+LOGGED_IN_SELECTOR = (
+    '[data-testid="SideNav_AccountSwitcher_Button"], '
+    'a[data-testid="AppTabBar_Home_Link"]'
+)
 X_SNOWFLAKE_EPOCH_MS = 1_288_834_974_657
 STATUS_RE = re.compile(r"/([^/]+)/status/(\d+)", re.IGNORECASE)
 
@@ -270,7 +275,6 @@ def fetch_visible_posts(previous_ids: set[str] | None = None) -> tuple[list[dict
     manual_mode = is_manual_mode()
     with sync_playwright() as playwright:
         browser = None
-        profile_was_initialized = True
         context_options = {
             "locale": "ja-JP",
             "timezone_id": "Asia/Tokyo",
@@ -285,7 +289,6 @@ def fetch_visible_posts(previous_ids: set[str] | None = None) -> tuple[list[dict
 
         if manual_mode:
             profile_dir = local_browser_profile_dir()
-            profile_was_initialized = profile_dir.exists() and any(profile_dir.iterdir())
             profile_dir.mkdir(parents=True, exist_ok=True)
             context = playwright.chromium.launch_persistent_context(
                 user_data_dir=str(profile_dir),
@@ -300,17 +303,29 @@ def fetch_visible_posts(previous_ids: set[str] | None = None) -> tuple[list[dict
             page = context.pages[0] if context.pages else context.new_page()
             response = None
             try:
-                if manual_mode and not profile_was_initialized:
+                if manual_mode:
                     page.goto(
-                        "https://x.com/i/flow/login",
+                        "https://x.com/home",
                         wait_until="domcontentloaded",
                         timeout=60_000,
                     )
-                    print(
-                        "初回設定: ブラウザーでXにログインしてください。"
-                        "ログイン完了後、この画面でEnterを押してください。"
-                    )
-                    input()
+                    try:
+                        page.wait_for_selector(LOGGED_IN_SELECTOR, timeout=15_000)
+                    except Exception:
+                        page.goto(
+                            "https://x.com/i/flow/login",
+                            wait_until="domcontentloaded",
+                            timeout=60_000,
+                        )
+                        print(
+                            "ブラウザーでXにログインしてください。"
+                            "ログイン完了を自動で検出するまでブラウザーを閉じないでください。"
+                        )
+                        page.wait_for_selector(
+                            LOGGED_IN_SELECTOR,
+                            timeout=MANUAL_LOGIN_TIMEOUT_MS,
+                        )
+                        print("Xへのログインを確認しました。投稿を取得します。")
 
                 response = page.goto(
                     PROFILE_URL,
@@ -323,16 +338,13 @@ def fetch_visible_posts(previous_ids: set[str] | None = None) -> tuple[list[dict
                     if not manual_mode:
                         raise
                     print(
-                        "投稿を表示できません。ブラウザーでXへのログイン状態を確認し、"
-                        "プロフィールを表示してからEnterを押してください。"
+                        "投稿を表示できません。ブラウザー上で再読み込みまたは"
+                        "ログイン状態の確認を行ってください。最大15分待機します。"
                     )
-                    input()
-                    response = page.goto(
-                        PROFILE_URL,
-                        wait_until="domcontentloaded",
-                        timeout=60_000,
+                    page.wait_for_selector(
+                        "article",
+                        timeout=MANUAL_LOGIN_TIMEOUT_MS,
                     )
-                    page.wait_for_selector("article", timeout=60_000)
                 page.wait_for_timeout(5_000)
 
                 posts: dict[str, dict] = {}

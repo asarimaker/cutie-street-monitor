@@ -4,9 +4,11 @@ import re
 import sys
 from datetime import datetime, timedelta
 from pathlib import Path
+from typing import TYPE_CHECKING
 from zoneinfo import ZoneInfo
 
-from playwright.sync_api import Locator, sync_playwright
+if TYPE_CHECKING:
+    from playwright.sync_api import Locator
 
 
 USERNAME = "CUTIE_STREET_"
@@ -164,7 +166,7 @@ def local_browser_profile_dir() -> Path:
     return base / "cutie-street-monitor" / "browser-profile"
 
 
-def extract_article(article: Locator) -> dict | None:
+def extract_article(article: "Locator") -> dict | None:
     try:
         body = article.inner_text(timeout=5_000)
         links = article.locator('a[href*="/status/"]')
@@ -271,6 +273,8 @@ def collect_page_posts(page, posts: dict[str, dict]) -> tuple[int, int]:
 
 
 def fetch_visible_posts(previous_ids: set[str] | None = None) -> tuple[list[dict], int]:
+    from playwright.sync_api import sync_playwright
+
     previous_ids = previous_ids or set()
     manual_mode = is_manual_mode()
     with sync_playwright() as playwright:

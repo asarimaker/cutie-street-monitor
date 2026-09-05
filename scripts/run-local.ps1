@@ -13,17 +13,9 @@ if ($LASTEXITCODE -ne 0) {
     throw "Failed to retrieve the latest data from GitHub."
 }
 
-$env:MANUAL_MODE = "true"
-$env:DAILY_MODE = "true"
-try {
-    & $venvPython monitor.py
-    if ($LASTEXITCODE -ne 0) {
-        throw "The monitor failed. If a diagnostics folder was created, check its contents."
-    }
-}
-finally {
-    Remove-Item Env:MANUAL_MODE -ErrorAction SilentlyContinue
-    Remove-Item Env:DAILY_MODE -ErrorAction SilentlyContinue
+& $venvPython scripts\local_collector.py
+if ($LASTEXITCODE -ne 0) {
+    throw "The Chrome collection failed. Check the message above."
 }
 
 git add -- data/archive.json data/monitor_state.json data/latest.json

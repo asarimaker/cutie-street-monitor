@@ -48,9 +48,21 @@ if ($LASTEXITCODE -ne 0) {
 if ($LASTEXITCODE -ne 0) {
     throw "Failed to install the required Python package."
 }
-& $venvPython -m playwright install chromium
-if ($LASTEXITCODE -ne 0) {
-    throw "Failed to install Chromium."
+$chromeCandidates = @(
+    (Join-Path $env:ProgramFiles "Google\Chrome\Application\chrome.exe"),
+    (Join-Path ${env:ProgramFiles(x86)} "Google\Chrome\Application\chrome.exe"),
+    (Join-Path $env:LOCALAPPDATA "Google\Chrome\Application\chrome.exe")
+)
+$chromePath = $chromeCandidates | Where-Object { Test-Path -LiteralPath $_ } | Select-Object -First 1
+if (-not $chromePath) {
+    throw "Google Chrome was not found."
 }
 
-Write-Host "Setup completed. Double-click run-local.cmd." -ForegroundColor Green
+$extensionPath = Join-Path (Get-Location) "chrome-extension"
+Start-Process explorer.exe -ArgumentList $extensionPath
+Start-Process $chromePath -ArgumentList "chrome://extensions"
+
+Write-Host "Setup completed." -ForegroundColor Green
+Write-Host "In Chrome, enable Developer mode and choose Load unpacked." -ForegroundColor Yellow
+Write-Host "Select the chrome-extension folder that was opened in Explorer." -ForegroundColor Yellow
+Write-Host "After the extension is installed, double-click run-local.cmd." -ForegroundColor Green

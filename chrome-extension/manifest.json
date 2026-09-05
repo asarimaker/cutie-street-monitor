@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "CUTIE STREET Local Monitor",
+  "version": "1.0.0",
+  "description": "Collects visible CUTIE STREET posts for the local monitor.",
+  "host_permissions": [
+    "http://127.0.0.1:8765/*"
+  ],
+  "background": {
+    "service_worker": "service-worker.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://x.com/*"],
+      "js": ["collector.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}

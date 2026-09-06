@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "CUTIE_STREET_",
-  "updated_at": "2026-09-06T21:09:55.741311+09:00",
+  "updated_at": "2026-09-07T07:20:56.427405+09:00",
   "tweets": {
     "2088071287516344341": {
       "id": "2088071287516344341",
@@ -2585,10 +2585,11 @@
       "type": "post",
       "pinned": false,
       "images": [],
-      "has_video": true,
+      "has_video": false,
       "videos": [],
       "url": "https://x.com/CUTIE_STREET_/status/2096554013063786805",
-      "first_seen_at": "2026-09-06T21:09:55.741311+09:00"
+      "first_seen_at": "2026-09-06T21:09:55.741311+09:00",
+      "last_changed_at": "2026-09-07T07:20:56.427405+09:00"
     },
     "2096522879139762613": {
       "id": "2096522879139762613",
@@ -2691,6 +2692,19 @@
       "videos": [],
       "url": "https://x.com/CUTIE_STREET_/status/2096372807571763689",
       "first_seen_at": "2026-09-06T21:09:55.741311+09:00"
+    },
+    "2096586716740194674": {
+      "id": "2096586716740194674",
+      "author": "CUTIE_STREET_",
+      "created_at": "2026-09-06T13:10:00.625Z",
+      "text": "なぎさﾁｬﾝが泣いています\nあなたならどうしますか？\n\nナース：増田彩乃💙\nママ：桜庭遥花🩷\n\n#Error404♡\n#CUTIESTREET #きゅーすと",
+      "type": "post",
+      "pinned": false,
+      "images": [],
+      "has_video": false,
+      "videos": [],
+      "url": "https://x.com/CUTIE_STREET_/status/2096586716740194674",
+      "first_seen_at": "2026-09-07T07:20:56.427405+09:00"
     }
   }
 }

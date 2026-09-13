@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "account": "CUTIE_STREET_",
-  "updated_at": "2026-09-12T16:09:26.295941+09:00",
-  "last_heartbeat_at": "2026-09-12T16:09:26.295941+09:00",
-  "last_daily_generated_at": "2026-09-12T16:09:26.295941+09:00",
+  "updated_at": "2026-09-13T10:43:16.626661+09:00",
+  "last_heartbeat_at": "2026-09-13T10:43:16.626661+09:00",
+  "last_daily_generated_at": "2026-09-13T10:43:16.626661+09:00",
   "active_issue": null,
   "coverage_events": [
     {
@@ -56,6 +56,14 @@
       "type": "fetch_error",
       "detected_at": "2026-09-05T12:36:23.292837+09:00",
       "message": "TargetClosedError: Page.wait_for_selector: Target page, context or browser has been closed\nCall log:\n  - waiting for locator(\"[data-testid=\\\"SideNav_AccountSwitcher_Button\\\"], a[data-testid=\\\"AppTabBar_Home_Link\\\"]\") to be visible\n"
+    },
+    {
+      "type": "possible_gap",
+      "detected_at": "2026-09-13T10:43:16.626661+09:00",
+      "visible_non_pinned_count": 5,
+      "raw_article_count": 6,
+      "public_item_limit_assumption": 5,
+      "message": "The visible posts had no overlap with the archive; more than the publicly visible number of posts may have appeared since the prior snapshot."
     }
   ]
 }

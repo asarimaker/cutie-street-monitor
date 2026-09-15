@@ -2,141 +2,20 @@
   "schema_version": 1,
   "account": "CUTIE_STREET_",
   "status": "partial",
-  "generated_at": "2026-09-13T10:43:16.626661+09:00",
-  "window_start": "2026-09-12T07:00:00+09:00",
-  "window_end": "2026-09-13T07:00:00+09:00",
+  "generated_at": "2026-09-15T22:21:44.437953+09:00",
+  "window_start": "2026-09-14T07:00:00+09:00",
+  "window_end": "2026-09-15T07:00:00+09:00",
   "source": "rolling_playwright_public_profile_snapshots",
-  "count": 8,
+  "count": 0,
   "warnings": [
     {
       "type": "possible_gap",
-      "detected_at": "2026-09-13T10:43:16.626661+09:00",
-      "visible_non_pinned_count": 5,
-      "raw_article_count": 6,
+      "detected_at": "2026-09-15T22:21:44.437953+09:00",
+      "visible_non_pinned_count": 1,
+      "raw_article_count": 2,
       "public_item_limit_assumption": 5,
       "message": "The visible posts had no overlap with the archive; more than the publicly visible number of posts may have appeared since the prior snapshot."
     }
   ],
-  "tweets": [
-    {
-      "id": "2098547141446688953",
-      "author": "CUTIE_STREET_",
-      "created_at": "2026-09-11T23:00:02.298Z",
-      "text": "【本日】#ミライフェスト 出演\n\n9/12(土)\n『TOMAKOMAI MIRAI FEST 2026』\n苫小牧・キラキラ公園\n\n出演時間：14:45 ～ @ とまチョップステージ\n\n▼グッズ\n\nhttps://\ncutiestreet.asobisystem.com/news/detail/89\n515\n…\n販売時間：9:30〜20:00予定\n\n▼イベントHP\n\nhttps://\nmiraifest-tomakomai.jp\n\n#CUTIESTREET #きゅーすと",
-      "type": "post",
-      "pinned": false,
-      "images": [
-        "https://pbs.twimg.com/media/HR9gqIobcAAGnen?format=jpg&name=medium",
-        "https://pbs.twimg.com/media/HR9gqITaEAAxXup?format=jpg&name=900x900"
-      ],
-      "has_video": false,
-      "videos": [],
-      "url": "https://x.com/CUTIE_STREET_/status/2098547141446688953",
-      "first_seen_at": "2026-09-12T16:09:26.295941+09:00"
-    },
-    {
-      "id": "2098554685015621717",
-      "author": "CUTIE_STREET_",
-      "created_at": "2026-09-11T23:30:00.825Z",
-      "text": "【本日まで】#カワコレTGC 北九州 TGC公式LINE先行受付開始\n\n10/12(月・祝)\n『KAWAII LAB. COLLECTION produced by TGC ~KAWAIIっちゃ in KITAKYUSH~』\n北九州メッセ\n開場14:00　開演16:00\n\n▼詳細はこちら\n\nhttps://\ntgc.girlswalker.com/kawacolle/\n期間：〜9/12(土)23:59\n\n#KAWAIILAB #カワラボ\n#CUTIESTREET",
-      "type": "quote",
-      "pinned": false,
-      "images": [
-        "https://pbs.twimg.com/media/HR13KS7bQAAn1F7?format=jpg&name=medium"
-      ],
-      "has_video": false,
-      "videos": [],
-      "url": "https://x.com/CUTIE_STREET_/status/2098554685015621717",
-      "first_seen_at": "2026-09-12T16:09:26.295941+09:00"
-    },
-    {
-      "id": "2098589111150166456",
-      "author": "CUTIE_STREET_",
-      "created_at": "2026-09-12T01:46:48.655Z",
-      "text": "アリーナツアー 神奈川・東京公演 一般発売\n\nCUTIE STREET\nJAPAN ARENA TOUR 2026 -AUTUMN-\n『CUTIE LAND』\n\n9/23(水・祝) \n神奈川 横浜アリーナ\n\n9/29(火) , 9/30(水)\n東京 有明アリーナ\n\n▼受付はこちら\n\nhttps://\nw.pia.jp/t/cutiestreet-\nautumn2026/\n…\n\n#CUTIESTREET #きゅーすと",
-      "type": "post",
-      "pinned": false,
-      "images": [
-        "https://pbs.twimg.com/media/HR-vqiZaEAAwMTV?format=jpg&name=900x900"
-      ],
-      "has_video": false,
-      "videos": [],
-      "url": "https://x.com/CUTIE_STREET_/status/2098589111150166456",
-      "first_seen_at": "2026-09-12T16:09:26.295941+09:00"
-    },
-    {
-      "id": "2098622631587053691",
-      "author": "CUTIE_STREET_",
-      "created_at": "2026-09-12T04:00:00.550Z",
-      "text": "モデルプレス インタビュー公開\n\nモデルプレスに\nKAWAII LAB. の5人が登場\n\nCUTIE STREETからは\n増田彩乃が掲載されています\n\n▼インタビュー前半\n\nhttps://\nmdpr.jp/interview/4841\n687\n…\n\n▼インタビュー後半\n\nhttps://\nmdpr.jp/interview/4841\n688\n…\n\n◇FRUITS ZIPPER 鎮西寿々歌\n◇CANDY TUNE 立花琴未\n◇SWEET",
-      "type": "post",
-      "pinned": false,
-      "images": [
-        "https://pbs.twimg.com/media/HR_IHK_agAA6Tuf?format=jpg&name=medium",
-        "https://pbs.twimg.com/media/HR_IHLUaYAATZju?format=jpg&name=medium"
-      ],
-      "has_video": false,
-      "videos": [],
-      "url": "https://x.com/CUTIE_STREET_/status/2098622631587053691",
-      "first_seen_at": "2026-09-12T16:09:26.295941+09:00"
-    },
-    {
-      "id": "2098622634946658304",
-      "author": "CUTIE_STREET_",
-      "created_at": "2026-09-12T04:00:01.351Z",
-      "text": "ﾊﾟﾙﾊﾟﾙﾊﾟﾙﾊﾟﾙﾊﾟﾙ (˙꒳​˙*)\n\n▼LIVE TICKET\n\nhttps://\nt.pia.jp/pia/event/even\nt.do?eventBundleCd=b2669981\n…\n\n#Error404♡\n#桜庭遥花\n#CUTIESTREET #きゅーすと",
-      "type": "post",
-      "pinned": false,
-      "images": [],
-      "has_video": true,
-      "videos": [],
-      "url": "https://x.com/CUTIE_STREET_/status/2098622634946658304",
-      "first_seen_at": "2026-09-12T16:09:26.295941+09:00"
-    },
-    {
-      "id": "2098659774502211783",
-      "author": "CUTIE_STREET_",
-      "created_at": "2026-09-12T06:27:36.111Z",
-      "text": "北海道 #ミライフェスト\n\nLIVEはやっぱり最高\nありがとうございました\n\n桜庭遥花 凱旋\n\n▼アリーナツアー販売中\n\nhttps://\nt.pia.jp/pia/event/even\nt.do?eventBundleCd=b2669981\n…\n\n古澤里紗佐野愛花 \n板倉可奈増田彩乃 \n川本笑瑠梅田みゆ \n真鍋凪咲桜庭遥花\n\n9/12(土)\n『TOMAKOMAI MIRAI FEST 2026』",
-      "type": "post",
-      "pinned": false,
-      "images": [
-        "https://pbs.twimg.com/media/HR_v7dJawAAZSj9?format=jpg&name=medium"
-      ],
-      "has_video": false,
-      "videos": [],
-      "url": "https://x.com/CUTIE_STREET_/status/2098659774502211783",
-      "first_seen_at": "2026-09-12T16:09:26.295941+09:00"
-    },
-    {
-      "id": "2098662324659790129",
-      "author": "CUTIE_STREET_",
-      "created_at": "2026-09-12T06:37:44.116Z",
-      "text": "2周年記念特設サイト 更新情報\n\n木村ミサとCUTIE STREETメンバーから、\n2周年を迎え、きゅーてすとの皆さんへ贈る\n手紙を公開しました♡\n\nそれぞれの想いを、ぜひ読んでみてください\n\n▼2周年記念特設サイトはこちら\n\nhttps://\ncutiestreet-2nd.com\n\nそして！\nCUTIE STREETの2年間の軌跡をたどる",
-      "type": "post",
-      "pinned": false,
-      "images": [
-        "https://pbs.twimg.com/media/HR_yPiLbAAAtNFm?format=jpg&name=900x900",
-        "https://pbs.twimg.com/media/HR_yPiYbIAAQ7HS?format=jpg&name=medium",
-        "https://pbs.twimg.com/media/HR_yPiQaMAAiKUe?format=jpg&name=900x900"
-      ],
-      "has_video": false,
-      "videos": [],
-      "url": "https://x.com/CUTIE_STREET_/status/2098662324659790129",
-      "first_seen_at": "2026-09-12T16:09:26.295941+09:00"
-    },
-    {
-      "id": "2098665240376537254",
-      "author": "CUTIE_STREET_",
-      "created_at": "2026-09-12T06:49:19.277Z",
-      "text": "北海道 苫小牧 声が とんでもないです\n\n#キュートなキューたい\n#ミライフェスト",
-      "type": "post",
-      "pinned": false,
-      "images": [],
-      "has_video": true,
-      "videos": [],
-      "url": "https://x.com/CUTIE_STREET_/status/2098665240376537254",
-      "first_seen_at": "2026-09-12T16:09:26.295941+09:00"
-    }
-  ]
+  "tweets": []
 }

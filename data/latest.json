@@ -2,17 +2,17 @@
   "schema_version": 1,
   "account": "CUTIE_STREET_",
   "status": "partial",
-  "generated_at": "2026-09-15T22:21:44.437953+09:00",
-  "window_start": "2026-09-14T07:00:00+09:00",
-  "window_end": "2026-09-15T07:00:00+09:00",
+  "generated_at": "2026-09-21T22:15:03.152605+09:00",
+  "window_start": "2026-09-20T07:00:00+09:00",
+  "window_end": "2026-09-21T07:00:00+09:00",
   "source": "rolling_playwright_public_profile_snapshots",
   "count": 0,
   "warnings": [
     {
       "type": "possible_gap",
-      "detected_at": "2026-09-15T22:21:44.437953+09:00",
-      "visible_non_pinned_count": 1,
-      "raw_article_count": 2,
+      "detected_at": "2026-09-21T22:15:03.152605+09:00",
+      "visible_non_pinned_count": 3,
+      "raw_article_count": 4,
       "public_item_limit_assumption": 5,
       "message": "The visible posts had no overlap with the archive; more than the publicly visible number of posts may have appeared since the prior snapshot."
     }

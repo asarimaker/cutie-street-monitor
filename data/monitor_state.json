@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "account": "CUTIE_STREET_",
-  "updated_at": "2026-09-21T22:15:03.152605+09:00",
-  "last_heartbeat_at": "2026-09-21T22:15:03.152605+09:00",
-  "last_daily_generated_at": "2026-09-21T22:15:03.152605+09:00",
+  "updated_at": "2026-09-24T19:06:28.498313+09:00",
+  "last_heartbeat_at": "2026-09-24T19:06:28.498313+09:00",
+  "last_daily_generated_at": "2026-09-24T19:06:28.498313+09:00",
   "active_issue": null,
   "coverage_events": [
     {
@@ -78,6 +78,14 @@
       "detected_at": "2026-09-21T22:15:03.152605+09:00",
       "visible_non_pinned_count": 3,
       "raw_article_count": 4,
+      "public_item_limit_assumption": 5,
+      "message": "The visible posts had no overlap with the archive; more than the publicly visible number of posts may have appeared since the prior snapshot."
+    },
+    {
+      "type": "possible_gap",
+      "detected_at": "2026-09-24T19:06:28.498313+09:00",
+      "visible_non_pinned_count": 15,
+      "raw_article_count": 6,
       "public_item_limit_assumption": 5,
       "message": "The visible posts had no overlap with the archive; more than the publicly visible number of posts may have appeared since the prior snapshot."
     }

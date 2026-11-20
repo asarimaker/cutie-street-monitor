@@ -2,3 +2,11 @@
 __pycache__/
 diagnostics/
 *.pyc
+# Debug / diagnostic captures must never be published
+data/debug.txt
+data/debug.png
+# Secrets / local config (defense in depth)
+.env
+.env.*
+*.pem
+*.key

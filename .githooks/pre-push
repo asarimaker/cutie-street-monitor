@@ -1,0 +1,29 @@
+#!/bin/sh
+# Block pushes that would expose a real email address in commit metadata.
+# Allowed: *@users.noreply.github.com, GitHub's own noreply@github.com, github-actions bot.
+bad=0
+while read -r local_ref local_sha remote_ref remote_sha; do
+  if [ "$local_sha" = "0000000000000000000000000000000000000000" ]; then
+    continue
+  fi
+  if [ "$remote_sha" = "0000000000000000000000000000000000000000" ]; then
+    range="$local_sha"
+  else
+    range="$remote_sha..$local_sha"
+  fi
+  for email in $(git log --format='%ae%n%ce' "$range" 2>/dev/null | sort -u); do
+    case "$email" in
+      *@users.noreply.github.com|noreply@github.com|codex@openai.com|41898282+github-actions\[bot\]@users.noreply.github.com)
+        ;;
+      *)
+        echo "pre-push: BLOCKED - commit metadata contains non-private email: $email" >&2
+        bad=1
+        ;;
+    esac
+  done
+done
+if [ "$bad" != "0" ]; then
+  echo "pre-push: Set a noreply address first: git config user.email \"253086933+asarimaker@users.noreply.github.com\"" >&2
+  exit 1
+fi
+exit 0

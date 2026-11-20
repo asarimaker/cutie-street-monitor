@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "account": "CUTIE_STREET_",
-  "updated_at": "2026-11-20T22:50:23.624106+09:00",
+  "updated_at": "2026-11-21T07:21:00.291547+09:00",
   "tweets": {
     "2088071287516344341": {
       "id": "2088071287516344341",
@@ -3900,7 +3900,7 @@
       "id": "2121100279101935652",
       "author": "CUTIE_STREET_",
       "created_at": "2026-11-13T04:38:09.332Z",
-      "text": "CUTIE STREET\n第77回NHK紅白歌合戦 初出場決定！\n\n\n#CUTIESTREET の夢をひとつ叶える日。\n\n今年のテーマは\n「こえていこう、歌とともに。」\n\n皆様に、このようなご報告が出来たこと、心より感謝申し上げます。\n\n1年を締めくくる特別な日",
+      "text": "CUTIE STREET\nConfirmed to make their debut at the 77th NHK Kohaku Uta Gassen!\n\n\nThe day one of #CUTIESTREET’s dreams comes true.\n\nThis year’s theme is\n“Let’s keep moving forward, together with song.”\n\nWe are deeply grateful to",
       "type": "post",
       "pinned": true,
       "images": [
@@ -3909,20 +3909,22 @@
       "has_video": false,
       "videos": [],
       "url": "https://x.com/CUTIE_STREET_/status/2121100279101935652",
-      "first_seen_at": "2026-11-20T22:50:23.624106+09:00"
+      "first_seen_at": "2026-11-20T22:50:23.624106+09:00",
+      "last_changed_at": "2026-11-21T07:21:00.291547+09:00"
     },
     "2123744414678036607": {
       "id": "2123744414678036607",
       "author": "CUTIE_STREET_",
       "created_at": "2026-11-20T11:45:00.379Z",
-      "text": "約2年ぶり。側転できるって知ってた？\n\n主演：梅田みゆ\n撮影：板倉可奈｢ｷﾀｲｼﾃﾏｽﾖ(敏腕P)｣\n\n#お姉さん化計画は順調です\n#CUTIESTREET #きゅーすと",
+      "text": "It's been about 2 years. Did you know I can do a cartwheel?\n\nStarring: Miyu Umeda\nFilmed by: Kana Itakura｢I'm looking forward to it (ace producer)｣\n\n#お姉さん化計画は順調です\n#CUTIESTREET #きゅーすと",
       "type": "post",
       "pinned": false,
       "images": [],
       "has_video": true,
       "videos": [],
       "url": "https://x.com/CUTIE_STREET_/status/2123744414678036607",
-      "first_seen_at": "2026-11-20T22:50:23.624106+09:00"
+      "first_seen_at": "2026-11-20T22:50:23.624106+09:00",
+      "last_changed_at": "2026-11-21T07:21:00.291547+09:00"
     },
     "2123733094033506417": {
       "id": "2123733094033506417",
@@ -7791,6 +7793,36 @@
       "videos": [],
       "url": "https://x.com/CUTIE_STREET_/status/2117854080454246565",
       "first_seen_at": "2026-11-20T22:50:23.624106+09:00"
+    },
+    "2123793498985943234": {
+      "id": "2123793498985943234",
+      "author": "CUTIE_STREET_",
+      "created_at": "2026-11-20T15:00:02.990Z",
+      "text": "【The 68th Japan Record Awards】\n\nCUTIE STREET\n\nWe have received the 《Special International Music Award at the 68th Japan Record Awards》.\n\nFrom November 2025 onward,\n\n5 trips to South Korea in total, 4 solo concerts,\n\nand Korean-language versions of 4 songs released.\n\nUnder the",
+      "type": "post",
+      "pinned": false,
+      "images": [
+        "https://pbs.twimg.com/media/HXk1u1SaAAALHBm?format=jpg&name=900x900"
+      ],
+      "has_video": false,
+      "videos": [],
+      "url": "https://x.com/CUTIE_STREET_/status/2123793498985943234",
+      "first_seen_at": "2026-11-21T07:21:00.291547+09:00"
+    },
+    "2123787050419982608": {
+      "id": "2123787050419982608",
+      "author": "CUTIE_STREET_",
+      "created_at": "2026-11-20T14:34:25.532Z",
+      "text": "Thank you for #さんまのまんま\n\n11/20 (Fri)\nKansai TV’s “Sanma no Manma: Fall Sanma Is in the Mood to Chat Special”\n\nThank you for my first appearance with Sanma Akashiya\nWhat did you think of the fun banter between Sanma and Kyuusuto\n\nEnjoy it as many times as you like",
+      "type": "post",
+      "pinned": false,
+      "images": [
+        "https://pbs.twimg.com/media/HXjpzuDasAE6NWP?format=jpg&name=medium"
+      ],
+      "has_video": false,
+      "videos": [],
+      "url": "https://x.com/CUTIE_STREET_/status/2123787050419982608",
+      "first_seen_at": "2026-11-21T07:21:00.291547+09:00"
     }
   }
 }

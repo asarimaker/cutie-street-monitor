@@ -2,189 +2,212 @@
   "schema_version": 1,
   "account": "CUTIE_STREET_",
   "status": "partial",
-  "generated_at": "2026-09-24T19:06:28.498313+09:00",
-  "window_start": "2026-09-23T07:00:00+09:00",
-  "window_end": "2026-09-24T07:00:00+09:00",
+  "generated_at": "2026-11-20T22:50:23.624106+09:00",
+  "window_start": "2026-11-19T07:00:00+09:00",
+  "window_end": "2026-11-20T07:00:00+09:00",
   "source": "rolling_playwright_public_profile_snapshots",
-  "count": 11,
+  "count": 13,
   "warnings": [
     {
       "type": "possible_gap",
-      "detected_at": "2026-09-24T19:06:28.498313+09:00",
-      "visible_non_pinned_count": 15,
-      "raw_article_count": 6,
+      "detected_at": "2026-11-20T22:50:23.624106+09:00",
+      "visible_non_pinned_count": 258,
+      "raw_article_count": 12,
       "public_item_limit_assumption": 5,
       "message": "The visible posts had no overlap with the archive; more than the publicly visible number of posts may have appeared since the prior snapshot."
     }
   ],
   "tweets": [
     {
-      "id": "2102608904412598652",
+      "id": "2123189513057165323",
       "author": "CUTIE_STREET_",
-      "created_at": "2026-09-23T04:00:02.053Z",
-      "text": "その場で分かる！9/27(日)福岡大特典会 事前抽選会開催\n\nCUTIE STREET 1st アルバム『CUTIE LAND』 \nご購入者を対象とした抽選会\nハズレなしの抽選会で、特典が必ず当たります！ \n\n詳細はこちら\n\nhttps://\ncutiestreet.asobisystem.com/news/detail/90\n822\n…\n抽選期間: 9/24(木)20:00〜9/25(金)23:59 \n\n抽選景品",
+      "created_at": "2026-11-18T23:00:01.523Z",
+      "text": "【本日放送】梅田・古澤 #モニタリング \n\n11/19(木)19:00〜\nTBSテレビ「ニンゲン観察バラエティ モニタリング」\n\nCUTIE STREETより\n梅田みゆ\n古澤里紗  が出演\n\n卓球企画に挑戦\n変装した水谷隼さんに梅田は気づくのか\n\nさらに、スタジオにも出演します\nぜひお見逃しなく",
       "type": "post",
       "pinned": false,
       "images": [
-        "https://pbs.twimg.com/media/HS3wJVYaQAAouah?format=jpg&name=900x900",
-        "https://pbs.twimg.com/media/HS3wJVfbMAAXhmz?format=jpg&name=900x900"
+        "https://pbs.twimg.com/media/HXabP_8awAAOxbq?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HXabP_xbwAAn19K?format=jpg&name=small"
       ],
       "has_video": false,
       "videos": [],
-      "url": "https://x.com/CUTIE_STREET_/status/2102608904412598652",
-      "first_seen_at": "2026-09-24T19:06:28.498313+09:00"
+      "url": "https://x.com/CUTIE_STREET_/status/2123189513057165323",
+      "first_seen_at": "2026-11-20T22:50:23.624106+09:00"
     },
     {
-      "id": "2102622929251189147",
+      "id": "2123197059096531108",
       "author": "CUTIE_STREET_",
-      "created_at": "2026-09-23T04:55:45.835Z",
-      "text": "本日のぬい活♡\n\nグッズ！抽選会！FCくじ！\n横浜アリーナでお待ちしております\n\nby えみぬいなべぬい\n\n#CUTIELAND\n#CUTIESTREET #きゅーすと",
+      "created_at": "2026-11-18T23:30:00.639Z",
+      "text": "【本日まで】KAWAII LAB. Christmas SESSION 2026 アップグレード２次受付\n\n12/12(土)、13(日)\n『KAWAII LAB. Christmas SESSION 2026 Day1, 2』\n有明アリーナ\n\n▼CUTIE STREET FC会員先行\n\nhttps://\ncutiestreet.asobisystem.com/news/detail/96\n002\n…\n抽選期間: 〜11/19(木)23:59\n\n#KAWAIILAB #カワラボ\n#CUTIESTREET",
       "type": "quote",
       "pinned": false,
       "images": [
-        "https://pbs.twimg.com/media/HS4ETmHbsAAKe87?format=jpg&name=900x900",
-        "https://pbs.twimg.com/media/HS4ETmEaQAA3TeC?format=jpg&name=900x900",
-        "https://pbs.twimg.com/media/HS4ETmCawAAEfek?format=jpg&name=900x900",
-        "https://pbs.twimg.com/media/HS1HGPeaQAAoJgB?format=jpg&name=240x240",
-        "https://pbs.twimg.com/media/HS1HGPebcAAeXHY?format=jpg&name=240x240",
-        "https://pbs.twimg.com/media/HS1HGPjaAAA_F1H?format=jpg&name=240x240",
-        "https://pbs.twimg.com/media/HS1HGPdbAAAUUW8?format=jpg&name=120x120"
+        "https://pbs.twimg.com/media/HW6ae1vagAAkqvR?format=jpg&name=900x900"
       ],
       "has_video": false,
       "videos": [],
-      "url": "https://x.com/CUTIE_STREET_/status/2102622929251189147",
-      "first_seen_at": "2026-09-24T19:06:28.498313+09:00"
+      "url": "https://x.com/CUTIE_STREET_/status/2123197059096531108",
+      "first_seen_at": "2026-11-20T22:50:23.624106+09:00"
     },
     {
-      "id": "2102624042633289834",
+      "id": "2123204615139418506",
       "author": "CUTIE_STREET_",
-      "created_at": "2026-09-23T05:00:11.286Z",
-      "text": "歌割り歌詞 公開\n\n『ご褒美しよっ！』\n\n▼配信サイト\n\nhttps://\nkawaii-lab.lnk.to/Time_for_a_Tre\nat\n…\n\nLyrics：敬也-amazuti- / 安部大希-amazuti-\nCompose：敬也-amazuti- / 安部大希-amazuti- / 宮崎諒-amazuti-\nArrange：宮崎諒-amazuti-\n\nartwork：鵜飼まなみ(yenter)\n\n#CUTIELAND \n#CUTIESTREET #きゅーすと",
+      "created_at": "2026-11-19T00:00:02.140Z",
+      "text": "【本日まで】大特典会 in 大阪 1次先着販売\n\n12/6(日)\n『大特典会 in 大阪』\nインテックス大阪 3号館\n\n受付期間を延長しておりました、\n2部 / 4部 / 5部の先着1次販売の受付が本日までです！\n\n▼詳細はこちら\n\nhttps://\ncutiestreet.asobisystem.com/news/detail/96\n353\n…\n期間: 〜11/19(木)23:59\n\n#CUTIESTREET #きゅーすと",
       "type": "post",
       "pinned": false,
-      "images": [
-        "https://pbs.twimg.com/media/HS4FagaaYAE7UKz?format=jpg&name=900x900"
-      ],
+      "images": [],
       "has_video": false,
       "videos": [],
-      "url": "https://x.com/CUTIE_STREET_/status/2102624042633289834",
-      "first_seen_at": "2026-09-24T19:06:28.498313+09:00"
+      "url": "https://x.com/CUTIE_STREET_/status/2123204615139418506",
+      "first_seen_at": "2026-11-20T22:50:23.624106+09:00"
     },
     {
-      "id": "2102642668916322345",
+      "id": "2123227257657278584",
       "author": "CUTIE_STREET_",
-      "created_at": "2026-09-23T06:14:12.138Z",
-      "text": "「#ご褒美しよっ！」\n\n私たちは数多くの活動をしてきました。\n\nその中で、韓国のみなさまからいただいた\n愛情たっぷりのコメントのおかげで\nこの曲のインスピレーションを得ることができました\n\n心から感謝します\n\nこの曲をたくさん愛してくれて、たくさん聴いてくれたら嬉しいです\n\n▼",
+      "created_at": "2026-11-19T01:30:00.537Z",
+      "text": "摂取カロリーと消費カロリーのバランス。あとタンパク質はしっかり摂ろうね\n\nさ、筋トレ2日目\n\nぼでぃめいくあっぷ、始まるよ\n\n\nhttps://\nyoutu.be/fOPUvAGk34c\n\n桜庭遥花\n川本笑瑠\n古澤里紗\n佐野愛花\n\n#きゅーすと筋トレ部\n#CUTIESTREET #きゅーすと",
       "type": "quote",
       "pinned": false,
       "images": [
-        "https://pbs.twimg.com/media/HS4FagaaYAE7UKz?format=jpg&name=240x240"
-      ],
-      "has_video": true,
-      "videos": [],
-      "url": "https://x.com/CUTIE_STREET_/status/2102642668916322345",
-      "first_seen_at": "2026-09-24T19:06:28.498313+09:00"
-    },
-    {
-      "id": "2102657998594408610",
-      "author": "CUTIE_STREET_",
-      "created_at": "2026-09-23T07:15:07.018Z",
-      "text": "【石川県】リリイベ 日程追加\n\n1stアルバム『CUTIE LAND』\nリリース記念\n\n11/8（日）\n ミニライブ＆お渡し会\nイオンモール白山 平面駐車場\n\n▼1st アルバム予約はこちら\n\nhttps://\nlnk.to/CS_CUTIELAND_CD\n\n#CUTIESTREET #きゅーすと\n#CUTIELAND",
-      "type": "post",
-      "pinned": false,
-      "images": [
-        "https://pbs.twimg.com/media/HS4kTgtaYAAjmHu?format=jpg&name=900x900"
+        "https://pbs.twimg.com/media/HXbGPIiaYAA9zYS?format=jpg&name=medium",
+        "https://pbs.twimg.com/media/HXbGPIlaUAATrgc?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HXbGPIVaYAAnXlS?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HXbGPIVakAA92YY?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HXZH9DybgAAf1I6?format=jpg&name=360x360"
       ],
       "has_video": false,
       "videos": [],
-      "url": "https://x.com/CUTIE_STREET_/status/2102657998594408610",
-      "first_seen_at": "2026-09-24T19:06:28.498313+09:00"
+      "url": "https://x.com/CUTIE_STREET_/status/2123227257657278584",
+      "first_seen_at": "2026-11-20T22:50:23.624106+09:00"
     },
     {
-      "id": "2102708305701503177",
+      "id": "2123249908111319346",
       "author": "CUTIE_STREET_",
-      "created_at": "2026-09-23T10:35:01.167Z",
-      "text": "【アリーナツアー開幕 in 横アリ】\n\n7箇所13公演\n全国ツアー #CUTIELAND\n\n本日、横浜アリーナにて開幕致しました。\n\n私たち #きゅーすと が\nみんなのご褒美になれますように\n\nお越し頂きありがとうございました\n\n次回は来週有明アリーナ\n是非お越し下さい\n\nhttps://\nw.pia.jp/t/cutiestreet-\nautumn2026/\n…",
-      "type": "post",
-      "pinned": false,
-      "images": [
-        "https://pbs.twimg.com/media/HS5SDiMbwAAWwrN?format=jpg&name=medium",
-        "https://pbs.twimg.com/media/HS5SDiBbIAA4GGz?format=jpg&name=medium"
-      ],
-      "has_video": false,
-      "videos": [],
-      "url": "https://x.com/CUTIE_STREET_/status/2102708305701503177",
-      "first_seen_at": "2026-09-24T19:06:28.498313+09:00"
-    },
-    {
-      "id": "2102711201029648816",
-      "author": "CUTIE_STREET_",
-      "created_at": "2026-09-23T10:46:31.467Z",
-      "text": "【横アリ大声援】史上最大規模の\n\n「#キュートなキューたい 」\n\nPick up!!!!!!!!!!!!\n\n横浜アリーナ\n\n古澤里紗佐野愛花\n板倉可奈増田彩乃\n川本笑瑠梅田みゆ\n真鍋凪咲桜庭遥花\n\n#CUTIELAND\n#CUTIESTREET #きゅーすと",
+      "created_at": "2026-11-19T03:00:00.826Z",
+      "text": "みんなが好きなシーンは？\n\n古澤里紗佐野愛花 \n板倉可奈増田彩乃 \n川本笑瑠梅田みゆ \n真鍋凪咲桜庭遥花\n\n▼FINAL 愛知 IGアリーナ\n\nhttps://\nt.pia.jp/pia/event/even\nt.do?eventBundleCd=b2669981\n…\n\n#CUTIELAND\n#CUTIESTREET #きゅーすと",
       "type": "post",
       "pinned": false,
       "images": [],
       "has_video": true,
       "videos": [],
-      "url": "https://x.com/CUTIE_STREET_/status/2102711201029648816",
-      "first_seen_at": "2026-09-24T19:06:28.498313+09:00"
+      "url": "https://x.com/CUTIE_STREET_/status/2123249908111319346",
+      "first_seen_at": "2026-11-20T22:50:23.624106+09:00"
     },
     {
-      "id": "2102714603792699514",
+      "id": "2123280112292700595",
       "author": "CUTIE_STREET_",
-      "created_at": "2026-09-23T11:00:02.749Z",
-      "text": "アリーナツアー 東京公演 DAY-2 グッズ会場受取受付スタート\n\n CUTIE STREET \nJAPAN ARENA TOUR 2026 -AUTUMN- \n『CUTIE LAND』 \n東京公演DAY-2 の会場受取(事前決済)受付が開始 \n\n9/30(水) \n有明アリーナ \n\n▼グッズ詳細(当日販売時間/一覧/事前決済受付など) \n\nhttps://\ncutiestreet.asobisystem.com/news/detail/90\n100\n…",
+      "created_at": "2026-11-19T05:00:02.064Z",
+      "text": "【MV撮影】笑顔へのスイッチが上手すぎる #佐野愛花 さん\n\n▼ご褒美しよっ！\n\nhttps://\nyoutu.be/4P1atWgZfAg\n\n#ご本人にも見せたら笑ってました\n#CUTIESTREET #きゅーすと",
+      "type": "post",
+      "pinned": false,
+      "images": [],
+      "has_video": true,
+      "videos": [],
+      "url": "https://x.com/CUTIE_STREET_/status/2123280112292700595",
+      "first_seen_at": "2026-11-20T22:50:23.624106+09:00"
+    },
+    {
+      "id": "2123310303471644778",
+      "author": "CUTIE_STREET_",
+      "created_at": "2026-11-19T07:00:00.202Z",
+      "text": "【モニタリング】果たして卓球の結果でﾖｼﾖｼして貰えたのでしょうか\n\n梅田みゆ古澤里紗\n\n#放送をお楽しみに♡\n#ご褒美しよっ！\n#CUTIESTREET #きゅーすと",
       "type": "quote",
       "pinned": false,
       "images": [
-        "https://pbs.twimg.com/media/HSQI5bRbAAEwcod?format=jpg&name=900x900",
-        "https://pbs.twimg.com/media/HSQI5bRboAAwmaD?format=jpg&name=900x900"
+        "https://pbs.twimg.com/media/HXabP_8awAAOxbq?format=jpg&name=240x240"
       ],
-      "has_video": false,
+      "has_video": true,
       "videos": [],
-      "url": "https://x.com/CUTIE_STREET_/status/2102714603792699514",
-      "first_seen_at": "2026-09-24T19:06:28.498313+09:00"
+      "url": "https://x.com/CUTIE_STREET_/status/2123310303471644778",
+      "first_seen_at": "2026-11-20T22:50:23.624106+09:00"
     },
     {
-      "id": "2102718770024517935",
+      "id": "2123325403297206382",
       "author": "CUTIE_STREET_",
-      "created_at": "2026-09-23T11:16:36.056Z",
-      "text": "【集合写真】横浜アリーナ\n\n2026.9.23 #CUTIELAND\n\nずっと憧れだった、夢の場所で。\n\n最高の景色を、ありがとうございました\n\n古澤里紗佐野愛花\n板倉可奈増田彩乃\n川本笑瑠梅田みゆ\n真鍋凪咲桜庭遥花\n\n▼残り12公演\n\nhttps://\nw.pia.jp/t/cutiestreet-\nautumn2026/\n…\n\n#CUTIESTREET #きゅーすと",
+      "created_at": "2026-11-19T08:00:00.281Z",
+      "text": "【毎日観る4分】下半身トレ⋆͛  \n\n運動の秋ボディメイクの秋\n\n#CUTIESTREET が \n下半身トレーニングを実践&解説  \n\n『#キュートなキューたい』と一緒に  \n\n毎日 #きゅーすと と \n理想のボディを目指しましょう  \n\n▼観る\n \nhttps://\nyoutu.be/OWEs7uvGNhQ  \n\n【種目一覧】",
       "type": "post",
       "pinned": false,
       "images": [
-        "https://pbs.twimg.com/media/HS5bkuQaMAAx0yP?format=jpg&name=medium"
+        "https://pbs.twimg.com/media/HXeNjWGbMAAx8OR?format=jpg&name=medium"
       ],
       "has_video": false,
       "videos": [],
-      "url": "https://x.com/CUTIE_STREET_/status/2102718770024517935",
-      "first_seen_at": "2026-09-24T19:06:28.498313+09:00"
+      "url": "https://x.com/CUTIE_STREET_/status/2123325403297206382",
+      "first_seen_at": "2026-11-20T22:50:23.624106+09:00"
     },
     {
-      "id": "2102736824770941410",
+      "id": "2123348052295745707",
       "author": "CUTIE_STREET_",
-      "created_at": "2026-09-23T12:28:20.643Z",
-      "text": "【新曲】#ご褒美しよっ！ 初フルLIVE映像 公開\n\nカップケーキみたいに\nみんな違って、みんなかわいい。\n\n『ご褒美しよっ！』\n\n▼フルは𝐘𝐨𝐮𝐓𝐮𝐛𝐞\n\nhttps://\nyoutu.be/W9FWnBUw-9U\n\n古澤里紗佐野愛花\n板倉可奈増田彩乃\n川本笑瑠梅田みゆ\n真鍋凪咲桜庭遥花\n\n▼聴く",
+      "created_at": "2026-11-19T09:30:00.223Z",
+      "text": "【】お姉さんがエミの身長を奪ったの？\n\nNAGISA MANABE（161cm）\nEMIRU KAWAMOTO（149cm）\nMIYU UMEDA（150cm）\n\n#CUTIESTREET #きゅーすと",
       "type": "post",
       "pinned": false,
       "images": [],
       "has_video": true,
       "videos": [],
-      "url": "https://x.com/CUTIE_STREET_/status/2102736824770941410",
-      "first_seen_at": "2026-09-24T19:06:28.498313+09:00"
+      "url": "https://x.com/CUTIE_STREET_/status/2123348052295745707",
+      "first_seen_at": "2026-11-20T22:50:23.624106+09:00"
     },
     {
-      "id": "2102746140974465132",
+      "id": "2123397126000394694",
       "author": "CUTIE_STREET_",
-      "created_at": "2026-09-23T13:05:21.799Z",
-      "text": "【新ユニット発足】\n\n全国アリーナツアー #CUTIELAND では…\n\n人気のユニット3組による\n日替わりスペシャルショーがあるんだとか…\n\n梅田みゆ\n古澤里紗\n佐野愛花\n\n▼どの公演にどのユニットが現れるのか\n見逃さないように…\n\nhttps://\nw.pia.jp/t/cutiestreet-\nautumn2026/\n…\n\n#CUTIESTREET #きゅーすと",
+      "created_at": "2026-11-19T12:45:00.306Z",
+      "text": "梅田・古澤 #モニタリング ありがとうございました\n\n11/19(木)\nTBSテレビ「ニンゲン観察バラエティ モニタリング」\n\nCUTIE STREETより\n梅田みゆ\n古澤里紗  \nが出演させていただきました\n\n梅田の卓球の腕前はいかがでしたか\n古澤も応援係として参加しました\n\n▼アーカイブはこちら",
+      "type": "post",
+      "pinned": false,
+      "images": [
+        "https://pbs.twimg.com/media/HXfQdt0boAAHWZI?format=jpg&name=900x900",
+        "https://pbs.twimg.com/media/HXfQdt1aAAAaBQT?format=jpg&name=small"
+      ],
+      "has_video": false,
+      "videos": [],
+      "url": "https://x.com/CUTIE_STREET_/status/2123397126000394694",
+      "first_seen_at": "2026-11-20T22:50:23.624106+09:00"
+    },
+    {
+      "id": "2123409080769536119",
+      "author": "CUTIE_STREET_",
+      "created_at": "2026-11-19T13:32:30.545Z",
+      "text": "【】2月に卓球したから #モニタリング に選ばれたの？\n\nと、収録後に勘違いしちゃった \n#梅田みゆ の対戦風景を少し\n\n#CUTIESTREET #きゅーすと",
+      "type": "quote",
+      "pinned": false,
+      "images": [
+        "https://pbs.twimg.com/media/HXfQdt0boAAHWZI?format=jpg&name=240x240"
+      ],
+      "has_video": true,
+      "videos": [],
+      "url": "https://x.com/CUTIE_STREET_/status/2123409080769536119",
+      "first_seen_at": "2026-11-20T22:50:23.624106+09:00"
+    },
+    {
+      "id": "2123416006882443411",
+      "author": "CUTIE_STREET_",
+      "created_at": "2026-11-19T14:00:01.859Z",
+      "text": "リレーブログ 増田彩乃\n\nCUTIE STREET単独ファンクラブ\nメンバー8人のリレーブログ\n\n記念すべき第203回は…\n\n▼ 増田彩乃𓈒 𓂂𓏸\n\nhttps://\ncutiestreet.asobisystem.com/blog/detail/10\n4879\n…\n\n#きゅーすとブログ️️\n#CUTIESTREET #きゅーすと\n#KAWAIIMAKER #きゅーてすと",
+      "type": "post",
+      "pinned": false,
+      "images": [
+        "https://pbs.twimg.com/media/HXfL1oMboAEUWgn?format=jpg&name=medium"
+      ],
+      "has_video": false,
+      "videos": [],
+      "url": "https://x.com/CUTIE_STREET_/status/2123416006882443411",
+      "first_seen_at": "2026-11-20T22:50:23.624106+09:00"
+    },
+    {
+      "id": "2123422088770064557",
+      "author": "CUTIE_STREET_",
+      "created_at": "2026-11-19T14:24:11.894Z",
+      "text": "【12月6日(日)大特典会 システム障害に伴う先着受付一時停止のお知らせ】\n \n現在タワーレコードオンラインにて大規模なシステム障害が発生しております。\n \nそれに伴い現在、タワーレコードオンラインにてご応募受付中の、\n12月6日(日) CUTIE STREET大特典会@インテックス大阪 3号館の2部 / 4部 / 5部",
       "type": "post",
       "pinned": false,
       "images": [],
-      "has_video": true,
+      "has_video": false,
       "videos": [],
-      "url": "https://x.com/CUTIE_STREET_/status/2102746140974465132",
-      "first_seen_at": "2026-09-24T19:06:28.498313+09:00"
+      "url": "https://x.com/CUTIE_STREET_/status/2123422088770064557",
+      "first_seen_at": "2026-11-20T22:50:23.624106+09:00"
     }
   ]
 }
